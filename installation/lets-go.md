@@ -33,7 +33,7 @@ A ce stade, les pré-requis de base sont vérifiés, et les étapes du déroulem
 Répondez à la question **Êtes-vous prêt à installer MySB** ? En tapant **oui** ou **o**.
 
 Ensuite, vous pouvez valider le répertoire d'installation par défaut en tapant sur **Entrée**.  
-Ou saisissez un autre emplacement si vous savez ce que vous faites. Le répertoire doit être absolut, c'est à dire qu'il doit commencer par / en préfixe du chemin. Et ne doit pas contenir de **/** final.
+Ou saisissez un autre emplacement si vous savez ce que vous faites. Le répertoire doit être absolut, c'est à dire qu'il doit commencer par / en préfixe du chemin. Et ne doit pas contenir de **/** à la fin.
 
 ![](../.gitbook/assets/install_start.jpg)
 
@@ -48,9 +48,8 @@ Puis l'installation de certains paquets nécessaires au reste des opérations.
 
 ![](../.gitbook/assets/install_install_packages.jpg)
 
-Ensuite, nous téléchargeons le contenu de MySB versionné sur GitHub, à destination du répertoire d'installation choisi, normalement vers **/opt/MySB**.  
-Ces fichiers sont le socle de fonctionnement de MySB.  
-La création de certains répertoires utiles au fonctionnement.  
+Ensuite, nous téléchargeons le contenu de MySB versionné sur GitHub, à destination du répertoire d'installation choisi, normalement vers **/opt/MySB**. Ces fichiers sont le socle de fonctionnement de MySB.  
+Puis, la création de certains répertoires utiles au fonctionnement.  
 Et enfin, la création et la population des bases de données MySQL et SQLite.
 
 ![](../.gitbook/assets/install_github_mysql.jpg)
