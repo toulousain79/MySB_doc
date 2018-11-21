@@ -1,7 +1,7 @@
 # Restriction par adresse IP
 
 Il est possible de restreindre l'accès à votre serveur en fonction de certaines adresse IP.  
-Il faut savoir que tous les services présents dans votre SeedBox ne seront ps soumis à cette restriction.
+Il faut savoir que tous les services présents dans votre SeedBox ne seront pas soumis à cette restriction.
 
 **Soumis à la restriction par adresse IP**
 
@@ -23,8 +23,8 @@ Il faut savoir que tous les services présents dans votre SeedBox ne seront ps s
   * Plex Media Server
   * NextCloud
 
-Les adresses autorisées \(IP ou FQDN\) devront être ajoutées via le portail.  
-Chaque utilisateur "normal" pourra ajouter ses adresses de manière autonome.
+Les adresses autorisées _\(IP ou FQDN\)_ devront être ajoutées via le portail.  
+Chaque utilisateur "normal" pourra ajouter ses adresses en toute autonomie.
 
 Mais l'ensemble des adresses ajoutées sera inclus de manière globale, c'est à dire applicable pour tout le monde.
 
