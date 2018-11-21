@@ -19,4 +19,5 @@
 ## Installation
 
 * [Pré-requis](installation/pre-requis.md)
+* [Préambule](installation/preambule.md)
 
