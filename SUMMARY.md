@@ -10,9 +10,13 @@
 
 ## Sécurité
 
-* [Un peu de sécurité](securite/un-peu-de-securite.md)
-* [Les listes de blocage par adresse IP](securite/les-listes-de-blocage-par-adresse-ip.md)
-* [Les requêtes DNS](securite/les-requetes-dns.md)
-* [Exploitation plus poussée](securite/exploitation-plus-poussee.md)
+* [Pourquoi ?](securite/un-peu-de-securite.md)
+* [Listes de blocage](securite/les-listes-de-blocage-par-adresse-ip.md)
+* [Requêtes DNS](securite/les-requetes-dns.md)
+* [Encore plus loin](securite/exploitation-plus-poussee.md)
 * [Restriction par adresse IP](securite/restriction-par-adresse-ip.md)
+
+## Installation
+
+* [Pré-requis](installation/pre-requis.md)
 

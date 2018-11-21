@@ -1,4 +1,8 @@
-# Les listes de blocage par adresse IP
+---
+description: Les listes de blocage par adresse IP
+---
+
+# Listes de blocage
 
 Parlons un peu des listes de blocage par adresses IP que l'on peut trouver dans certaines applications comme **PeerGuardian**, **PeerBlock** ou même via une gestion directe avec **IPset**.  
 Ces listes existent puisque disponibles et exploitées, certaines gratuites, d'autres payantes. Pourquoi certaines seraient payantes, auraient-elles plus de valeur ?  

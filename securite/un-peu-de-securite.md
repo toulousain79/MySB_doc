@@ -2,7 +2,7 @@
 description: Pourquoi un peu de sécurité ?
 ---
 
-# Un peu de sécurité
+# Pourquoi ?
 
 L'usage de SeedBox est de plus en plus présente, notamment via des serveurs dédiés ou VPS.  
 Mais il faut garder en tête que pour chaque serveur, physique ou virtuel, au moins une adresse IP publique est liée.  

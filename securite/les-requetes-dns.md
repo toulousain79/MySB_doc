@@ -1,4 +1,8 @@
-# Les requêtes DNS
+---
+description: Les requêtes DNS
+---
+
+# Requêtes DNS
 
 ## Les requêtes DNS
 
