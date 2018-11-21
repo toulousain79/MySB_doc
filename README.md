@@ -1,4 +1,4 @@
-# Home / Accueil
+# Accueil
 
 ![toulousain79](.gitbook/assets/toulousain79_wiki.gif)
 
