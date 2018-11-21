@@ -15,9 +15,12 @@
 * [Requêtes DNS](securite/les-requetes-dns.md)
 * [Encore plus loin](securite/exploitation-plus-poussee.md)
 * [Restriction par adresse IP](securite/restriction-par-adresse-ip.md)
+* [Let's go !](securite/lets-go.md)
 
 ## Installation
 
 * [Pré-requis](installation/pre-requis.md)
 * [Préambule](installation/preambule.md)
+* [L'envoie de mails](installation/lenvoie-de-mails.md)
+* [Statistiques](installation/statistiques.md)
 
