@@ -25,10 +25,19 @@
 * [Let's go !](installation/lets-go.md)
 * [Mise à jour](installation/mise-a-jour.md)
 
-## Fournisseurs
+## Configuration
 
-* [Hébergeurs](fournisseurs/hebergeurs.md)
-* [Fournisseurs DynDNS](fournisseurs/fournisseurs-dyndns.md)
+* [Ajout de vos adresses](configuration/ajout-de-vos-adresses.md)
+* [Options systèmes](configuration/options-systemes.md)
+* [Gestion locative](configuration/gestion-locative.md)
+* [Labels & Synchros](configuration/labels-and-synchros.md)
+* [Plex Media Server & Tautulli](configuration/plex-media-server-and-tautulli.md)
+* [Dossiers surveillés \(watch\)](configuration/dossiers-surveilles-watch.md)
+* [FTPs / sFTP](configuration/ftps-sftp.md)
+* [OpenVPN](configuration/openvpn.md)
+* [NextCloud](configuration/nextcloud.md)
+
+## MySB en détail
 
 ## Les mails
 
@@ -36,4 +45,14 @@
 * [Nouvelle version disponible](les-mails/nouvelle-version-disponible.md)
 * [Mise à jour terminée](les-mails/mise-a-jour-terminee.md)
 * [Transfert terminé](les-mails/transfert-termine.md)
+
+## Fournisseurs
+
+* [Hébergeurs](fournisseurs/hebergeurs.md)
+* [Fournisseurs DynDNS](fournisseurs/fournisseurs-dyndns.md)
+
+## Support
+
+* [GitHub](support/github.md)
+* [Discord](support/discord.md)
 
