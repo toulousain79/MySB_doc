@@ -433,3 +433,74 @@ Il est **recommandé** d'utiliser PeerGuardian.
 
 Le choix par défaut étant **PeerGuardian**, tapez seulement sur **Entrée** pour l'installer. Sinon, saisissez un autre choix.
 
+### Statistiques
+
+#### Voulez-vous signaler votre installation à toulousain79 ?
+
+Ceci est facultatif à l'utilisation de MySB.  
+Mais je vous demande de bien vouloir y répondre **OUI**. Cela flatte mon égo ;-\)
+
+Cela me permet de savoir combien de fois MySB est installé, s'il y a eu des mises à jours de faites, la date et le pays du serveur.  
+**Aucune** information personnelle n'est collectée.
+
+Le choix par défaut étant **oui**, tapez seulement sur **Entrée** pour l'installer. Sinon, saisissez **non**.
+
+## Récapitulatif 
+
+![](../.gitbook/assets/install_questions_recap.jpg)
+
+Vérifiez si vous êtes d'accord avec vos choix.  
+Si vous souhaitez modifier quelque chose, appuyez sont la touche **Entrée** pour parcourir à nouveau le questionnaire et appliquer vos modifications.
+
+Dans le cas contraire, saisissez **oui** pour valider et continuer.
+
+## Confirmation
+
+![](../.gitbook/assets/install_questions_confirm.jpg)
+
+C'est la dernière question avant de lancer l'installation de MySB.
+
+Cela précise aussi comment reprendre la main sur l'installation si jamais vous perdiez la main en SSH. Comme l'installation se déroule de manière automatique en tâche de fond, perdre la main ou fermer votre console n'est pas gênant.
+
+Le choix par défaut étant **oui**, tapez seulement sur **Entrée** pour lancer l'installation. Saisissez **non**, pour quitter l'installation.
+
+Pour reprendre la main:
+
+1. relancez votre console, par exemple Putty/Kitty;
+2. connectez-vous en ROOT;
+3. lancez la commande `screen -x MySB_bsh`
+
+{% hint style="info" %}
+_**NOTE**: Le port SSH peut changer durant l'installation. Si le port SSH 22 ne fonctionne plus, essayez avec le port que vous aurez choisi \(ex: **8192** ?\)_
+{% endhint %}
+
+## Déroulement de l'installation
+
+### Étape 1 - Préparation du serveur
+
+![](../.gitbook/assets/install_step_prepare.jpg)
+
+### Étape 2 - Installation de tous les services
+
+### Étape 3 - Installation des services liés à la sécurité
+
+## Redémarrage du serveur
+
+![](../.gitbook/assets/install_reboot.jpg)
+
+L'installation est terminée et le serveur vient d'être redémarré.  
+Il faut **patienter** un moment pour qu'il redémarre et pouvoir ainsi s'y connecter et configurer MySB.
+
+Si vous avez correctement configurer votre compte de messagerie, vous devriez avoir reçu plusieurs mails.
+
+1. MySB - Le mail de confirmation de création du compte principal _\(admin\)_;
+2. PeerGuardian - pgld hit statistics, dû aux différents redémarrage du service PeerGuardian durant l'installation;
+
+![](../.gitbook/assets/install_mails.jpg)
+
+## Mail de confirmation
+
+[Voici un exemple du mail que vous devez recevoir.](https://mysb.gitbook.io/doc/v/v5.3_fr/les-mails/fin-dinstallation)
+
+Vous pouvez dès maintenant vous connecter au portail MySB en cliquant sur le lien **Aller vers votre portail MySB**, en haut à gauche du mail.
+

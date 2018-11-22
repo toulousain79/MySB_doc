@@ -23,9 +23,17 @@
 * [L'envoie de mails](installation/lenvoie-de-mails.md)
 * [Statistiques](installation/statistiques.md)
 * [Let's go !](installation/lets-go.md)
+* [Mise à jour](installation/mise-a-jour.md)
 
 ## Fournisseurs
 
-* [Fournisseurs DynDNS](fournisseurs/fournisseurs-dyndns.md)
 * [Hébergeurs](fournisseurs/hebergeurs.md)
+* [Fournisseurs DynDNS](fournisseurs/fournisseurs-dyndns.md)
+
+## Les mails
+
+* [Fin d'installation](les-mails/fin-dinstallation.md)
+* [Nouvelle version disponible](les-mails/nouvelle-version-disponible.md)
+* [Mise à jour terminée](les-mails/mise-a-jour-terminee.md)
+* [Transfert terminé](les-mails/transfert-termine.md)
 
