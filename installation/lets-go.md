@@ -248,7 +248,188 @@ Même chose, Cakebox consomme peu de ressources système. Cakebox sera disponibl
 Lien GitHub: [https://github.com/Cakebox/Cakebox](https://github.com/Cakebox/Cakebox)  
 Statut projet: Inactif
 
-Personnellement, je l'utilise occasionnellement.
+Le choix par défaut étant **oui**, tapez seulement sur **Entrée** pour l'installer. Sinon, saisissez **non**.
+
+#### Voulez-vous installer Plex Media Server ? \(OUI/NON\)
+
+L'installation de Plex est judicieuse selon moi.  
+Plex peut être un peu chiant à configurer, mais une fois en place, il fonctionne parfaitement bien. Pour l'instant, une seule session Plex est disponible pour tous les utilisateurs "normaux" avec une session rTorrent. Donc, si un autre autre utilisateur "normal" _\(rTorrent\)_ souhaite partager lui-aussi ses bibliothèques avec ses propres amis et/ou famille, vous devrez lui ajouter ses bibliothèques. Il ne sera pas autonome.
+
+Si je décide de continuer le projet, par temps et envie, et en migrant tout ou partie des services sous Docker, il sera possible de fournir une session Plex individuelle par utilisateur "normal", mais avec un port Plex unique par utilisateur, différent de 32400.
+
+En installant Plex, l'outil Tautulli sera également installé.  
+Lien GitHub: [https://github.com/Tautulli/Tautulli](https://github.com/Tautulli/Tautulli)  
+Statut projet: Actif
 
 Le choix par défaut étant **oui**, tapez seulement sur **Entrée** pour l'installer. Sinon, saisissez **non**.
+
+#### Voulez-vous installer NextCloud ? \(OUI/NON\)
+
+L'installation de NextCloud est judicieuse et peut s'avérer utile. NextCloud peut consommer un peu de ressource, notamment au niveau de NginX et PHP.
+
+NextCloud peut être utile 2 niveaux.
+
+1. Pour synchroniser des dossiers personnels entre plusieurs PC et smartphone;
+2. Pour synchroniser le dossier "watch" de rTorrent. Cela permet de disposer localement des dossiers "watch" et ainsi de directement enregistrer les fichiers torrent sur vôtre PC sans avoir à les ajouter via ruTorrent. Ce point sera détaillé dans un autre chapitre.
+
+Le choix par défaut étant **oui**, tapez seulement sur **Entrée** pour l'installer. Sinon, saisissez **non**.
+
+#### Voulez-vous installer Webmin ? \(OUI/NON\)
+
+Bon, je pense que tout le monde connaît Webmin.  
+Vous ne devriez pas vous en servir, normalement, vous pourriez même "casser" MySB, tant dans son fonctionnement que pour les mises à jour de MySB.  
+**Vous devez donc absolument savoir ce que vous faites !**
+
+#### Port pour Webmin \(habituellement 10000\)
+
+Le port par défaut de Webmin est **10000**.  
+****Le port sélectionné pour MySB est **8190**.
+
+Le choix par défaut étant **8190**, tapez seulement sur **Entrée** pour valider. Sinon, saisissez le port désiré en faisant attention de ne pas le mettre en doublon avec un autre.
+
+#### Voulez-vous installer OpenVPN ? \(OUI/NON\)
+
+OpenVPN peut être utilisé de différentes manières en fonction de la méthode de connexion.  
+Si vous installez OpenVPN, 4 questions vous seront posées.
+
+Le choix par défaut étant **oui**, tapez seulement sur **Entrée** pour l'installer. Sinon, saisissez **non**.
+
+#### Port OpenVPN avec redirection du trafic \(TUN\)
+
+Le port sélectionné pour MySB est **8193**.
+
+**Possibilités**:
+
+* communication privée avec votre SeedBox
+  * partage Samba \(/home/utilisateur\)
+  * partage NFS \(/home/utilisateur/rtorrent\)
+  * accès HTTPs \(portail MySB, ruTorrent, NextCLoud, ...\) 
+  * accès SSH
+  * accès FTPs et sFTP
+* trafic Internet via l'adresse IP de votre serveur et non l'IP de votre FAI _\(**non recommandé** pour récupérer des fichiers torrent\)_
+* connexion routée
+
+#### Port OpenVPN sans redirection du trafic \(TUN\)
+
+Le port sélectionné pour MySB est **8194**.
+
+**Possibilités**:
+
+* communication privée avec votre SeedBox
+  * partage Samba _\(/home/utilisateur\)_
+  * partage NFS _\(/home/utilisateur OU /export/utilisateur\)_
+  * accès HTTPs _\(portail MySB, ruTorrent, NextCLoud, ...\)_
+  * accès SSH
+  * accès FTPs et sFTP
+* connexion routée
+
+#### Port OpenVPN sans redirection du trafic \(TAP\)
+
+Le port sélectionné pour MySB est **8195**.
+
+**Possibilités**:
+
+* communication privée avec votre SeedBox
+  * partage Samba _\(/home/utilisateur\)_
+  * partage NFS _\(/home/utilisateur OU /export/utilisateur\)_
+  * accès HTTPs _\(portail MySB, ruTorrent, NextCLoud, ...\)_
+  * accès SSH
+  * accès FTPs et sFTP
+* connexion bridgé
+
+{% hint style="info" %}
+_**NOTE**: Ce mode n'est pas maintenu et non terminé._
+{% endhint %}
+
+#### Quel est le protocole à utiliser \(UDP si vous avez une connexion de bonne qualité, TCP autrement\), 'UDP' ou 'TCP' ?
+
+Le protocole par défaut pour MySB est **UDP**.
+
+Comme précisé, si vous disposez d'une connexion Internet stable, il est recommandé de conserver le protocole UDP permettant de réduire le nombre de paquets transmis et augmentent donc le débit de la connexion OpenVPN. Une connexion stable est une connexion avec une faible perte de paquets. Vous aurez la possibilité de modifier ce protocole via le portail par la suite.
+
+### Sécurité
+
+![](../.gitbook/assets/install_questions_security.jpg)
+
+#### Confirmez-vous que le port 80 \(http\) est bel et bien redirigé vers vôtre serveur ?
+
+Cette question s'affichera **uniquement** si l'adresse IP locale de votre serveur est différente de celle votre connexion Internet. Ce sera le cas si votre serveur derrière se trouve derrière un routeur. Dans ce cas il sera nécessaire et à votre charge de rediriger tous les ports réseaux nécessaires pour le bon fonctionnement de votre SeedBox.
+
+Ici, vous devez impérativement rediriger le port **80** _\(HTTP\)_ vers votre serveur. Ce port sera utilisé par Let's Encrypt pour obtenir un certificat signé et valide pour vous connecter en HTTPs à votre SeedBox. Comme les certificats obtenus sont limités dans le temps _\(3 mois\)_, un renouvellement automatique sera effectué régulièrement par Let's Encrypt.  
+Le port **80** doit donc être redirigé de manière **permanente** vers votre serveur.
+
+Si vous ne pouvez ou ne voulez pas, l'accès à votre interface et vos services en HTTPs fonctionnera aussi, MAIS vous aurez une alerte de sécurité à chaque fois dans vôtre navigateur. A moins que vous autorisiez le certificat auto-signé via votre navigateur comme peut le proposer Firefox.
+
+Le choix par défaut étant **oui**, tapez seulement sur **Entrée** pour l'installer. Sinon, saisissez **non**.
+
+#### Voulez-vous activer la restriction IP ?
+
+Activer ou non la restriction par adresse IP à votre SeedBox _\(cf._ [_Restriction par adresse IP_](https://mysb.gitbook.io/doc/v/v5.3_fr/securite/restriction-par-adresse-ip)_\)_.  
+Je recommande l'activation de cette option.  
+Chaque utilisateur "normal", aura la possibilité d'ajouter autant d'adresse IP ou nom d'hôte qu'il le souhaite via le portail.
+
+Quoi qu'il en soit, vous devrez tout de même ajouter au moins votre adresse courante à la question suivante pour le bon déroulement de l'installation.
+
+Si vous n'activez pas la restriction par IP, et que vous vous connecter à SeedBox en utilisant une adresse IP dynamique, alors vous pourriez vous faire bloquer par Fail2Ban et/ou PeerGuardian.  
+En effet, encore beaucoup, voir même une majorité de FAI fournissent des IP dynamiques à tous ces abonnés. Un redémarrage de votre box, et hop une nouvelle IP...  
+Et là, ça peut devenir problématique.
+
+Mais, toutes les box du marché inclus _\(normalement\)_ une option DynDNS. Mais toutes les box ne proposent pas les mêmes fournisseurs de DNS dynamiques.
+
+Dans l'exemple ci-dessous, il s'agit de la page de configuration du DynDNS pour une Livebox 4 d'Orange. Donc, pour la Livebox 4, seuls les fournisseurs suivants sont disponibles:
+
+* [No-IP](https://www.noip.com/)
+* DtDNS _\(fermé depuis août 2018 ?\)_
+* [ChangeIP](https://www.changeip.com/)
+* DNSdynamic _\(fermé ?\)_ 
+
+![](../.gitbook/assets/box_dyndns.jpg)
+
+Jetez un œil au chapitre [Fournisseurs DynDNS](https://mysb.gitbook.io/doc/v/v5.3_fr/fournisseurs/fournisseurs-dyndns).
+
+Le choix par défaut étant **oui**, tapez seulement sur **Entrée** pour l'installer. Sinon, saisissez **non**.
+
+#### Quelles sont les adresses IP publiques que vous souhaitez ajouter dès maintenant ? \(ex: x.x.x.x,y.y.y.y\)
+
+Par défaut, l'adresse IP à partir de laquelle vous être connecté à votre serveur pour l'installation est détectée. Vous pouvez en ajoutant plus, mais ce n'est généralement pas utile. A ce stade, vous ne pouvez ajouter que des adresses IP séparées par une virgule et sans espace. Les nom d'hôte ne sont pas acceptés.
+
+Par la suite, vous pourrez ajouter des noms d'hôte et des IP via le portail MySB.
+
+Le choix par défaut est votre adresse IP source _\(celle à partir de laquelle vous être connecté\)_, tapez seulement sur **Entrée** pour l'ajouter.
+
+#### Voulez-vous installer Logwatch ? \(OUI/NON\)
+
+Logwatch est un utilitaire permettant de surveiller les journaux système et de créer des rapports. Ces rapports comprennent les tentatives de connexion infructueuses, les tentatives de connexion réussie, l'espace de stockage utilisé/disponible, les erreurs de kernel, etc.
+
+Le choix par défaut étant **oui**, tapez seulement sur **Entrée** pour l'installer. Sinon, saisissez **non**.
+
+#### Voulez-vous installer Fail2ban \(recommandé\) ? \(OUI/NON\)
+
+[Fail2Ban ](https://www.fail2ban.org/wiki/index.php/Main_Page)est une application qui analyse les logs de divers services _\(SSH, Apache, FTP…\)_ en cherchant des correspondances entre des motifs définis dans ses filtres et les entrées des logs. Lorsqu'une correspondance est trouvée une ou plusieurs actions sont exécutées.  
+Typiquement, Fail2Ban cherche des tentatives répétées de connexions infructueuses dans les logs et procède à un bannissement en ajoutant une règle au pare-feu [IPtables ](https://doc.ubuntu-fr.org/iptables)pour bannir l'adresse IP de la source.
+
+Il est **recommandé** d'installer Fail2Ban.
+
+Le choix par défaut étant **oui**, tapez seulement sur **Entrée** pour l'installer. Sinon, saisissez **non**.
+
+#### Voulez-vous installer DNScrypt-proxy \(recommandé\) ? \(OUI/NON\)
+
+[DNSCrypt-proxy](https://github.com/jedisct1/dnscrypt-proxy) est un protocole qui authentifie les communications entre un client DNS et un résolveur [DNS](https://fr.wikipedia.org/wiki/DNS). Cela empêche la falsification de DNS. Il utilise des signatures cryptographiques pour vérifier que les réponses proviennent du résolveur DNS choisi et n'ont pas été falsifiées. C'est une spécification ouverte, avec des implémentations de référence gratuites et open-source, et elle n'est affiliée à aucune entreprise ni organisation.
+
+Il est **recommandé** d'installer DNScrypt-proxy.
+
+Le choix par défaut étant **oui**, tapez seulement sur **Entrée** pour l'installer. Sinon, saisissez **non**.
+
+#### 'PeerGuardian' OU 'rTorrent' OU 'AUCUN' ?
+
+Comment voulez-vous gérer les listes de blocage ?  
+Le mieux, si votre configuration matérielle vous le permet, est de choisir [PeerGuardian](https://sourceforge.net/p/peerguardian/wiki/pgl-Main/).
+
+Avec PeerGuardian, la gestion des listes de blocage est globale à votre SeedBox, contrairement avec rTorrent qui les gérera individuellement par utilisateur disposant d'une session rTorrent _\(consomme beaucoup plus de ressource\)_. Si jamais le service PeerGuardian ne peut pas être démarré pour une raison ou une autre, alors rTorrent sera redémarré pour gérer lui-même les listes.
+
+Si vous n'activez pas la gestion des listes de blocage en sélectionnant **AUCUN**, vous ne serez plus protégé correctement.
+
+Il est **recommandé** d'utiliser PeerGuardian.
+
+Le choix par défaut étant **PeerGuardian**, tapez seulement sur **Entrée** pour l'installer. Sinon, saisissez un autre choix.
 
