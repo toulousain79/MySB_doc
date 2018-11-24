@@ -23,7 +23,7 @@ Il faut savoir que tous les services présents dans votre SeedBox ne seront pas 
   * Plex Media Server
   * NextCloud
 
-Les adresses autorisées _\(IP ou FQDN\)_ devront être ajoutées via le portail.  
+Les adresses autorisées _\(IP ou FQDN\)_ devront être ajoutées [via le portail](https://mysb.gitbook.io/doc/v/v5.3_fr/configuration/ajout-de-vos-adresses).  
 Chaque utilisateur "normal" pourra ajouter ses adresses en toute autonomie.
 
 Mais l'ensemble des adresses ajoutées sera inclus de manière globale, c'est à dire applicable pour tout le monde.
