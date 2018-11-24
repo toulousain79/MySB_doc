@@ -39,6 +39,9 @@
 
 ## MySB en détail
 
+* [Les listes noires](le-portail/les-listes-noires.md)
+* [Les trackers](le-portail/les-trackers.md)
+
 ## Les mails
 
 * [Fin d'installation](les-mails/fin-dinstallation.md)
