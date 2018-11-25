@@ -41,7 +41,7 @@ Si un ou plusieurs mails sont bloqués, vous verrez une liste de ce type:
 
 Ici, nous voyons que l'erreur est **SASL authentication failed**.
 
-Si votre mot de passe est pourtant correct, vous devez alors autoriser les applications moins sécurisées à pouvoir se connecter _\(cf._ [_Pré-requis_](https://mysb.gitbook.io/doc/v/v5.3_fr/installation/pre-requis#mails)_\)_.
+Si votre mot de passe est pourtant correct, vous devez alors autoriser les applications moins sécurisées à pouvoir se connecter _\(cf._ [_Pré-requis_](https://mysb.gitbook.io/doc/~/edit/drafts/-LS9xi-gc9Grq6Zkdqn7/v/v5.3_fr/installation/pre-requis#mails)_\)_.
 
 ## Autres cas
 

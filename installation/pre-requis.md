@@ -43,3 +43,9 @@ Dans les paramètres de Gmail, activez l'option **Paramètre "Autoriser les appl
 _**NOTE**: Faites attention d'être connecté avec le bon compte..._
 {% endhint %}
 
+Pour Gmail, il est également probable d'utiliser le lien ci-dessous pour autoriser vôtre serveur à se connecter à vôtre compte mail.  
+Pour se faire, suivez les étapes suivantes jsute avant l'installation de MySB:
+
+1. Ouvrez ce lien: [https://www.google.com/accounts/DisplayUnlockCaptcha](https://www.google.com/accounts/DisplayUnlockCaptcha)
+2. Identifiez-vous avec le compte mail que vous souhaitez utiliser
+

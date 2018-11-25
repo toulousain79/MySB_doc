@@ -39,6 +39,7 @@
 
 ## MySB en détail
 
+* [Le portail](le-portail/le-portail.md)
 * [Les listes noires](le-portail/les-listes-noires.md)
 * [Les trackers](le-portail/les-trackers.md)
 * [Console](le-portail/binaires-and-scripts.md)
