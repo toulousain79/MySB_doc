@@ -41,7 +41,8 @@
 
 * [Les listes noires](le-portail/les-listes-noires.md)
 * [Les trackers](le-portail/les-trackers.md)
-* [Binaires & Scripts](le-portail/binaires-and-scripts.md)
+* [Console](le-portail/binaires-and-scripts.md)
+* [Les tâches programmées](le-portail/les-taches-programmees.md)
 
 ## Les mails
 
