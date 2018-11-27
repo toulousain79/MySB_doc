@@ -44,7 +44,7 @@ Est-ce bien bien ou pas, selon vous ?
 Même s'il n'est pas toujours possible de savoir ce que vous voulez récupérer, il est néanmoins possible de savoir chez qui vous allez et d'où ça part.  
 L'usage du HTTPs dans les torrents est donc aussi intéressante, mais ce n'est pas le sujet.
 
-C'est là que [DNScrypt-proxy](https://dnscrypt.info/) joue un rôle non négligeable, protéger les requêtes DNS sortants de vôtre SeedBox.
+C'est là que [DNScrypt-proxy](https://dnscrypt.info/) joue un rôle non négligeable, protéger les requêtes DNS qui sortent de vôtre SeedBox.
 
 ## DNScrypt-proxy
 
