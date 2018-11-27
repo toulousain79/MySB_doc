@@ -14,6 +14,12 @@ Il est nécessaire de restaurer les règles de sécurité par défaut. De cette 
 
 `MySB_SecurityRules create`
 
+### Web
+
+#### Je souhaite ajouter un site perso
+
+Techniquement c'est possible, je détaillerai plus tard comment procéder.
+
 ## Utilisateurs
 
 ### Réseau
