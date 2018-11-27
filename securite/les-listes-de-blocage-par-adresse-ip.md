@@ -14,7 +14,6 @@ Voici un exemple, pour ne citer qu'elles:
 
 * Protection contre les spammeurs
 * Protection contre les pirates informatique
-* Protection contre les pédophiles
 * ...
 
 Il existe de nombreux organismes dans le monde traquant différents types de trafic.  
