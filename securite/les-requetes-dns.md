@@ -37,14 +37,14 @@ Par exemple, voici le contenu d'un fichier torrent Ubuntu.
 
 ![Edition d&apos;un fichier torrent avec BEncode Editor](../.gitbook/assets/torrent_edit.jpg)
 
-Donc, quand vous ajoutez un torrent dans vôtre SeedBox, et bien une requête DNS est effectué pour obtenir l'adresse IP de destination.  
+Donc, quand vous ajoutez un torrent dans vôtre SeedBox, et bien une requête DNS est effectuée pour obtenir l'adresse IP de destination.  
 Cette requête peut donc être enregistrée ou filtrée par les DNS que vous utilisés.  
-C'est bien ou pas ?
+Est-ce bien bien ou pas, selon vous ?
 
 Même s'il n'est pas toujours possible de savoir ce que vous voulez récupérer, il est néanmoins possible de savoir chez qui vous allez et d'où ça part.  
 L'usage du HTTPs dans les torrents est donc aussi intéressante, mais ce n'est pas le sujet.
 
-C'est là que [DNScrypt-proxy](https://dnscrypt.info/) joue un rôle non négligeable.
+C'est là que [DNScrypt-proxy](https://dnscrypt.info/) joue un rôle non négligeable, protéger les requêtes DNS sortants de vôtre SeedBox.
 
 ## DNScrypt-proxy
 
