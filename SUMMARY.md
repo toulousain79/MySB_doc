@@ -40,11 +40,11 @@
 
 ## MySB en détail
 
-* [Le portail](le-portail/le-portail.md)
-* [Les listes noires](le-portail/les-listes-noires.md)
-* [Les trackers](le-portail/les-trackers.md)
-* [Console](le-portail/binaires-and-scripts.md)
-* [Les tâches programmées](le-portail/les-taches-programmees.md)
+* [Le portail](mysb-en-detail/le-portail.md)
+* [Les listes noires](mysb-en-detail/les-listes-noires.md)
+* [Les trackers](mysb-en-detail/les-trackers.md)
+* [Console](mysb-en-detail/binaires-and-scripts.md)
+* [Les tâches programmées](mysb-en-detail/les-taches-programmees.md)
 
 ## Les mails
 

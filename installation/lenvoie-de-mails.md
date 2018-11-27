@@ -1,7 +1,3 @@
----
-description: L'envoie de mails / SMTP
----
-
 # L'envoie de mails
 
 C'est un sujet récurrent pour beaucoup d'entre vous. Beaucoup me dise qu'ils ne reçoivent pas de mail à la fin de l'installation.

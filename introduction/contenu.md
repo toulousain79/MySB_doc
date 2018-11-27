@@ -1,7 +1,3 @@
----
-description: Caractéristiques et services
----
-
 # Contenu
 
 * **rTorrent** _\(Rakshasa\) \(v0.9.6 avec SSL\)_

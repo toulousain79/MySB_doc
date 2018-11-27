@@ -16,7 +16,7 @@ Il faut savoir que tous les services présents dans votre SeedBox ne seront pas 
   * LoadAvg
   * Shell In a Box
 
-**Non soumis à la restriction par adresse IP _\(mais filtré par Fail2Ban\)_**
+**Non soumis à la restriction par adresse IP** _**\(mais filtré par Fail2Ban\)**_
 
 * services Web**:**
   * Tautulli

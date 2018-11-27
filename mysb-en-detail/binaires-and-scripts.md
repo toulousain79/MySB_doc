@@ -1,7 +1,3 @@
----
-description: Commandes et scripts disponibles en console
----
-
 # Console
 
 ## Introduction

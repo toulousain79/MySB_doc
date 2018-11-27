@@ -1,7 +1,3 @@
----
-description: Tâches programmées (cron)
----
-
 # Les tâches programmées
 
 ## Network Time Protocol \(NTP\)

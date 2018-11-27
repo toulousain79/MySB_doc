@@ -8,7 +8,7 @@ description: Les requêtes DNS
 
 Je ne suis pas un expert. Mais j'ai quelques bases.
 
-A partir de vôtre ordinateur ou serveur, lorsque vous souhaitez accéder à un site, à un autre serveur ou autre, en utilisant un nom d'hôte _\(toto.titi-tata.com\)_, pour tous les protocoles _\(SSH, HTTP, HTTPs, FTP, ...\),_   
+A partir de vôtre ordinateur ou serveur, lorsque vous souhaitez accéder à un site, à un autre serveur ou autre, en utilisant un nom d'hôte _\(toto.titi-tata.com\)_, pour tous les protocoles _\(SSH, HTTP, HTTPs, FTP, ...\),_  
 une résolution de l'adresse IP se cachant derrière ce nom d'hôte est faite.  
 Car vous n'accéderez nulle part si aucune adresse IP n'est liée à ce nom d'hôte.
 
