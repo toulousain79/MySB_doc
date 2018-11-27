@@ -9,14 +9,14 @@ Il faut savoir que tous les services présents dans votre SeedBox ne seront pas 
 * accès FTPs et sFTP
 * accès au portail MySB
 * OpenVPN
-* Sauf exception, accès à tous les services Web_:_
+* services Web _\(sauf exception\)_:
   * ruTorrent
   * Cakebox
   * Seedbox-Manager
   * LoadAvg
   * Shell In a Box
 
-**Non soumis à la restriction par adresse IP**
+**Non soumis à la restriction par adresse IP _\(mais filtré par Fail2Ban\)_**
 
 * services Web**:**
   * Tautulli
