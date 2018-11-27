@@ -6,7 +6,7 @@ Si une mise à jour est disponible, vous recevrez un mail sans contenu vous l'in
 
 [Visualisation du mail en cas de mise à jour disponible](https://mysb.gitbook.io/doc/v/v5.3_fr/les-mails/nouvelle-version-disponible)
 
-{% hint style="info" %}
+{% hint style="danger" %}
 _**NOTE**: Prévoyez le bon moment pour appliquer une mise à jour. Selon les modifications à apporter, cela peut prendre du temps. Les service de vôtre SeedBox seront alors indisponibles durant se laps de temps._
 {% endhint %}
 

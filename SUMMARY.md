@@ -63,4 +63,5 @@
 
 * [GitHub](support/github.md)
 * [Discord](support/discord.md)
+* [FAQ](support/faq.md)
 

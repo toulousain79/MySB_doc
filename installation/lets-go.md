@@ -65,7 +65,7 @@ Il n'est pas nécessaire de retaper la réponse. Une seule pression de la touche
 
 En cas de doute, un récapitulatif des question/réponse sera affiché avant de démarrer l'installation. Vous aurez donc la possibilité de revenir en arrière et de modifier ce que vous voudrez.
 
-{% hint style="info" %}
+{% hint style="success" %}
 _**NOTE**: Toutes les réponses peuvent être saisies en minuscule._
 {% endhint %}
 
@@ -227,7 +227,7 @@ SI vous souhaitez autoriser les systèmes de votre hébergeur à vérifier l'act
 3. attendre la fin de l'installation de MySB;
 4. activer à nouveau l'option dans l'interface de gestion de votre hébergeur.
 
-{% hint style="info" %}
+{% hint style="danger" %}
 _**NOTE**: Si vous ne respectez pas cette ordre, votre serveur pourrez être redémarré automatiquement par votre hébergeur, alors même que l'installation de MySB ne soit pas terminée !_
 {% endhint %}
 
@@ -470,7 +470,7 @@ Pour reprendre la main:
 2. connectez-vous en ROOT;
 3. lancez la commande `screen -x MySB_bsh`
 
-{% hint style="info" %}
+{% hint style="warning" %}
 _**NOTE**: Le port SSH peut changer durant l'installation. Si le port SSH 22 ne fonctionne plus, essayez avec le port que vous aurez choisi \(ex: **8192** ?\)_
 {% endhint %}
 

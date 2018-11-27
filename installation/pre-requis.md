@@ -39,7 +39,7 @@ Si vous souhaitez utiliser un relais de messagerie pour déléguer l'envoie de v
 
 Dans les paramètres de Gmail, activez l'option **Paramètre "Autoriser les applications moins sécurisées"** disponible sur [cette page](https://myaccount.google.com/security#connectedapps).
 
-{% hint style="info" %}
+{% hint style="warning" %}
 _**NOTE**: Faites attention d'être connecté avec le bon compte..._
 {% endhint %}
 

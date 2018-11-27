@@ -168,7 +168,7 @@ Cochez les catégories à supprimer, cliquez sur **Sauvegarder les modifications
 
 ![](../.gitbook/assets/synchro_labels_delete.jpg)
 
-{% hint style="info" %}
+{% hint style="warning" %}
 _**NOTE**: Seule une catégorie vide pourra être supprimée. C'est à dire qu'il ne doit plus y avoir de fichiers présents dans /home/user/rtorrent/**complete/Categorie**/. Une fois la suppression lancée, celle-ci sera effective uniquement lorsque le dossier ci-dessus sera vide._
 {% endhint %}
 
