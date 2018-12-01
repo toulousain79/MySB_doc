@@ -53,6 +53,7 @@
 * [Mise à jour terminée](les-mails/mise-a-jour-terminee.md)
 * [Transfert terminé](les-mails/transfert-termine.md)
 * [Tautulli, bibliothèque mise à jour](les-mails/tautulli-bibliotheque-mise-a-jour.md)
+* [PeerGuardian, statistiques](les-mails/peerguardian-statistiques.md)
 
 ## Fournisseurs
 

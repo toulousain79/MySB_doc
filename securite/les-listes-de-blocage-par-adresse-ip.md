@@ -30,3 +30,5 @@ Imaginez que toutes ces adresses IP soient historiées avec quelques information
 Une loi pourrait éventuellement passer pour identifier des personnes en fonction de leur utilisation, de manière rétroactive.  
 C'est une éventualité, mais reste néanmoins une possibilité.
 
+[Visualiser un extrait d'un rapport quotidien de PeerGuardian](https://mysb.gitbook.io/doc/v/v5.3_fr/les-mails/peerguardian-statistiques)
+
