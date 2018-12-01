@@ -482,6 +482,8 @@ _**NOTE**: Le port SSH peut changer durant l'installation. Si le port SSH 22 ne 
 
 ### Étape 2 - Installation de tous les services
 
+![](../.gitbook/assets/install_step_services.jpg)
+
 ### Étape 3 - Installation des services liés à la sécurité
 
 ## Redémarrage du serveur
