@@ -20,7 +20,7 @@ La liste globale est accessible via le menu **Trackers** &gt; **Liste des tracke
 
 ![](../.gitbook/assets/trackers_list.jpg)
 
-## Ajout d'un nouveau tracker
+## Ajout manuel d'un nouveau tracker
 
 L'ajout d'un tracker se fait en passant par le menu **Trackers** &gt; **Mes trackers**.
 
@@ -52,4 +52,14 @@ Une fois le tracker ajouté, une vérification va être lancée pour vérifier p
 * activité du tracker _\(PING\)_ 
 
 ![](../.gitbook/assets/trackers_extract.jpg)
+
+## Ajout automatique/détection de nouveaux trackers
+
+Le script [GetTrackersCert.bsh](https://mysb.gitbook.io/doc/v/v5.3_fr/mysb-en-detail/binaires-and-scripts#les-scripts-usuels), exécuté tous les jours à 10h00, liste tous les .torrents actifs de tous les utilisateurs pour en extraire les annonceurs HTTP.  
+Une vérification est ainsi faite sur chaque tracker pour ensuite l'ajouter à la liste dans le portail.
+
+Chaque tracker ajouté est automatiquement activé.  
+L'obtention du certificat SSL du tracker est également effectué.
+
+A vous, ensuite, de décider si vous devez le laisser actif ou nom.
 

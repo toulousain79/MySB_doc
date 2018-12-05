@@ -144,9 +144,10 @@ Bien qu'il soit possible de gérer les utilisateurs via le portail, les mêmes c
     <tr>
       <td style="text-align:left">GetTrackersCert.bsh</td>
       <td style="text-align:left">
-        <p>Permet de rafraîchir les adresses IP et les certificats SSL de tous les
-          trackers activés dans le portail <em>(<b>Trackers </b>> <b>Liste des trackers</b>)</em>,
-          de détecter et d'ajouter les trackers contenu dans les .torrent des utilisateurs.</p>
+        <p>Permet de <b>rafraîchir</b> les adresses IP et les <b>certificats SSL</b> de
+          tous les trackers activés dans le portail <em>(<b>Trackers </b>> <b>Liste des trackers</b>)</em>,
+          de <b>détecter</b> et <b>d'ajouter</b> les trackers contenu dans les .torrent
+          des utilisateurs.</p>
         <p>Il est appelé à chaque fois que cette liste est modifiée.</p>
         <p>Ce script est exécuté <b>1 fois par jour</b>.</p>
       </td>
