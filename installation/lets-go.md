@@ -20,7 +20,7 @@ Si vous voulez forcer la langue, il suffit de le préciser en argument.
 
 **Pour le français:**
 
-`bash MySB_Install.bsh fr` 
+`bash MySB_Install.bsh fr`
 
 ![](../.gitbook/assets/install_download_script.jpg)
 
@@ -32,7 +32,7 @@ A ce stade, les pré-requis de base sont vérifiés, et les étapes du déroulem
 
 Répondez à la question **Êtes-vous prêt à installer MySB** ? En tapant **oui** ou **o**.
 
-Ensuite, vous pouvez valider le répertoire d'installation par défaut en tapant sur <kbd>Entrée</kbd>  
+Ensuite, vous pouvez valider le répertoire d'installation par défaut en tapant sur **Entrée**.  
 Ou saisissez un autre emplacement si vous savez ce que vous faites. Le répertoire doit être absolut, c'est à dire qu'il doit commencer par / en préfixe du chemin. Et ne doit pas contenir de **/** à la fin.
 
 ![](../.gitbook/assets/install_start.jpg)
@@ -155,7 +155,7 @@ Pourquoi pas le **8191** ?
 
 #### Utilisateur principal \(admin\)
 
-Le tout premier compte qui sera créé sur vôtre SeedBox, c'est celui-ci. 
+Le tout premier compte qui sera créé sur vôtre SeedBox, c'est celui-ci.
 
 ![](../.gitbook/assets/install_questions_admin.jpg)
 
@@ -283,7 +283,7 @@ Vous ne devriez pas vous en servir, normalement, vous pourriez même "casser" My
 #### Port pour Webmin \(habituellement 10000\)
 
 Le port par défaut de Webmin est **10000**.  
-****Le port sélectionné pour MySB est **8190**.
+**\*\*Le port sélectionné pour MySB est** 8190\*\*.
 
 Le choix par défaut étant **8190**, tapez seulement sur **Entrée** pour valider. Sinon, saisissez le port désiré en faisant attention de ne pas le mettre en doublon avec un autre.
 
@@ -445,7 +445,7 @@ Cela me permet de savoir combien de fois MySB est installé, s'il y a eu des mis
 
 Le choix par défaut étant **oui**, tapez seulement sur **Entrée** pour l'installer. Sinon, saisissez **non**.
 
-## Récapitulatif 
+## Récapitulatif
 
 ![](../.gitbook/assets/install_questions_recap.jpg)
 

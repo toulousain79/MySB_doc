@@ -1,7 +1,3 @@
----
-description: Extrait d'un rapport quotidien de PeerGuardian
----
-
 # PeerGuardian, statistiques
 
 {% hint style="info" %}
