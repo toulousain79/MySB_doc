@@ -1,6 +1,6 @@
 # Accueil
 
-![toulousain79](.gitbook/assets/toulousain79_wiki.gif)
+![](.gitbook/assets/toulousain79.gif)
 
 ## Documentation - FR
 
