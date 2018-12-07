@@ -32,7 +32,7 @@ A ce stade, les pré-requis de base sont vérifiés, et les étapes du déroulem
 
 Répondez à la question **Êtes-vous prêt à installer MySB** ? En tapant **oui** ou **o**.
 
-Ensuite, vous pouvez valider le répertoire d'installation par défaut en tapant sur **Entrée**.  
+Ensuite, vous pouvez valider le répertoire d'installation par défaut en tapant sur <kbd>Entrée</kbd>  
 Ou saisissez un autre emplacement si vous savez ce que vous faites. Le répertoire doit être absolut, c'est à dire qu'il doit commencer par / en préfixe du chemin. Et ne doit pas contenir de **/** à la fin.
 
 ![](../.gitbook/assets/install_start.jpg)
