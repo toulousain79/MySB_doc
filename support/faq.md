@@ -1,6 +1,6 @@
 # FAQ
 
-Administrateur
+## Administrateur
 
 ### Système
 
@@ -13,6 +13,54 @@ Lancez ces commandes suivantes, cela restaurera tous les droits où il faut.
 
 `source /opt/MySB/inc/vars  
 gfnManageDirAndFiles 'global'`
+
+### Les 5% de blocs réservés
+
+Par défaut, 5% des blocs du système de fichiers sont réservés et ne peuvent être écrits. Ils sont réservés en "secours" et utilisables uniquement par root.  
+Si le système de fichier est grand _\(ex: 1To\)_ ça fait quand même 50Go, surtout si on stocke des données c'est pas utile.  
+Mettre à 0% c'est pas l'idéal, mais on peut mettre cette valeur à 1% par exemple.
+
+#### Obtention des infos actuelles
+
+```text
+dumpe2fs -h /dev/sda1 | grep -i 'block count'
+
+dumpe2fs 1.43.4 (31-Jan-2017)
+Block count:              5016832
+Reserved block count:     250841
+```
+
+#### Calcul du pourcentage actuel utilisé
+
+_Nombre de blocs réservés / Nombre de blocs \* 100 = Pourcentage réservé_
+
+**Ex**: 250841 / 5016832 \* 100 = 4,9999880402612644792570291371128 _**\(~5%\)**_
+
+#### Changer le pourcentage de bloc réservé à 1%
+
+```text
+tune2fs -m 1 /dev/sda1
+```
+
+#### Vérification
+
+```text
+dumpe2fs -h /dev/sda1 | grep -i 'block count'
+
+dumpe2fs 1.43.4 (31-Jan-2017)
+Block count:              5016832
+Reserved block count:     50168
+```
+
+_Nombre de blocs réservés / Nombre de blocs \* 100 = Pourcentage réservé_
+
+**Ex**: 50168 / 5016832 \* 100 = 0,99999362147267438893708220646017 _**\(~1%\)**_
+
+Pour résumer, il suffit d'utiliser la commande _tune2fs -m **X** /dev/**partition**_, où **X** correspond au pourcentage désiré.
+
+{% hint style="danger" %}
+**NE PAS mettre à 0% cet espace réservé !**
+{% endhint %}
 
 ### Réseau
 
