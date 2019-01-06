@@ -37,6 +37,43 @@ Si vous souhaitez utiliser un relais de messagerie pour déléguer l'envoie de v
 
 ### Gmail
 
+Deux possibilités:
+
+1. Générer un mot de passe pour vos applications \(2FA\) _\(méthode conseillée\)_
+2. Autoriser les applications moins sécurisées
+
+{% tabs %}
+{% tab title="Générer un mot de passe pour vos applications \(2FA\) \(conseillé\)" %}
+
+
+Rendez-vous sur [https://myaccount.google.com/security](https://myaccount.google.com/security), identifiez-vous si besoin.
+
+1/ Activez la Validation en deux étapes
+
+![](../.gitbook/assets/gmail_enable_two_factors.jpg)
+
+Suivez le déroulement des fenêtres, cela peut varier en fonction de vôtre compte.  
+Une fois la validation en 2 étapes activées, on passe à la génération d'un mot de passe pour vôtre SeedBox.
+
+2/ Mot de passe des applications
+
+![](../.gitbook/assets/gmail_select_app_password.jpg)
+
+Cliquez sur **Sélectionnez une application**, puis sur **Autre** _**\(Nom personnalisé\)**_, donnez lui un nom _\(ex: MySB\)_.  
+Enfin, cliquez sur **Générer**.
+
+![](../.gitbook/assets/gmail_app_password.jpg)
+
+Vous obtiendrez un mot de passe **unique** qui remplacera le mot de passe principal de vôtre compte Gmail**.**
+
+![](../.gitbook/assets/gmail_password_created.jpg)
+
+{% hint style="danger" %}
+Il sera impossible de retrouver ce mot de passe par la suite. Si vous le perdez, vous devrez alors en générer un nouveau !
+{% endhint %}
+{% endtab %}
+
+{% tab title="Autoriser les applications moins sécurisées" %}
 Dans les paramètres de Gmail, activez l'option **Paramètre "Autoriser les applications moins sécurisées"** disponible sur [**cette page**](https://myaccount.google.com/lesssecureapps).
 
 {% hint style="warning" %}
@@ -44,8 +81,10 @@ _**NOTE**: Faites attention d'être connecté avec le bon compte..._
 {% endhint %}
 
 Pour Gmail, il est également probable d'utiliser le lien ci-dessous pour autoriser vôtre serveur à se connecter à vôtre compte mail.  
-Pour se faire, suivez les étapes suivantes jsute avant l'installation de MySB:
+Pour se faire, suivez les étapes suivantes juste avant l'installation de MySB:
 
 1. Ouvrez ce lien: [https://www.google.com/accounts/DisplayUnlockCaptcha](https://www.google.com/accounts/DisplayUnlockCaptcha)
 2. Identifiez-vous avec le compte mail que vous souhaitez utiliser
+{% endtab %}
+{% endtabs %}
 
