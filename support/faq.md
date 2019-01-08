@@ -11,7 +11,7 @@ Ou vous avez des problèmes d'accès à certains services ?
 
 Lancez ces commandes suivantes, cela restaurera tous les droits où il faut.
 
-`source /opt/MySB/inc/vars  
+`. /opt/MySB/inc/vars  
 gfnManageDirAndFiles 'global'`
 
 ### Les 5% de blocs réservés
