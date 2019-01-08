@@ -62,14 +62,6 @@ Pour résumer, il suffit d'utiliser la commande _tune2fs -m **X** /dev/**partiti
 **NE PAS mettre à 0% cet espace réservé !**
 {% endhint %}
 
-### Changer le nom de vôtre serveur
-
-```text
-. /opt/MySB/inc/vars
-. /opt/MySB/inc/funcs_by_script/funcs_Upgrade
-gfnChangeFQDN
-```
-
 ### Réseau
 
 #### L'adresse IP d'un utilisateur a été bannis par Fail2Ban, par utilisation répétée d'un mauvais mot de passe
