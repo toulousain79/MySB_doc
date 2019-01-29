@@ -2,7 +2,7 @@
 
 ## Plex - Ajout de vôtre SeedBox
 
-Ah, Plex, un grand sujet de discussion...  
+Ah, Plex, un grand sujet de discussion...
 J'ai eu beaucoup de demandes d'aide à ce sujet. Toutes avaient le même sujet, _"ça marche pas, je ne trouve pas mon serveur"_...
 
 Je vous propose donc 2 solutions, une très simple et une un peu moins.
@@ -81,18 +81,18 @@ A ce stade, vous devez vous connecter à vôtre compte Plex.
 
 ## Plex - Premiers pas
 
-Si vous voyez une page de ce genre, alors c'est très bon signe 😛   
+Si vous voyez une page de ce genre, alors c'est très bon signe 😛
 Cliquez sur **J'ai compris !**
 
 ![](../.gitbook/assets/plex_step_first.jpg)
 
-Si tout va bien, vous devriez avoir cette page indiquant qu'un serveur a été trouvé, avec son nom d'affiché _\(celui de vôtre SeedBox\)_.  
-Laissez la case cochée **M'autoriser à accéder à mes médias en dehors de ma maison**.  
+Si tout va bien, vous devriez avoir cette page indiquant qu'un serveur a été trouvé, avec son nom d'affiché _\(celui de vôtre SeedBox\)_.
+Laissez la case cochée **M'autoriser à accéder à mes médias en dehors de ma maison**.
 Puis cliquez sur **Suivant**.
 
 ![](../.gitbook/assets/plex_step_server_find.jpg)
 
-Maintenant, il vous est proposé d'ajouter des bibliothèques.  
+Maintenant, il vous est proposé d'ajouter des bibliothèques.
 Mais en verra cela plus loin, cliquez sur **Suivant**. Et dans la page suivante, cliquez sur **Terminé**.
 
 <table>
@@ -118,9 +118,9 @@ Mais en verra cela plus loin, cliquez sur **Suivant**. Et dans la page suivante,
       </td>
     </tr>
   </tbody>
-</table>Surprise !!!  
-Vôtre SeedBox a été ajoutée à vôtre compte Plex !!!!  
-Pouwwwaa, de la bombe ! 🤪   
+</table>Surprise !!!
+Vôtre SeedBox a été ajoutée à vôtre compte Plex !!!!
+Pouwwwaa, de la bombe ! 🤪
 Il ne reste plus qu'à ajouter vos bibliothèques.
 
 ![](../.gitbook/assets/plex_server_added.jpg)
@@ -135,15 +135,15 @@ Dans cet exemple, je vais restez dans la même logique que lors de l'ajout de no
 * Films mHD
 * Animation
 
-Cliquez sur **Ajouter une bibliothèque** dans la colonne de gauche.  
-Sélectionnez le **type** de la bibliothèque, **Films** pour notre exemple.  
+Cliquez sur **Ajouter une bibliothèque** dans la colonne de gauche.
+Sélectionnez le **type** de la bibliothèque, **Films** pour notre exemple.
 Renommez la bibliothèque en **Films HD** et sélectionnez la **langue générale** de vos films.
 
 Ensuite, cliquez sur **Ajouter des dossiers**, puis sur **Naviguer vers un dossier multimédia**. Cela affichera une fenêtre pour vous permettre de naviguer à l'intérieur de vôtre SeedBox.
 
 ![](../.gitbook/assets/plex_add_lib.jpg)
 
-Naviguez jusque dans le dossier /home/user/**rtorrent/complete**/.  
+Naviguez jusque dans le dossier /home/user/**rtorrent/complete**/.
 D'abord en cliquant sur **/** à gauche, puis sur **home** à droite.
 
 <table>
@@ -213,7 +213,7 @@ Maintenant, chaque fois que vous ajouterez un fichier dans Films\_HD, il appara�
 
 [Tautulli ](https://tautulli.com/)est bel outil plutôt pratique, permettant d'obtenir diverses informations et statistiques d'utilisation de Plex en temps réel.
 
-Ouvrez Tautulli puis identifiez-vous avec vos identifiants MySB. 
+Ouvrez Tautulli puis identifiez-vous avec vos identifiants MySB.
 
 ![](../.gitbook/assets/tautulli_first.jpg)
 
@@ -221,5 +221,4 @@ Quand vous apprendrez à utiliser correctement Tautulli, vous pourrez par exempl
 
 Pour ma part, j'ai créé des notifications e-mails, formatées par mes soins, pour que les utilisateurs de Plex sur mon serveur, soient informés de la mise à jour des bibliothèques.
 
-[Visualiser un exemple](https://mysb.gitbook.io/doc/v/v5.3_fr/les-mails/tautulli-bibliotheque-mise-a-jour)
-
+[Visualiser un exemple](https://mysb.gitbook.io/doc/v/v5.4_fr/les-mails/tautulli-bibliotheque-mise-a-jour)

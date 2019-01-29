@@ -1,12 +1,12 @@
 # Dossiers surveillés \(watch\)
 
-Pour ceux qui ne connaissent pas, le dossier **watch** est géré par rTorrent.  
-Ce dossier est surveillé continuellement par rTorrent pour vérifier la présence de nouveaux fichiers .torrent.  
+Pour ceux qui ne connaissent pas, le dossier **watch** est géré par rTorrent.
+Ce dossier est surveillé continuellement par rTorrent pour vérifier la présence de nouveaux fichiers .torrent.
 Chaque fichier .torrent ajouté ici, est alors aspiré par rTorrent pour lancer automatiquement le téléchargement de celui-ci.
 
 Dans MySB, cela va un plus loin grâce aux catégories que l'on ajoute via le portail.
 
-On va reprendre les exemples donnés dans le chapitre [Labels & Synchros](https://mysb.gitbook.io/doc/v/v5.3_fr/configuration/labels-and-synchros).  
+On va reprendre les exemples donnés dans le chapitre [Labels & Synchros](https://mysb.gitbook.io/doc/v/v5.4_fr/configuration/labels-and-synchros).
 Nous avons ajouté 4 catégories:
 
 1. Animation
@@ -50,11 +50,11 @@ Chacune de ces catégories sont maintenant présentes dans différents endroit d
       </td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="https://mysb.gitbook.io/doc/v/v5.3_fr/configuration/ftps-sftp">Accès FTPs/sFTP</a>
+      <td style="text-align:left"><a href="https://mysb.gitbook.io/doc/v/v5.4_fr/configuration/ftps-sftp">Accès FTPs/sFTP</a>
       </td>
-      <td style="text-align:left"><a href="https://mysb.gitbook.io/doc/v/v5.3_fr/configuration/openvpn">Accès OpenVPN</a>
+      <td style="text-align:left"><a href="https://mysb.gitbook.io/doc/v/v5.4_fr/configuration/openvpn">Accès OpenVPN</a>
       </td>
-      <td style="text-align:left"><a href="https://mysb.gitbook.io/doc/v/v5.3_fr/configuration/nextcloud">Accès NextCloud</a>
+      <td style="text-align:left"><a href="https://mysb.gitbook.io/doc/v/v5.4_fr/configuration/nextcloud">Accès NextCloud</a>
       </td>
     </tr>
   </tbody>

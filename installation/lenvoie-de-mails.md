@@ -2,21 +2,21 @@
 
 C'est un sujet récurrent pour beaucoup d'entre vous. Beaucoup me dise qu'ils ne reçoivent pas de mail à la fin de l'installation.
 
-Il peut y avoir beaucoup de raisons à cela.  
+Il peut y avoir beaucoup de raisons à cela.
 Les plus courantes rencontrées sont les suivantes:
 
 ## Utilisation de la configuration LOCAL
 
-Dans ce cas, c'est vôtre serveur qui enverra tous les mails directement vers vôtre adresse e-mail. Cependant, dans une majorité de cas, les mails seront probablement identifiés comme SPAM.  
-Beaucoup d'entre vous laissez le nom d'hôte par défaut attribué par l'hébergeur.  
-Et ceci peu poser problème.  
+Dans ce cas, c'est vôtre serveur qui enverra tous les mails directement vers vôtre adresse e-mail. Cependant, dans une majorité de cas, les mails seront probablement identifiés comme SPAM.
+Beaucoup d'entre vous laissez le nom d'hôte par défaut attribué par l'hébergeur.
+Et ceci peu poser problème.
 Pensez à vérifier vôtre dossier SPAM dans vôtre boîte mail.
 
 ## Utilisation de la configuration GMAIL, YAHOO, ...
 
-Dans cette situation, ce n'est pas compliqué. A chaque fois il s'agit d'une erreur de saisie identifiant/mot de passe...  
-Veillez donc à bien saisir vos identifiants 🧐   
-Vous pouvez modifier vos identifiants via le portail MySB dans le menu **Admin** &gt; **SMTP**.  
+Dans cette situation, ce n'est pas compliqué. A chaque fois il s'agit d'une erreur de saisie identifiant/mot de passe...
+Veillez donc à bien saisir vos identifiants 🧐
+Vous pouvez modifier vos identifiants via le portail MySB dans le menu **Admin** &gt; **SMTP**.
 Pour mémo, l'adresse du portail sera formée comme suit:
 
 {% hint style="info" %}
@@ -39,10 +39,9 @@ Ici, nous voyons que l'erreur est **SASL authentication failed**.
 
 Si votre mot de passe est pourtant correct, 2 possibilités sont possibles dans la configuration de vôtre compte **Gmail**.
 
-1. Autoriser les applications moins sécurisées à pouvoir se connecter _\(cf._ [_Pré-requis_](https://mysb.gitbook.io/doc/~/edit/drafts/-LS9xi-gc9Grq6Zkdqn7/v/v5.3_fr/installation/pre-requis#mails)_\)_
-2. Générer un mot de passe pour vos applications, partie sécurité **Validation en 2 étapes** _\(cf._ [_Pré-requis_](https://mysb.gitbook.io/doc/v/v5.3_fr/installation/pre-requis#gmail)_\)_
+1. Autoriser les applications moins sécurisées à pouvoir se connecter _\(cf._ [_Pré-requis_](https://mysb.gitbook.io/doc/~/edit/drafts/-LS9xi-gc9Grq6Zkdqnv5.4_fr3_fr/installation/pre-requis#mails)_\)_
+2. Générer un mot de passe pour vos applications, partie sécurité **Validation en 2 étapes** _\(cf._ [_Pré-requis_](https://mysb.gitbook.io/v5.4_fr5.3_fr/installation/pre-requis#gmail)_\)_
 
 ## Autres cas
 
-Dans d'autres situations, c'est qu'il y a eu un problème lors de l'installation... 😏 
-
+Dans d'autres situations, c'est qu'il y a eu un problème lors de l'installation... 😏

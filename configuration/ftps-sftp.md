@@ -2,12 +2,12 @@
 
 ## FTPs ou sFTP ?
 
-Le sFTP est un protocole de FTP encapsulé dans un tunnel SSH. _\(Il utilise par défaut le port 22\)_.  
+Le sFTP est un protocole de FTP encapsulé dans un tunnel SSH. _\(Il utilise par défaut le port 22\)_.
 Le FTPs est aussi un protocole FTP mais sécurisé avec un cryptage SSL/TSL. _\(Le port par défaut est le 990\)_.
 
 Ces méthodes de connexion sont sécurisées toutes les 2, mais chiffrées différemment.
 
-Les débits en téléchargement sont sensiblement les mêmes.  
+Les débits en téléchargement sont sensiblement les mêmes.
 La sélection pour l'un ou l'autre reste un choix personnel.
 
 ## FileZilla - Configuration
@@ -60,7 +60,7 @@ Les 2 dossiers les plus utiles sont **scripts** et **rtorrent**.
 
 ### Dossier scripts
 
-Si vous décidez d'utiliser les [Labels et Synchros](https://mysb.gitbook.io/doc/v/v5.3_fr/configuration/labels-and-synchros), vous aimerez peut-être utiliser vos propres scripts. C'est dans ce dossier que vous les enverrez.
+Si vous décidez d'utiliser les [Labels et Synchros](https://mysb.gitbook.io/doc/v/v5.4_fr/configuration/labels-and-synchros), vous aimerez peut-être utiliser vos propres scripts. C'est dans ce dossier que vous les enverrez.
 
 ### Dossier rtorrent
 
@@ -72,4 +72,3 @@ Comme vous l'aurez compris, le dossier rtorrent est dédié à l'exploitation de
 * /home/user/rtorrent/share/ Emplacement dédié au partage avec les autres utilisateurs, tout le monde a accès à ce dossier.
 
 Vous pouvez donc envoyer vos fichiers torrent dans le dossier **watch**, puis dans le sous-dossier lié à la catégorie que vous aurez créée.
-
