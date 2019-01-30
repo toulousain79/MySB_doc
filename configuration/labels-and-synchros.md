@@ -2,8 +2,7 @@
 
 ## Intérêts des labels
 
-Les labels _\(ou catégories\)_ permettent d'organiser vos téléchargements par catégories pour rTorrent et ruTorrent. Des classements par type de fichier ou type de films par exemple.
-Cela créera des dossiers aux noms de vos labels dans différents endroits de vôtre SeedBox:
+Les labels _\(ou catégories\)_ permettent d'organiser vos téléchargements par catégories pour rTorrent et ruTorrent. Des classements par type de fichier ou type de films par exemple. Cela créera des dossiers aux noms de vos labels dans différents endroits de vôtre SeedBox:
 
 * /home/user/rtorrent/**complete**/ Emplacement définitif de vos fichiers terminés;
 * /home/user/rtorrent/**torrents**/ Emplacement de "sauvegarde" de vos fichiers .torrent envoyés dans les dossiers "watch";
@@ -18,10 +17,9 @@ Le fonctionnement est simple. En prenant en exemple une catégorie nommée **Fil
 * /home/user/rtorrent/**complete**/**Films\_HD**/
 * /home/user/rtorrent/**torrents**/**Films\_HD**/
 * /home/user/rtorrent/**watch**/**Films\_HD**/
-
-1. On envoie un fichier .torrent dans le dossier /home/user/rtorrent/**watch/Films\_HD**/;
-2. Le téléchargement se lance, et le fichier téléchargé se retrouve dans /home/user/rtorrent/**complete/Films\_HD**/;
-3. Le fichier .torrent envoyé dans /home/user/rtorrent/watch/Films\_HD/ et ensuite déplacé dans /home/user/rtorrent/**torrents/Films\_HD**/.
+* On envoie un fichier .torrent dans le dossier /home/user/rtorrent/**watch/Films\_HD**/;
+* Le téléchargement se lance, et le fichier téléchargé se retrouve dans /home/user/rtorrent/**complete/Films\_HD**/;
+* Le fichier .torrent envoyé dans /home/user/rtorrent/watch/Films\_HD/ et ensuite déplacé dans /home/user/rtorrent/**torrents/Films\_HD**/.
 
 Si jamais un mode de synchronisation est affecté à cette catégorie, alors le fichier téléchargé sera envoyé vers la destination de vôtre choix. Soit immédiatement une fois le fichier téléchargé, soit de manière programmée à une heure que vous aurez déterminée.
 
@@ -39,8 +37,7 @@ Rendez-vous dans vôtre menu utilisateur.
 
 ![](../.gitbook/assets/menu_user_labels.jpg)
 
-Vous pouvez ajouter jusqu'à 5 catégories à la fois en cliquant sur **Ajouter une catégorie**.
-Donnez un nom à toutes vos catégories et sélectionnez un type de synchronisation à chacune d'elles. Pour le nommage, les accents et les espaces sont autorisés lors de la saisie. Mais au final, l'accentuation sera supprimée et les espace remplacés par des des **tirais bas** _\(\_\)_.
+Vous pouvez ajouter jusqu'à 5 catégories à la fois en cliquant sur **Ajouter une catégorie**. Donnez un nom à toutes vos catégories et sélectionnez un type de synchronisation à chacune d'elles. Pour le nommage, les accents et les espaces sont autorisés lors de la saisie. Mais au final, l'accentuation sera supprimée et les espace remplacés par des des **tirais bas** _\(\_\)\_.
 
 Une fois vos catégories ajoutées, cliquez sur **Sauvegarder les modifications**.
 
@@ -55,11 +52,9 @@ Si vous avez sélectionné **Synchronisation programmée** ou **Synchronisation 
 
 ### Crontab / Scripts à utiliser
 
-Ici, on sélectionne les scripts à utiliser pour vos synchronisations. Un script différent peut être utiliser pour les synchronisations programmées et directes.
-Un script est déjà proposé remplissant déjà les besoins principaux. Toutefois, vous avez la possibilité d'ajouter tous les scripts que vous désirez dans le dossier **/home/user/scripts/** 🙂
+Ici, on sélectionne les scripts à utiliser pour vos synchronisations. Un script différent peut être utiliser pour les synchronisations programmées et directes. Un script est déjà proposé remplissant déjà les besoins principaux. Toutefois, vous avez la possibilité d'ajouter tous les scripts que vous désirez dans le dossier **/home/user/scripts/** 🙂
 
-Le script par défaut est **synchro.sh**.
-Pour l'exemple, j'ai ajouté le script **mon\_script\_perso.sh**.
+Le script par défaut est **synchro.sh**. Pour l'exemple, j'ai ajouté le script **mon\_script\_perso.sh**.
 
 ![](../.gitbook/assets/synchro_scripts.jpg)
 
@@ -69,32 +64,13 @@ Pour les synchronisations programmées, il est possible d'affecter autant de pro
 
 Comme nous avons ajouté un second script, nous avons pu ajouter une première programmation. Et nous pouvons en ajouter une seconde, en utilisant le second script.
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">
-        <p></p>
-        <p>
-          <img src="../.gitbook/assets/synchro_multi_script.jpg" alt/>
-        </p>
-      </td>
-      <td style="text-align:left">
-        <p></p>
-        <p>
-          <img src="../.gitbook/assets/synchro_multi_script_added.jpg" alt/>
-        </p>
-      </td>
-    </tr>
-  </tbody>
-</table>Ci-dessus, nous pouvons donc constater 2 planifications.
-Une première qui sera lancée tous les jours à **0h30** et qui utilisera le script **synchro.sh**.
-Et une seconde qui sera lancée tous les jours à **12h30** et qui utilisera le script **mon\_script\_perso.sh**.
+|  |  |
+| :--- | :--- |
+
+
+| ![](../.gitbook/assets/synchro_multi_script.jpg) | ![](../.gitbook/assets/synchro_multi_script_added.jpg) |
+| :--- | :--- |
+
 
 {% hint style="info" %}
 _**NOTE**: Veillez à ne pas supprimer ou renommer le script par défaut **synchro.sh**. Celui-ci sera restauré à chaque redémarrage de rTorrent._
@@ -140,25 +116,19 @@ Il est possible de choisir la quantité de fichiers à envoyer. Si vous sélecti
 
 #### Sous-dossier
 
-Permet de créer un dossier au nom de vôtre fichier.
-Il arrive que certains téléchargements soit un fichier unique. Parfois, certains téléchargement contiennent plusieurs fichiers contenus dans un dossier parent.
-En activant cette option, si vôtre téléchargement est un fichier unique, alors un dossier parent sera créé dans la destination, et le fichier unique sera stocké dedans.
-Certains lecteurs multimédia fonctionnent ainsi pour pouvoir détecter un film.
+Permet de créer un dossier au nom de vôtre fichier. Il arrive que certains téléchargements soit un fichier unique. Parfois, certains téléchargement contiennent plusieurs fichiers contenus dans un dossier parent. En activant cette option, si vôtre téléchargement est un fichier unique, alors un dossier parent sera créé dans la destination, et le fichier unique sera stocké dedans. Certains lecteurs multimédia fonctionnent ainsi pour pouvoir détecter un film.
 
 #### Sujet du mail pour une synchronisation réussie
 
-A chaque synchronisation réussie, vous recevrez un mail récapitulatif correspondant au transfert.
-Vous pouvez choisir ici le sujet du mail.
+A chaque synchronisation réussie, vous recevrez un mail récapitulatif correspondant au transfert. Vous pouvez choisir ici le sujet du mail.
 
 #### Sujet du mail pour une synchronisation échouée
 
-Même chose, à chaque synchronisation échouée, un mail vous sera envoyé.
-Vous pouvez choisir ici le sujet du mail.
+Même chose, à chaque synchronisation échouée, un mail vous sera envoyé. Vous pouvez choisir ici le sujet du mail.
 
 ### Finalisation
 
-Maintenant que tous les champs sont renseignés, vous pouvez cliquer sur **Sauvegarder les modifications**, puis sur **Appliquer les modifications**.
-A partir de là, toutes vos catégories seront créées là où il faut et vous serez prêt à utiliser vôtre SeedBox.
+Maintenant que tous les champs sont renseignés, vous pouvez cliquer sur **Sauvegarder les modifications**, puis sur **Appliquer les modifications**. A partir de là, toutes vos catégories seront créées là où il faut et vous serez prêt à utiliser vôtre SeedBox.
 
 ## Suppression d'une catégorie
 
@@ -177,3 +147,4 @@ _**NOTE**: Seule une catégorie vide pourra être supprimée. C'est à dire qu'i
 On peut-d'ailleurs constater le résultat de l'option **Sous-dossier** grâce aux lignes **From** et **To**. Le fichier téléchargé et présent sur le serveur _\(**From**\)_, est un fichier unique, directement stocké à la racine de la catégorie **Films\_HD**. Grâce à l'option **Sous-dossier**, le script **synchro.sh** crée un dossier du même nom dans la destination _\(**To**\)_.
 
 [Visualiser l'exemple](https://mysb.gitbook.io/doc/v/v5.4_fr/les-mails/transfert-termine)
+

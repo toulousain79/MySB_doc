@@ -2,22 +2,15 @@
 
 C'est un sujet récurrent pour beaucoup d'entre vous. Beaucoup me dise qu'ils ne reçoivent pas de mail à la fin de l'installation.
 
-Il peut y avoir beaucoup de raisons à cela.
-Les plus courantes rencontrées sont les suivantes:
+Il peut y avoir beaucoup de raisons à cela. Les plus courantes rencontrées sont les suivantes:
 
 ## Utilisation de la configuration LOCAL
 
-Dans ce cas, c'est vôtre serveur qui enverra tous les mails directement vers vôtre adresse e-mail. Cependant, dans une majorité de cas, les mails seront probablement identifiés comme SPAM.
-Beaucoup d'entre vous laissez le nom d'hôte par défaut attribué par l'hébergeur.
-Et ceci peu poser problème.
-Pensez à vérifier vôtre dossier SPAM dans vôtre boîte mail.
+Dans ce cas, c'est vôtre serveur qui enverra tous les mails directement vers vôtre adresse e-mail. Cependant, dans une majorité de cas, les mails seront probablement identifiés comme SPAM. Beaucoup d'entre vous laissez le nom d'hôte par défaut attribué par l'hébergeur. Et ceci peu poser problème. Pensez à vérifier vôtre dossier SPAM dans vôtre boîte mail.
 
 ## Utilisation de la configuration GMAIL, YAHOO, ...
 
-Dans cette situation, ce n'est pas compliqué. A chaque fois il s'agit d'une erreur de saisie identifiant/mot de passe...
-Veillez donc à bien saisir vos identifiants 🧐
-Vous pouvez modifier vos identifiants via le portail MySB dans le menu **Admin** &gt; **SMTP**.
-Pour mémo, l'adresse du portail sera formée comme suit:
+Dans cette situation, ce n'est pas compliqué. A chaque fois il s'agit d'une erreur de saisie identifiant/mot de passe... Veillez donc à bien saisir vos identifiants 🧐 Vous pouvez modifier vos identifiants via le portail MySB dans le menu **Admin** &gt; **SMTP**. Pour mémo, l'adresse du portail sera formée comme suit:
 
 {% hint style="info" %}
 **https**://server.domain.com:**8189**/
@@ -45,3 +38,4 @@ Si votre mot de passe est pourtant correct, 2 possibilités sont possibles dans 
 ## Autres cas
 
 Dans d'autres situations, c'est qu'il y a eu un problème lors de l'installation... 😏
+

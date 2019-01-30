@@ -10,8 +10,7 @@ Si une mise à jour est disponible, vous recevrez un mail sans contenu vous l'in
 _**NOTE**: Prévoyez le bon moment pour appliquer une mise à jour. Selon les modifications à apporter, cela peut prendre du temps. Les service de vôtre SeedBox seront alors indisponibles durant se laps de temps._
 {% endhint %}
 
-Si une nouvelle version est disponible, vous pouvez procéder à son application.
-Connectez-vous en SSH en **ROOT** à votre serveur, et lancez la commande suivante:
+Si une nouvelle version est disponible, vous pouvez procéder à son application. Connectez-vous en SSH en **ROOT** à votre serveur, et lancez la commande suivante:
 
 `MySB_UpgradeMe`
 
@@ -21,8 +20,7 @@ Vous obtiendrez quelque chose comme ça:
 
 Pour continuer et appliquer la mise à jour, tapez **oui**.
 
-Une sauvegarde avec Backup-Manager est lancée, sauvegardant les configurations de Tautulli, Plex Media Server, et générant une archive des dossiers d'installation de MySB **/etc/MySB** et **/opt/MySB**.
-Un nettoyage est également lancé pour supprimer certains fichiers temporaires, les sources temporaires de certaines applications, et un nettoyage Git de MySB.
+Une sauvegarde avec Backup-Manager est lancée, sauvegardant les configurations de Tautulli, Plex Media Server, et générant une archive des dossiers d'installation de MySB **/etc/MySB** et **/opt/MySB**. Un nettoyage est également lancé pour supprimer certains fichiers temporaires, les sources temporaires de certaines applications, et un nettoyage Git de MySB.
 
 A la suite de ça, quelques questions vous seront posées.
 
@@ -64,16 +62,13 @@ Dès que vous aurez répondu aux questions, la mise à jour se lancera.
 
 ![](../.gitbook/assets/upgrade_progress.jpg)
 
-Durant une mise à jour, l'accès au portail est bloqué.
-Une page d'excuse est affichée à la place.
+Durant une mise à jour, l'accès au portail est bloqué. Une page d'excuse est affichée à la place.
 
 ![](../.gitbook/assets/upgrade_wip_page.jpg)
 
-De la même manière qu'une installation normale, le serveur redémarrera à la fin de la mise à jour.
-Mais contrairement à une installation, la mise à jour continuera à la fin de redémarrage du serveur pour terminer certaines étapes.
-Ces étapes restent transparentes et assez rapides.
-L'étape la plus importante est la fin de la mise à jour de NextCloud _\(s'il y en a une\)_.
+De la même manière qu'une installation normale, le serveur redémarrera à la fin de la mise à jour. Mais contrairement à une installation, la mise à jour continuera à la fin de redémarrage du serveur pour terminer certaines étapes. Ces étapes restent transparentes et assez rapides. L'étape la plus importante est la fin de la mise à jour de NextCloud _\(s'il y en a une\)_.
 
 ![](../.gitbook/assets/upgrade_reboot.jpg)
 
 Vous recevrez alors un [mail de confirmation de ce type](https://mysb.gitbook.io/doc/v/v5.4_fr/les-mails/mise-a-jour-terminee).
+
