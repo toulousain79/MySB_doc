@@ -124,8 +124,9 @@ Naviguez jusque dans le dossier /home/user/**rtorrent/complete**/. D'abord en cl
         <img src="../.gitbook/assets/plex_nav_category.jpg" alt/>
       </th>
       <th style="text-align:left">
-        <p>Et là, miracle, on retrouve nos catégories ajoutées plus tôt dans le portail.</p>
-        <p>Cliquez sur <b>Films_HD</b> pour continuer l'exemple, puis sur <b>Ajouter</b>.</p>
+        <p>Et l&#xE0;, miracle, on retrouve nos cat&#xE9;gories ajout&#xE9;es plus
+          t&#xF4;t dans le portail.</p>
+        <p>Cliquez sur <b>Films_HD</b> pour continuer l&apos;exemple, puis sur <b>Ajouter</b>.</p>
       </th>
     </tr>
   </thead>

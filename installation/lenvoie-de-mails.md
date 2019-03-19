@@ -32,8 +32,8 @@ Ici, nous voyons que l'erreur est **SASL authentication failed**.
 
 Si votre mot de passe est pourtant correct, 2 possibilités sont possibles dans la configuration de vôtre compte **Gmail**.
 
-1. Autoriser les applications moins sécurisées à pouvoir se connecter _\(cf._ [_Pré-requis_](https://mysb.gitbook.io/doc/~/edit/drafts/-LS9xi-gc9Grq6Zkdqnv5.4_fr3_fr/installation/pre-requis#mails)_\)_
-2. Générer un mot de passe pour vos applications, partie sécurité **Validation en 2 étapes** _\(cf._ [_Pré-requis_](https://mysb.gitbook.io/v5.4_fr5.3_fr/installation/pre-requis#gmail)_\)_
+1. Autoriser les applications moins sécurisées à pouvoir se connecter _\(cf._ [_Pré-requis_](https://mysb.gitbook.io/doc/installation/pre-requis#gmail)_\)_
+2. Générer un mot de passe pour vos applications, partie sécurité **Validation en 2 étapes** _\(cf._ [_Pré-requis_](https://mysb.gitbook.io/doc/installation/pre-requis#gmail)_\)_
 
 ## Autres cas
 
