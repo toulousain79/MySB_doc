@@ -193,9 +193,10 @@ D'abord en cliquant sur **/** à gauche, puis sur **home** à droite.
         </p>
       </td>
       <td style="text-align:left">
-        <p>Et là, miracle, on retrouve nos catégories ajoutées plus tôt dans le portail.</p>
+        <p>Et l&#xE0;, miracle, on retrouve nos cat&#xE9;gories ajout&#xE9;es plus
+          t&#xF4;t dans le portail.</p>
         <p></p>
-        <p>Cliquez sur <b>Films_HD</b> pour continuer l'exemple, puis sur <b>Ajouter</b>.</p>
+        <p>Cliquez sur <b>Films_HD</b> pour continuer l&apos;exemple, puis sur <b>Ajouter</b>.</p>
       </td>
     </tr>
   </tbody>

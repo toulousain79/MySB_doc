@@ -50,11 +50,11 @@ Chacune de ces catégories sont maintenant présentes dans différents endroit d
       </td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="https://mysb.gitbook.io/doc/v/v5.3_fr/configuration/ftps-sftp">Accès FTPs/sFTP</a>
+      <td style="text-align:left"><a href="https://mysb.gitbook.io/doc/v/v5.3_fr/configuration/ftps-sftp">Acc&#xE8;s FTPs/sFTP</a>
       </td>
-      <td style="text-align:left"><a href="https://mysb.gitbook.io/doc/v/v5.3_fr/configuration/openvpn">Accès OpenVPN</a>
+      <td style="text-align:left"><a href="https://mysb.gitbook.io/doc/v/v5.3_fr/configuration/openvpn">Acc&#xE8;s OpenVPN</a>
       </td>
-      <td style="text-align:left"><a href="https://mysb.gitbook.io/doc/v/v5.3_fr/configuration/nextcloud">Accès NextCloud</a>
+      <td style="text-align:left"><a href="https://mysb.gitbook.io/doc/v/v5.3_fr/configuration/nextcloud">Acc&#xE8;s NextCloud</a>
       </td>
     </tr>
   </tbody>
