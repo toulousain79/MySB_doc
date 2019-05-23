@@ -40,6 +40,8 @@ Pour créer un tunnel SSH en ligne de commande, tapez ceci:
 ssh -p 8192 root@demo-mysb.dyndns.org -L 8888:localhost:32400
 ```
 
+Vous devez maintenant vous identifier normalement, ici avec le compte **root**.
+
 {% hint style="info" %}
 Où **8192** correspond au port SSH de vôtre serveur. Remplacez-le si vous en avez mis un autre.
 
@@ -69,13 +71,15 @@ Lancez Putty ou Kitty et suivez ceci:
 | :--- | :--- |
 
 
-![](../.gitbook/assets/plex_with_tunnel.jpg)
+Vous devez maintenant vous identifier normalement, ici avec le compte **root**.
 
 ## Plex - Premiers pas
 
 Maintenant que le tunnel SSH est créé, ouvrez un navigateur et saisissez l'URL suivante:
 
-**http://localhost:8888/web**
+{% embed url="http://localhost:8888/web" %}
+
+![](../.gitbook/assets/plex_with_tunnel.jpg)
 
 A ce stade, vous devez vous connecter à vôtre compte Plex.
 
@@ -103,6 +107,10 @@ Maintenant, il vous est proposé d'ajouter des bibliothèques. Mais en verra cel
 ![](../.gitbook/assets/plex_server_added.jpg)
 
 En gros, les catégories que vous avez créées dans le portail MySB peuvent correspondre aux bibliothèques dans Plex.
+
+{% hint style="info" %}
+_**NOTE:** Si vous avez créé un tunnel SSH, une fois vôtre serveur lié à vôtre compte Plex, vous pouvez vous déconnecter de la session SSH qui a été ouverte en créant le tunnel._
+{% endhint %}
 
 ## Plex - Ajouter des bibliothèques
 
