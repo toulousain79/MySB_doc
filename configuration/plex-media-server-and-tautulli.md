@@ -4,12 +4,16 @@
 
 Ah, Plex, un grand sujet de discussion... J'ai eu beaucoup de demandes d'aide à ce sujet. Toutes avaient le même sujet, _"ça marche pas, je ne trouve pas mon serveur"_...
 
-Je vous propose donc 2 solutions, une très simple et une un peu moins.
+Je vous propose donc 3 solutions, une très simple et les 2 autres, ben ça dépendra de vous ;-\)
 
-Pour une première tentative de configuration, on commencera par la plus simple.
+Pour une première tentative de configuration, on commencera par la plus simple, via le portail MySB.
+
+Nous devons créer un tunnel SSH pour simuler que vôtre serveur plex est installé sur vôtre machine locale et non sur un serveur distant.
 
 {% hint style="info" %}
 _**NOTE**: Vous devrez préalablement vous créer un compte sur_ [_Plex.tv_](https://www.plex.tv/) _en cliquant sur **Sign Up**, en haut à droite._
+
+_**NOTE:** La création d'un tunnel SSH n'est à faire **qu'une seule fois**, pour relier vôtre nouveau serveur à vôtre compte Plex._
 {% endhint %}
 
 ### Via le portail MySB
@@ -27,6 +31,20 @@ Vous devrez vous reconnecter à MySB avec vos informations d'identification avan
 A ce stade, vous devez vous connecter à vôtre compte Plex.
 
 ![](../.gitbook/assets/plex_authent.jpg)
+
+### Via un tunnel SSH en ligne de commande
+
+Pour créer un tunnel SSH en ligne de commande, tapez ceci:
+
+```text
+ssh -p 8192 root@demo-mysb.dyndns.org -L 8888:localhost:32400
+```
+
+{% hint style="info" %}
+Où **8192** correspond au port SSH de vôtre serveur. Remplacez-le si vous en avez mis un autre.
+
+Où **demo-mysb.dyndns.org** correspond à l'adresse IP ou le nom d'hôte de vôtre serveur, donc à remplacer en conséquence.
+{% endhint %}
 
 ### Via un tunnel SSH _\(Putty / Kitty\)_
 
@@ -47,23 +65,24 @@ Lancez Putty ou Kitty et suivez ceci:
 4. Cliquez sur **Open** pour démarrer le tunnel SSH;
 5. Authentifiez-vous sur vôtre SeedBox avec le compte ROOT, et laissez la fenêtre SSH ouverte.
 
-|  |  |
-| :--- | :--- |
-
-
 | ![](../.gitbook/assets/tunnel_kitty_tunnels.jpg) | ![](../.gitbook/assets/tunnel_kitty_start.jpg) |
 | :--- | :--- |
 
 
 ![](../.gitbook/assets/plex_with_tunnel.jpg)
 
+## Plex - Premiers pas
+
+Maintenant que le tunnel SSH est créé, ouvrez un navigateur et saisissez l'URL suivante:
+
+**http://localhost:8888/web**
+
 A ce stade, vous devez vous connecter à vôtre compte Plex.
 
 ![](../.gitbook/assets/plex_authent.jpg)
 
-## Plex - Premiers pas
-
-Si vous voyez une page de ce genre, alors c'est très bon signe 😛 Cliquez sur **J'ai compris !**
+Si vous voyez une page de ce genre, alors c'est très bon signe 😛   
+Cliquez sur **J'ai compris !**
 
 ![](../.gitbook/assets/plex_step_first.jpg)
 
