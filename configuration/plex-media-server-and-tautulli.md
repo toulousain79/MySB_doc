@@ -32,7 +32,7 @@ A ce stade, vous devez vous connecter à vôtre compte Plex.
 
 ![](../.gitbook/assets/plex_authent.jpg)
 
-### Via un tunnel SSH en ligne de commande
+### Via un tunnel SSH en ligne de commande _\(Mac, Linux\)_
 
 Pour créer un tunnel SSH en ligne de commande, tapez ceci:
 
