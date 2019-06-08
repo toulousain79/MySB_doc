@@ -14,7 +14,7 @@ La **mémoire**, 4 Go ça peut le faire, **8 Go** étant un minimum selon moi, s
 Le **système**, Debian 9 _\(Strectch\)_ avec le _**noyau par défaut**_ de Debian, un accès **ROOT** et rien d'autre.
 
 L' **espace disque**, ben là, je dois dire que je m'en fout un peu, c'est vôtre problème 😉   
-Cela dit, un minimum vital de **4 Go** pour permettre l’installation de MySB.  
+Cela dit, un minimum vital de **6 Go** pour permettre l’installation de MySB, **10 Go** recommandés.  
 Il est possible de prendre des serveurs dédiés avec 2 disques pour faire du RAID0.  
 Pour un serveur de 2 disques de 3 To, un RAID0 vous donnera 6 To. Mais en faisant cela, je vise plutôt l'accès disque _\(lecture + écriture\)_ qui sera doublé. Le RAID0 peut-être dangereux, car si un disque lâche, on perd toutes les données...  
 Je me dis que ces serveurs se trouvent dans des sales blanches, protégés comme il le faut _\(normalement\),_ en tout cas mieux qu'à la maison. C'est également un choix que de choisir des disques **Entreprise** lors de l'acquisition d'un serveur, étant plus fiables. Et je dois dire que les données stockées ne sont pas vitales...
