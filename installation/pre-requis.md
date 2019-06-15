@@ -1,5 +1,14 @@
 # Pré-requis
 
+## Nom d'hôte / Hostname / FQDN
+
+Il est impératif que vous disposiez d'un nom d'hôte valide pour vôtre serveur, notamment pour un serveur dédié.
+
+Tous les hébergeurs, en majorité, je pense, en fournissant par défaut lors de la livraison.  
+Cependant, selon la méthode d'installation mis à disposition de l'hébergeur, il arrive parfois que ce nom d'hôte ne soit pas valide. C'est le cas avec Hetzner avec la méthode d'installation **Mode Rescue** + **installimage**.
+
+A vous de vous en procurer un. Vous n'avez pas de domaine ? Alors utilisez No-IP ou un équivalent par exemple.
+
 ## Matériel
 
 Je sais que l'idée de prendre le serveur le moins cher possible compte. Il n'y a pas vraiment de configuration matériel à proprement parlé. C'est à vous de déterminer ce qu'il vous faut.
