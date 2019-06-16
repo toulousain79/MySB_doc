@@ -33,8 +33,6 @@ Chacune des listes présentes, dispose d'un lien pointant sa description sur le 
 Pour activer/désactiver une liste, sélectionnez **Oui** ou **Non** dans la colonne **Actif ?**.  
 Cliquez sur **Sauvegarder les modifications**, puis **Appliquer les modifications**.
 
-![](../.gitbook/assets/blocklists_change.jpg)
-
 {% hint style="info" %}
 Si vous avez un doute quant au choix des listes à activer, alors laissez celles par défaut.
 {% endhint %}

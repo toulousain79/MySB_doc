@@ -11,8 +11,6 @@ Les identifiants sont ceux du compte principal.
 
 Activez/désactivez les options que vous souhaitez.
 
-![](../.gitbook/assets/options_system.jpg)
-
 ## PeerGuardian
 
 ### Statistiques
