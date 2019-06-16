@@ -10,8 +10,6 @@ Vous devrez vous identifier pour accéder à toute page réservée au compte pri
 
 Activez/désactivez les options que vous souhaitez.
 
-![](../.gitbook/assets/options_system.jpg)
-
 ## PeerGuardian
 
 ### Statistiques
