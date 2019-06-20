@@ -90,7 +90,7 @@ Techniquement c'est possible, je détaillerai plus tard comment procéder.
 
 #### Vôtre adresse IP a changé et vous n'êtes plus autorisé à vous connecter.
 
-Dans chacun des mails envoyés par MySB, vous disposez d'un lien permettant de forcer l'ajout d'une nouvelle adresse IP.  
+Dans chacun des mails envoyés par MySB _\(contenant MySB dans l'objet...\)_, vous disposez d'un lien permettant de forcer l'ajout d'une nouvelle adresse IP.  
 Vous devrez vous identifier pour pouvoir en ajouter une nouvelle.
 
 ![](../.gitbook/assets/mail_force_ip.jpg)
