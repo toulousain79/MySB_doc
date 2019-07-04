@@ -10,6 +10,9 @@ Je ne me souviens pas de tout le monde en 4 ans, mais les principaux sont là.
 * Xavier84 _\(_[_RatXaBox_](https://github.com/xavier84/RatXaBox)_\)_
 * Darkspace _\(_[_GitHub_](https://github.com/Darkspac3)_\)_
 * Cayenne
+* Carbone78
+* shaine
+* crzay42
 
 Merci ;-\)
 

@@ -26,7 +26,7 @@ Active ou non la réception des rapports e-mails des tentatives de connexions à
 
 Active ou non la réception des e-mails du watchdog de PeerGuardian, à savoir, si PeerGuardian est arrêté alors qu'il ne devrait pas l'être. Vous devriez laisser cette option active.
 
-### IPtables
+## IPtables
 
 Active ou non la restriction par adresse IP à vôtre serveur. Si désactivée, alors les adresses ajoutées manuellement ne seront pas prises en compte et tout le monde aura la possibilité de se connecter à vôtre serveur.
 
@@ -101,6 +101,27 @@ Je prends l'exemple de YGG. Certains torrents provenant de ce tracker dispose d'
 Tandis que d'autres torrents sont constitués d'une multitudes d'annonceurs provenant de n'importe où dans le monde. Je trouve cela gênant, surtout si l'un de ces annonceurs devrait être bloqué par PeerGuardian.
 
 Ce paramètre permet donc de désactiver automatiquement tous les annonceurs officieux dont l'adresse IP ferait partie d'une liste de blocage.
+
+## Torrents
+
+### Filtrage des torrents
+
+Active ou non le filtrage de tous les annonceurs présents dans un .torrent ajouté par n'importe quel utilisateur.
+
+Le filtrage consiste à vérifier chaque annonceur en effectuant divers vérifications telles que:
+
+* un nslookup pour récupérer toutes les adresses IP liées à l'annonceur
+* vérification de toutes les adresses IP trouvées en faisant un ping et une vérification d'une éventuelle présence dans une liste de blocage. Les IP appartenant à une liste peuvent être bloquées automatiquement \(cf. chapitre [Auto blocks annonceurs](options-systemes.md#auto-blocks-annonceurs)\).
+* une tentative de récupération d'un éventuel certificat SSL
+
+{% hint style="info" %}
+_Il est conseillé de laisser cette fonction activée.  
+La mécanique a été pensée pour tourner en tâche de fond, ne bloquant pas l'ajout de nouveaux .torrent._
+{% endhint %}
+
+### Gestion de l'UDP
+
+Active ou non la prise en charge des annonceurs en UDP _\(Defaut: **Non**\)_.
 
 ## OpenVPN
 

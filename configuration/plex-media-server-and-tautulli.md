@@ -48,6 +48,12 @@ Où **8192** correspond au port SSH de vôtre serveur. Remplacez-le si vous en a
 Où **demo-mysb.dyndns.org** correspond à l'adresse IP ou le nom d'hôte de vôtre serveur, donc à remplacer en conséquence.
 {% endhint %}
 
+Maintenant que le tunnel SSH est créé, ouvrez un navigateur et saisissez l'URL suivante:
+
+{% embed url="http://localhost:8888/web" caption="" %}
+
+![](../.gitbook/assets/plex_with_tunnel.jpg)
+
 ### Via un tunnel SSH _\(Putty / Kitty\)_
 
 Lancez Putty ou Kitty et suivez ceci:
@@ -73,13 +79,13 @@ Lancez Putty ou Kitty et suivez ceci:
 
 Vous devez maintenant vous identifier normalement, ici avec le compte **root**.
 
-## Plex - Premiers pas
-
 Maintenant que le tunnel SSH est créé, ouvrez un navigateur et saisissez l'URL suivante:
 
 {% embed url="http://localhost:8888/web" caption="" %}
 
 ![](../.gitbook/assets/plex_with_tunnel.jpg)
+
+## Plex - Premiers pas
 
 A ce stade, vous devez vous connecter à vôtre compte Plex.
 

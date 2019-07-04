@@ -29,6 +29,14 @@
 * [Let's go !](installation/lets-go.md)
 * [Mise à jour](installation/mise-a-jour.md)
 
+## MySB en détail
+
+* [Le portail](mysb-en-detail/le-portail.md)
+* [Les listes noires](mysb-en-detail/les-listes-noires.md)
+* [Les trackers](mysb-en-detail/les-trackers.md)
+* [Console](mysb-en-detail/binaires-and-scripts.md)
+* [Les tâches programmées](mysb-en-detail/les-taches-programmees.md)
+
 ## Configuration
 
 * [Ajout de vos adresses](configuration/ajout-de-vos-adresses.md)
@@ -41,14 +49,6 @@
 * [FTPs / sFTP](configuration/ftps-sftp.md)
 * [OpenVPN](configuration/openvpn.md)
 * [NextCloud](configuration/nextcloud.md)
-
-## MySB en détail
-
-* [Le portail](mysb-en-detail/le-portail.md)
-* [Les listes noires](mysb-en-detail/les-listes-noires.md)
-* [Les trackers](mysb-en-detail/les-trackers.md)
-* [Console](mysb-en-detail/binaires-and-scripts.md)
-* [Les tâches programmées](mysb-en-detail/les-taches-programmees.md)
 
 ## Les mails
 
