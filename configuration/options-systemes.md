@@ -93,6 +93,10 @@ Par défaut, tous les annonceurs en IPv6 sont désactivés.
 | **Privés & Publiques** | Autorisera tous les torrents provenant de trackers privés, semi-privés ou publiques. |
 | **Privés seulement** | Autorisera uniquement les torrents provenant de trackers privés et semi-privés, et bloquera les autres. |
 
+{% hint style="info" %}
+_En d'activation de Privées seulement, tous les .torrents publiques qui seront ajoutés seront automatiquement retiré de la session de l'utilisateur concerné. Un mail lui sera envoyé._
+{% endhint %}
+
 ### Auto blocks annonceurs
 
 Ce paramètre ajoute une surcouche au processus de filtrage des annonceurs en utilisant les listes de blocage actives sur le système.
@@ -122,6 +126,8 @@ La mécanique a été pensée pour tourner en tâche de fond, ne bloquant pas l'
 ### Gestion de l'UDP
 
 Active ou non la prise en charge des annonceurs en UDP _\(Defaut: **Non**\)_.
+
+En autorisant les annonceurs en UDP, vous augmentez le nombre de sources disponibles. Mais cela peut aussi présenter un risque potentiel quant à vôtre anonymat, le protocole UDP étant mois fiable que le TCP _\(HTTP\)_.
 
 ## OpenVPN
 
