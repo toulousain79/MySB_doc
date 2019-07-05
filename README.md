@@ -4,5 +4,5 @@
 
 ## Documentation - FR
 
-* [v5.4](https://mysb.gitbook.io/doc/)
+* [v6.0](https://mysb.gitbook.io/doc/)
 
