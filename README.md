@@ -1,8 +1,8 @@
-# Accueil
+<p align="center"><img src=".gitbook/assets/toulousain79.gif" height="150"></p>
 
-<p align="center"><img src=".gitbook/assets/toulousain79.gif" height="100"></p>
+# Documentation
 
-## Documentation - FR
+## Français
 
 * [v6.0](https://mysb.gitbook.io/doc/)
 * [v5.4](https://mysb.gitbook.io/doc/v/v5.4_fr/)
