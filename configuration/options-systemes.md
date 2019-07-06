@@ -123,6 +123,10 @@ _Il est conseillé de laisser cette fonction activée.
 La mécanique a été pensée pour tourner en tâche de fond, ne bloquant pas l'ajout de nouveaux .torrent._
 {% endhint %}
 
+{% hint style="warning" %}
+_Lors d'ajout d'un .torrent, si les annonceurs présents à l'intérieur **n'ont pas encore été ajoutés** à MySB, il peut se passer **quelques bonnes secondes** avant que le téléchargement **se lance**. C'est normal, surtout si un **grand nombre d'annonceurs** sont détectés..._
+{% endhint %}
+
 ### Gestion de l'UDP
 
 Active ou non la prise en charge des annonceurs en UDP _\(Defaut: **Non**\)_.
