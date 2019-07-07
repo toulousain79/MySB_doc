@@ -94,7 +94,7 @@ Par défaut, tous les annonceurs en IPv6 sont désactivés.
 | **Privés seulement** | Autorisera uniquement les torrents provenant de trackers privés et semi-privés, et bloquera les autres. |
 
 {% hint style="info" %}
-_En d'activation de Privées seulement, tous les .torrents publiques qui seront ajoutés seront automatiquement retiré de la session de l'utilisateur concerné. Un mail lui sera envoyé._
+_En cas d'activation de **Privés seulement**, tous les .torrents publiques qui seront ajoutés seront automatiquement retirés de la session de l'utilisateur concerné. Un mail lui sera envoyé._
 {% endhint %}
 
 ### Auto blocks annonceurs
@@ -124,8 +124,16 @@ La mécanique a été pensée pour tourner en tâche de fond, ne bloquant pas l'
 {% endhint %}
 
 {% hint style="warning" %}
-_Lors d'ajout d'un .torrent, si les annonceurs présents à l'intérieur **n'ont pas encore été ajoutés** à MySB, il peut se passer **quelques bonnes secondes** avant que le téléchargement **se lance**. C'est normal, surtout si un **grand nombre d'annonceurs** sont détectés..._
+_Lors d'ajout d'un .torrent, si les annonceurs présents à l'intérieur **n'ont pas encore été ajoutés** à MySB, il peut se passer **quelques bonnes secondes** avant que le téléchargement **se lance**. C'est normal, surtout si **beaucoup d'annonceurs** sont détectés..._
 {% endhint %}
+
+{% hint style="info" %}
+Pour chaque .torrent ajouté, il est possible de suivre l'avancement du traitement en double cliquant dessus dans la liste de ruTorrent _\(Onglet **Général**, ligne **Infos**\)_.
+{% endhint %}
+
+![](../.gitbook/assets/torrent_add_progress0.jpg)
+
+![](../.gitbook/assets/torrent_add_progress1.jpg)
 
 ### Gestion de l'UDP
 
