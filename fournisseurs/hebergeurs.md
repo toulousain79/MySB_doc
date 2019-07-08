@@ -67,11 +67,13 @@ Matériel correct et prix raisonnable.
 Connexion 1 Gbps.  
 Préférence pour cette sélection: [https://www.hetzner.de/sb](https://www.hetzner.de/sb)
 
+* [https://wiki.hetzner.de/index.php/Robot/en](https://wiki.hetzner.de/index.php/Robot/en)
+* [https://wiki.hetzner.de/index.php/Installimage/en](https://wiki.hetzner.de/index.php/Installimage/en)
+* [https://wiki.hetzner.de/index.php/VNC-Installationen/en](https://wiki.hetzner.de/index.php/VNC-Installationen/en)
+
 ### FirstHeberg
 
 ???
-
-
 
 {% hint style="info" %}
 #### _Evitez les processeurs **Atom** !!!_
