@@ -476,6 +476,8 @@ Si vous n'avez pas reçu de mail après le reboot du serveur, plusieurs raisons 
 L'accès en SSH avec le compte **ROOT** est possible, mais **seulement** avec une **clé SSH** à préparer par vos soins. Cette clé peut automatiquement être ajoutée par l'intermédiaire de l'hébergeur de vôtre serveur et automatiquement ajoutée lors de sa première installation.
 
 {% hint style="info" %}
-Je vous conseille de générer une clé SSH avec une "passphrase" !
+_Je vous conseille de générer une clé SSH avec une "passphrase" !_
 {% endhint %}
+
+L'utilisateur principal, celui créé lors de l'installation de MySB, aura le droit de se connecter en SSH.
 
