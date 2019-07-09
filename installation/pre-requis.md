@@ -3,12 +3,12 @@
 ## Aperçu rapide
 
 {% hint style="success" %}
-* [ ] Noyau par défaut Debian
-* [ ] Système de fichier EXT4 _\(éviter le LVM\)_
-* [ ] 8 Go de RAM minimum
-* [ ] Processeur 4 cœurs  conseillé _\(éviter les processeurs ATOM\)_
-* [ ] Compte mail externe très conseillé _\(GMAIL, YAHOO, FREE, ZOHO\)_
-* [ ] Nom d'hôte valide \(FQDN\) _\(éviter le noms donné par défaut par l'hébergeur\)_
+* [x] Noyau par défaut Debian
+* [x] Système de fichier EXT4 _\(éviter le LVM\)_
+* [x] 8 Go de RAM minimum
+* [x] Processeur 4 cœurs  conseillé _\(éviter les processeurs ATOM\)_
+* [x] Compte mail externe très conseillé _\(GMAIL, YAHOO, FREE, ZOHO et OVH\)_
+* [x] Nom d'hôte valide \(FQDN\) _\(éviter le noms donnés par défaut par l'hébergeur\)_
 {% endhint %}
 
 ## Nom d'hôte / Hostname / FQDN
