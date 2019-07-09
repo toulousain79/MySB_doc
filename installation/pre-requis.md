@@ -1,5 +1,16 @@
 # Pré-requis
 
+## Aperçu rapide
+
+{% hint style="success" %}
+* [ ] Noyau par défaut Debian
+* [ ] Système de fichier EXT4 _\(éviter le LVM\)_
+* [ ] 8 Go de RAM minimum
+* [ ] Processeur 4 cœurs  conseillé _\(éviter les processeurs ATOM\)_
+* [ ] Compte mail externe très conseillé _\(GMAIL, YAHOO, FREE, ZOHO\)_
+* [ ] Nom d'hôte valide \(FQDN\) _\(éviter le noms donné par défaut par l'hébergeur\)_
+{% endhint %}
+
 ## Nom d'hôte / Hostname / FQDN
 
 Il est impératif que vous disposiez d'un nom d'hôte valide pour vôtre serveur, notamment pour un serveur dédié.
@@ -39,6 +50,16 @@ On peut trouver des connexions à 250 Mbits et même 1 Gbits. Ça dépendra de v
 * **Réseau:** 1 Gbits
 * **Utilisateurs:** 7 _\(ex: 3 normaux avec rTorrent + 4 Plex uniquement en partageant la bibliothèque\)_
 * **Prix:** ~31 € / mois \(soit 4,47€ / utilisateur\)
+
+## Système de fichiers
+
+Le système de fichier validé aujourd'hui est le **EXT4** seulement, pour permettre la gestion des quotas !
+
+Inutile de venir trouver de l'aide sur Discord précisant qu'après l'installation vous n'avez plus de nouvelles de vôtre serveur. Si je dois investiguer avec vous et me rendre compte que vous avez formaté en BTRFS, il est probable que je vois rouge...
+
+Le **BTRFS** n'est pas supporté par MySB... ;-\)
+
+Concernant le **LVM**, vous ne devriez pas en avoir besoin dans ce type d'utilisation. Je vous déconseille donc de l'utiliser. Aujourd'hui, je ne peux même pas vous confirmer que cela fonctionnerait et n'aurait pas d'incident dans le fonctionnement de MySB.
 
 ## Mails
 

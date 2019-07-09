@@ -2,7 +2,7 @@
 
 * [Accueil](README.md)
 * [Principales nouveautés](principales-nouveautes.md)
-* [Changelog](https://github.com/toulousain79/MySB/blob/v99.99/Changelog.md)
+* [Changelog](https://github.com/toulousain79/MySB/blob/v6.0/Changelog.md)
 
 ## Introduction
 
