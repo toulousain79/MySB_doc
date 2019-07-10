@@ -9,7 +9,6 @@
 * [Avertissements](introduction/avertissements.md)
 * [Histoire](introduction/histoire.md)
 * [Contenu](introduction/contenu.md)
-* [Quoi de neuf](https://github.com/toulousain79/MySB/blob/v5.3/Changelog.md)
 * [Remerciements](introduction/remerciements.md)
 
 ## Sécurité
