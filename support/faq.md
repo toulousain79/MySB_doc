@@ -1,5 +1,36 @@
 # FAQ
 
+## Installation
+
+### Lors de l'installation je bloque sur le nom d'hôte FQDN
+
+Si la question demandant vôtre FQDN se répète, c'est probablement que le nom d'hôte que vous souhaitez utiliser ne correspond pas à l'adresse IP publique de vôtre serveur.
+
+Pour vérifier cela, utilisez la commande **nslookup fqdn\_de\_mon\_serveur**:
+
+```text
+root@mysb~ # nslookup www.google.fr
+Server:         127.0.0.1
+Address:        127.0.0.1#53
+
+Non-authoritative answer:
+Name:   www.google.fr
+Address: 216.58.210.35
+```
+
+Ici, on voit que le FQDN **www.google.fr** pointe vers l'IP **216.58.210.35**.  
+Où www.google.fr serait le nom de vôtre serveur, et 216.58.210.35, son adresse IP.
+
+Si jamais vous obtenez un résultat comme celui ci-dessous, ou que l'adresse IP affichée n'est pas celle de vôtre serveur, alors vous avez loupez quelque chose...
+
+```text
+root@mysb~ # nslookup monserveur.mondomaine.com
+Server:         127.0.0.1
+Address:        127.0.0.1#53
+
+** server can't find monserveur.mondomaine.com: NXDOMAIN
+```
+
 ## Administrateur
 
 ### Système

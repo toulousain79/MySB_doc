@@ -1,5 +1,11 @@
 # Hébergeurs
 
+{% hint style="warning" %}
+#### _Evitez les processeurs **Atom** !!!_
+
+#### _Utilisez **QUE** des **kernel standard** Debian !!!_
+{% endhint %}
+
 ## Serveurs dédiés validés pour MySB
 
 Je ne peut pas valider tous les hébergeurs du marché...
@@ -75,11 +81,9 @@ Préférence pour cette sélection: [https://www.hetzner.de/sb](https://www.hetz
 
 ???
 
-{% hint style="info" %}
-#### _Evitez les processeurs **Atom** !!!_
+### PulseHeberg
 
-#### _Utilisez **QUE** des **kernel standard** Debian !!!_
-{% endhint %}
+???
 
 
 
