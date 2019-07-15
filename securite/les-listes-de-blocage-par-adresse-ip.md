@@ -18,5 +18,5 @@ Pour le trafic P2P, c'est la même chose, d'autres organismes privés ou non, sn
 
 Aujourd'hui, je ne pense pas que ce soit le cas, mais imaginons que cela puisse arriver. Imaginez que toutes ces adresses IP soient historiées avec quelques informations d'identification vous concernant, ainsi que la période. Une loi pourrait éventuellement passer pour identifier des personnes en fonction de leur utilisation, de manière rétroactive. C'est une éventualité, mais reste néanmoins une possibilité.
 
-[Visualiser un extrait d'un rapport quotidien de PeerGuardian](https://mysb.gitbook.io/doc/v/v5.4_fr/les-mails/peerguardian-statistiques)
+[Visualiser un extrait d'un rapport quotidien de PeerGuardian](https://mysb.gitbook.io/doc/les-mails/peerguardian-statistiques)
 
