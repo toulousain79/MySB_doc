@@ -22,7 +22,7 @@ Il est possible de restreindre l'accès à votre serveur en fonction de certaine
   * Plex Media Server
   * NextCloud
 
-Les adresses autorisées _\(IP ou FQDN\)_ devront être ajoutées [via le portail](https://mysb.gitbook.io/doc/v/v5.4_fr/configuration/ajout-de-vos-adresses). Chaque utilisateur "normal" pourra ajouter ses adresses en toute autonomie.
+Les adresses autorisées _\(IP ou FQDN\)_ devront être ajoutées [via le portail](https://mysb.gitbook.io/doc/configuration/ajout-de-vos-adresses). Chaque utilisateur "normal" pourra ajouter ses adresses en toute autonomie.
 
 Mais l'ensemble des adresses ajoutées sera inclus de manière globale, c'est à dire applicable pour tout le monde.
 
