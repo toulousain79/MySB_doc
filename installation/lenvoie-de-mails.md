@@ -8,7 +8,7 @@ Il peut y avoir beaucoup de raisons à cela. Les plus courantes rencontrées son
 
 Dans ce cas, c'est vôtre serveur qui enverra tous les mails directement vers vôtre adresse e-mail. Cependant, dans une majorité de cas, les mails seront probablement identifiés comme SPAM. Beaucoup d'entre vous laissez le nom d'hôte par défaut attribué par l'hébergeur. Et ceci peu poser problème. Pensez à vérifier vôtre dossier SPAM dans vôtre boîte mail.
 
-## Utilisation de la configuration GMAIL, YAHOO, ...
+## Utilisation de la configuration GMAIL, YAHOO, OVH, ZOHO et FREE ...
 
 Dans cette situation, ce n'est pas compliqué. A chaque fois il s'agit d'une erreur de saisie identifiant/mot de passe... Veillez donc à bien saisir vos identifiants 🧐 Vous pouvez modifier vos identifiants via le portail MySB dans le menu **Admin** &gt; **SMTP**. Pour mémo, l'adresse du portail sera formée comme suit:
 
@@ -30,10 +30,10 @@ Si un ou plusieurs mails sont bloqués, vous verrez une liste de ce type:
 
 Ici, nous voyons que l'erreur est **SASL authentication failed**.
 
-Si votre mot de passe est pourtant correct, 2 possibilités sont possibles dans la configuration de vôtre compte **Gmail**.
+Si votre mot de passe est pourtant correct, 2 possibilités sont possibles dans la configuration de vôtre compte **Gmail**. _\(cf._ [_Pré-requis_](https://mysb.gitbook.io/doc/installation/pre-requis#gmail)_\)_
 
-1. Autoriser les applications moins sécurisées à pouvoir se connecter _\(cf._ [_Pré-requis_](https://mysb.gitbook.io/doc/~/edit/drafts/-LS9xi-gc9Grq6Zkdqnv5.4_fr3_fr/installation/pre-requis#mails)_\)_
-2. Générer un mot de passe pour vos applications, partie sécurité **Validation en 2 étapes** _\(cf._ [_Pré-requis_](https://mysb.gitbook.io/doc/v/v5.4_fr/installation/pre-requis#gmail)_\)_
+1. Autoriser les applications moins sécurisées à pouvoir se connecter;
+2. Générer un mot de passe pour vos applications, partie sécurité **Validation en 2 étapes**;
 
 ## Autres cas
 
