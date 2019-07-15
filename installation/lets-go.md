@@ -4,7 +4,7 @@
 
 Connectez-vous en SSH à vôtre serveur avec le compte **ROOT**. Puis lancez la commande suivante pour récupérer le script d'installation.
 
-`wget --no-check-certificate -N https://raw.githubusercontent.com/toulousain79/MySB/v5.6/install/MySB_Install.bsh`
+`wget --no-check-certificate -N https://raw.githubusercontent.com/toulousain79/MySB/v6.0/install/MySB_Install.bsh`
 
 Ensuite, exécutez-le.
 
@@ -331,7 +331,7 @@ Le choix par défaut étant **oui**, tapez seulement sur **Entrée** pour l'inst
 
 #### Voulez-vous activer la restriction IP ?
 
-Activer ou non la restriction par adresse IP à votre SeedBox _\(cf._ [_Restriction par adresse IP_](https://mysb.gitbook.io/doc/v/v5.4_fr/securite/restriction-par-adresse-ip)_\)_. Je recommande l'activation de cette option. Chaque utilisateur "normal", aura la possibilité d'ajouter autant d'adresse IP ou nom d'hôte qu'il le souhaite via le portail.
+Activer ou non la restriction par adresse IP à votre SeedBox _\(cf._ [_Restriction par adresse IP_](https://mysb.gitbook.io/doc/securite/restriction-par-adresse-ip)_\)_. Je recommande l'activation de cette option. Chaque utilisateur "normal", aura la possibilité d'ajouter autant d'adresse IP ou nom d'hôte qu'il le souhaite via le portail.
 
 Quoi qu'il en soit, vous devrez tout de même ajouter au moins votre adresse courante à la question suivante pour le bon déroulement de l'installation.
 
@@ -348,7 +348,7 @@ Dans l'exemple ci-dessous, il s'agit de la page de configuration du DynDNS pour 
 
 ![](../.gitbook/assets/box_dyndns.jpg)
 
-Jetez un œil au chapitre [Fournisseurs DynDNS](https://mysb.gitbook.io/doc/v/v5.4_fr/fournisseurs/fournisseurs-dyndns).
+Jetez un œil au chapitre [Fournisseurs DynDNS](https://mysb.gitbook.io/doc/fournisseurs/fournisseurs-dyndns).
 
 Le choix par défaut étant **oui**, tapez seulement sur **Entrée** pour l'installer. Sinon, saisissez **non**.
 
@@ -459,7 +459,7 @@ Si vous avez correctement configurer votre compte de messagerie, vous devriez av
 
 ## Mail de confirmation
 
-[Voici un exemple du mail que vous devez recevoir.](https://mysb.gitbook.io/doc/v/v5.4_fr/les-mails/fin-dinstallation)
+[Voici un exemple du mail que vous devez recevoir.](https://mysb.gitbook.io/doc/les-mails/fin-dinstallation)
 
 Vous pouvez dès maintenant vous connecter au portail MySB en cliquant sur le lien **Aller vers votre portail MySB**, en haut à gauche du mail.
 
