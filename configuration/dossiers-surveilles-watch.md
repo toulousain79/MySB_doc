@@ -4,7 +4,7 @@ Pour ceux qui ne connaissent pas, le dossier **watch** est géré par rTorrent. 
 
 Dans MySB, cela va un plus loin grâce aux catégories que l'on ajoute via le portail.
 
-On va reprendre les exemples donnés dans le chapitre [Labels & Synchros](https://mysb.gitbook.io/doc/v/v5.4_fr/configuration/labels-and-synchros). Nous avons ajouté 4 catégories:
+On va reprendre les exemples donnés dans le chapitre [Labels & Synchros](https://mysb.gitbook.io/doc/configuration/labels-and-synchros). Nous avons ajouté 4 catégories:
 
 1. Animation
 2. Applications
@@ -20,5 +20,4 @@ Chacune de ces catégories sont maintenant présentes dans différents endroit d
 | FTPs/sFTP | Samba \(via OpenVPN\) | Nextcloud |
 | :--- | :--- | :--- |
 | ![](../.gitbook/assets/watch_ftps.jpg) | ![](../.gitbook/assets/watch_samba.jpg) | ![](../.gitbook/assets/watch_nextcloud.jpg) |
-| [Accès FTPs/sFTP](https://mysb.gitbook.io/doc/v/v5.4_fr/configuration/ftps-sftp) | [Accès OpenVPN](https://mysb.gitbook.io/doc/v/v5.4_fr/configuration/openvpn) | [Accès NextCloud](https://mysb.gitbook.io/doc/v/v5.4_fr/configuration/nextcloud) |
-
+| [Accès FTPs/sFTP](https://mysb.gitbook.io/doc/configuration/ftps-sftp) | [Accès OpenVPN](https://mysb.gitbook.io/doc/configuration/openvpn) | [Accès NextCloud](https://mysb.gitbook.io/doc/configuration/nextcloud) |
