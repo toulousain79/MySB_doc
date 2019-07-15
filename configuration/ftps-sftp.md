@@ -41,7 +41,7 @@ Grâce à **Seedbox-Manager**, vous aurez la possibilité de télécharger le fi
 
 ### Dossier scripts
 
-Si vous décidez d'utiliser les [Labels et Synchros](https://mysb.gitbook.io/doc/v/v5.4_fr/configuration/labels-and-synchros), vous aimerez peut-être utiliser vos propres scripts. C'est dans ce dossier que vous les enverrez.
+Si vous décidez d'utiliser les [Labels et Synchros](https://mysb.gitbook.io/doc/configuration/labels-and-synchros), vous aimerez peut-être utiliser vos propres scripts. C'est dans ce dossier que vous les enverrez.
 
 ### Dossier rtorrent
 
@@ -53,4 +53,3 @@ Comme vous l'aurez compris, le dossier rtorrent est dédié à l'exploitation de
 * /home/user/rtorrent/share/ Emplacement dédié au partage avec les autres utilisateurs, tout le monde a accès à ce dossier.
 
 Vous pouvez donc envoyer vos fichiers torrent dans le dossier **watch**, puis dans le sous-dossier lié à la catégorie que vous aurez créée.
-
