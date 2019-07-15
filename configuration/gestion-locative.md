@@ -4,7 +4,7 @@
 
 La gestion locative permet d'activer certaines options offrant la possibilité de partager le prix de location de vôtre serveur avec l'ensemble des utilisateurs que vous ajouterez. En gros, si vous payez vôtre serveur 40€/mois et que vous le partagez avec 5 utilisateurs, le prix par utilisateur sera 40/5 soit 8€ par personne.
 
-Pour activer la gestion locative, vous devez vous rendre dans les [Options Systèmes](https://mysb.gitbook.io/doc/v/v5.4_fr/configuration/options-systemes#location), et un nouveau menu s'affichera.
+Pour activer la gestion locative, vous devez vous rendre dans les [Options Systèmes](https://mysb.gitbook.io/doc/configuration/options-systemes#location), et un nouveau menu s'affichera.
 
 ![](../.gitbook/assets/menu_location.jpg)
 
@@ -52,4 +52,3 @@ Saisissez ici les différents versements que vos utilisateurs effectueront pour 
 ![](../.gitbook/assets/location_paiments.jpg)
 
 ![](../.gitbook/assets/location_tresor.jpg)
-
