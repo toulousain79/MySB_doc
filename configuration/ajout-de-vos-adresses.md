@@ -14,5 +14,4 @@ Puis appliquez vos modifications.
 
 Il est judicieux d'ajouter des noms d'hôte _\(FQDN\)_ plutôt que des adresses IP, notamment quand celles si peuvent changer _\(IP dynamiques\)_.
 
-[En savoir plus sur les adresses IP dynamiques.](https://mysb.gitbook.io/doc/v/v5.4_fr/fournisseurs/fournisseurs-dyndns)
-
+[En savoir plus sur les adresses IP dynamiques.](https://mysb.gitbook.io/doc/fournisseurs/fournisseurs-dyndns)
