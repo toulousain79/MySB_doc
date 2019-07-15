@@ -149,5 +149,5 @@ _**NOTE**: Seule une catégorie vide pourra être supprimée. C'est à dire qu'i
 
 On peut d'ailleurs constater le résultat de l'option **Sous-dossier** grâce aux lignes **From** et **To**. Le fichier téléchargé et présent sur le serveur _\(**From**\)_, est un fichier unique, directement stocké à la racine de la catégorie **Films\_HD**. Grâce à l'option **Sous-dossier**, le script **synchro.sh** crée un dossier du même nom dans la destination _\(**To**\)_.
 
-[Visualiser l'exemple](https://mysb.gitbook.io/doc/v/v5.4_fr/les-mails/transfert-termine)
+[Visualiser l'exemple](https://mysb.gitbook.io/doc/les-mails/transfert-termine)
 
