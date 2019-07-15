@@ -182,5 +182,5 @@ Quand vous apprendrez à utiliser correctement Tautulli, vous pourrez par exempl
 
 Pour ma part, j'ai créé des notifications e-mails, formatées par mes soins, pour que les utilisateurs de Plex sur mon serveur, soient informés de la mise à jour des bibliothèques.
 
-[Visualiser un exemple](https://mysb.gitbook.io/doc/v/v5.4_fr/les-mails/tautulli-bibliotheque-mise-a-jour)
+[Visualiser un exemple](https://mysb.gitbook.io/doc/les-mails/tautulli-bibliotheque-mise-a-jour)
 
