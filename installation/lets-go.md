@@ -464,12 +464,12 @@ Si vous avez correctement configurer votre compte de messagerie, vous devriez av
 Vous pouvez dès maintenant vous connecter au portail MySB en cliquant sur le lien **Aller vers votre portail MySB**, en haut à gauche du mail.
 
 {% hint style="warning" %}
+
 Si vous n'avez pas reçu de mail après le reboot du serveur, plusieurs raisons sont possibles.
 
 1. Le choix de configuration **LOCAL**, beaucoup choisisse celui-ci mais il reste cependant le moins fiable et le moins sécurisé. Moins fiable car vous avez probablement laissé le FQDN par défaut _\(nom du serveur\)_.
 2. Il est probable que vôtre hébergeur refuse simplement l'envoie de mail via le port 25.
 3. Le choix de configuration **GMAIL** _\(ou autre\)_, le problème d'identification est le plus courant _\(95 % du temps quand on vient me pinger sur Discord...\)_. Les identifiants demandés au début de l'installation servent bien à quelque chose... Une connexion sécurisée avec STunnel est établie entre vôtre serveur est vôtre serveur de mail _\(gmail.com ?\)_. Si vous vous plantez dans vôtre mail et/ou vôtre mot de passe, vôtre Seedbox ne sera pas en mesure d'envoyer les mails sortants...
-{% endhint %}
 
 ## Connexion SSH
 

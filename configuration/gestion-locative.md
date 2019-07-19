@@ -52,3 +52,4 @@ Saisissez ici les différents versements que vos utilisateurs effectueront pour 
 ![](../.gitbook/assets/location_paiments.jpg)
 
 ![](../.gitbook/assets/location_tresor.jpg)
+

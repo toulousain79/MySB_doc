@@ -21,3 +21,4 @@ Chacune de ces catégories sont maintenant présentes dans différents endroit d
 | :--- | :--- | :--- |
 | ![](../.gitbook/assets/watch_ftps.jpg) | ![](../.gitbook/assets/watch_samba.jpg) | ![](../.gitbook/assets/watch_nextcloud.jpg) |
 | [Accès FTPs/sFTP](https://mysb.gitbook.io/doc/configuration/ftps-sftp) | [Accès OpenVPN](https://mysb.gitbook.io/doc/configuration/openvpn) | [Accès NextCloud](https://mysb.gitbook.io/doc/configuration/nextcloud) |
+

@@ -14,7 +14,7 @@
 * **OpenVPN** _\(optionnel\); multi configuration TUN/TAP, avec ou sans redirection du traffic. Support de AES-NI._
 * **CakeBox-Light** _\(optionnel\)_
 * **PlexMedia Server** _\(optionnel, nécessite une configuration manuelle supplémentaire\)_
-* **Tautulli \(PlexPy\)** _\(si Plexmedia est installé\)_
+* **Tautulli** _\(si Plexmedia est installé\)_
 * **Shell In A Box**
 * **Webmin** _\(optionnel\)_
 * **Partage Samba** pour chaque utilisateur _\(via l'accès VPN\)_
@@ -36,7 +36,7 @@
   * Utilisation de scripts après un téléchargement terminé _\(Synchronisation directe ou programmée, via FTPs ou rsync\)_
   * Prioriser les connexions sécurisées via SSL pour rTorrent _\(dépend des trackers\)_
   * Création automatique de plusieurs dossiers 'Watch' pour rTorrent _\(Gestion via le portail MySB\)_
-  * Accès aux dossiers 'Watch' via FTPs, sFTP, Samba \(via OpenVPN\) ou NextCloud \(interface web ou application cliente\)
-  * Cryptage des requêtes DNS sortantes grâce à DNScrypt-proxy
+  * Accès aux dossiers 'Watch' via FTPs, sFTP, Samba _\(via OpenVPN\)_ ou NextCloud _\(interface web ou application cliente\)_
+  * Chiffrement des requêtes DNS sortantes grâce à DNScrypt-proxy
   * Système de mise à jour de votre Seedbox
 

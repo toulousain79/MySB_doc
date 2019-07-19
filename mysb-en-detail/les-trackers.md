@@ -2,7 +2,7 @@
 
 ## Les annonceurs
 
-Chaque fichier torrent contient ce que l'on appel un annonceur, une URL précisant où trouver les peers des fichiers à télécharger. Il y en a toujours au moins 1, lié généralement au tracker lui-même _\(ex: http://tracker.domain.com/annonce\)_, cas pour les trackers **privés**.
+Chaque fichier torrent contient ce que l'on appel un annonceur, une URL précisant où trouver les peers des fichiers à télécharger. Il y en a toujours au moins 1, lié généralement au tracker lui-même _\(ex:_ [http://tracker.domain.com/annonce\](http://tracker.domain.com/annonce\)_\)_, cas pour les trackers **privés**.
 
 Pour certains trackers, généralement pour les **publiques** ou **semi-privés**, il peut y avoir de multiples annonceurs dans un même fichier torrent. Des URL pointant vers des serveurs parfois étrangers et ne garantissant pas forcément une grande sécurité.
 

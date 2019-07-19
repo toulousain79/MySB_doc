@@ -19,10 +19,9 @@ Le fonctionnement est simple. En prenant en exemple une catégorie nommée **Fil
 * /home/user/rtorrent/**complete**/**Films\_HD**/
 * /home/user/rtorrent/**torrents**/**Films\_HD**/
 * /home/user/rtorrent/**watch**/**Films\_HD**/
-
-1. On envoie un fichier .torrent dans le dossier /home/user/rtorrent/**watch/Films\_HD**/;
-2. Le téléchargement se lance, et le fichier téléchargé se retrouve dans /home/user/rtorrent/**complete/Films\_HD**/;
-3. Le fichier .torrent envoyé dans /home/user/rtorrent/watch/Films\_HD/ et ensuite déplacé dans /home/user/rtorrent/**torrents/Films\_HD**/.
+* On envoie un fichier .torrent dans le dossier /home/user/rtorrent/**watch/Films\_HD**/;
+* Le téléchargement se lance, et le fichier téléchargé se retrouve dans /home/user/rtorrent/**complete/Films\_HD**/;
+* Le fichier .torrent envoyé dans /home/user/rtorrent/watch/Films\_HD/ et ensuite déplacé dans /home/user/rtorrent/**torrents/Films\_HD**/.
 
 Si jamais un mode de synchronisation est affecté à cette catégorie, alors le fichier téléchargé sera envoyé vers la destination de vôtre choix. Soit immédiatement une fois le fichier téléchargé, soit de manière programmée à une heure que vous aurez déterminée.
 
@@ -40,7 +39,7 @@ Rendez-vous dans vôtre menu utilisateur.
 
 ![](../.gitbook/assets/menu_user_labels.jpg)
 
-Vous pouvez ajouter jusqu'à 5 catégories à la fois en cliquant sur **Ajouter une catégorie**. Donnez un nom à toutes vos catégories et sélectionnez un type de synchronisation à chacune d'elles. Pour le nommage, les accents et les espaces sont autorisés lors de la saisie. Mais au final, l'accentuation sera supprimée et les espace remplacés par des des **tirais bas** _\(\_\)_.
+Vous pouvez ajouter jusqu'à 5 catégories à la fois en cliquant sur **Ajouter une catégorie**. Donnez un nom à toutes vos catégories et sélectionnez un type de synchronisation à chacune d'elles. Pour le nommage, les accents et les espaces sont autorisés lors de la saisie. Mais au final, l'accentuation sera supprimée et les espace remplacés par des des **tirais bas** _\(\_\)\_.
 
 Une fois vos catégories ajoutées, cliquez sur **Sauvegarder les modifications**.
 

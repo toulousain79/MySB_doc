@@ -38,53 +38,43 @@ Active ou non le système de location de vôtre SeedBox. En activant cette optio
 
 L'idée de cette option est d'éviter de télécharger à nouveau le contenu d'un torrent qui a déjà été téléchargé par un autre utilisateur. Cela permet de copier simplement le contenu du torrent à partir de l'espace d'un autre utilisateur.
 
+| Choix | Description |
+| :--- | :--- |
+
+
+| **Non** | Fonctionnement normal, aucune copie, le torrent sera téléchargé complètement. |
+| :--- | :--- |
+
+
+| **Copie simple** | Si le contenu du torrent existe déjà quelque part, il sera copié au-lieu d'être téléchargé à nouveau. _\(cp -a\)_ |
+| :--- | :--- |
+
+
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Choix</th>
-      <th style="text-align:left">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><b>Non</b>
-      </td>
-      <td style="text-align:left">Fonctionnement normal, aucune copie, le torrent sera t&#xE9;l&#xE9;charg&#xE9;
-        compl&#xE8;tement.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>Copie simple</b>
-      </td>
-      <td style="text-align:left">Si le contenu du torrent existe d&#xE9;j&#xE0; quelque part, il sera copi&#xE9;
-        au-lieu d&apos;&#xEA;tre t&#xE9;l&#xE9;charg&#xE9; &#xE0; nouveau. <em>(cp -a)</em>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>Lien dur</b>
-      </td>
-      <td style="text-align:left">
+      <th style="text-align:left"><b>Lien dur</b>
+      </th>
+      <th style="text-align:left">
         <p>Identique &#xE0; la copie simple, &#xE0; la diff&#xE9;rence qu&apos;un
           lien dur est effectu&#xE9; &#xE0; la place. Les utilisateurs ayant le m&#xEA;me
           torrent partageront les m&#xEA;mes inodes sur le disque. <em>(cp -al)</em>
         </p>
         <p>La m&#xE9;thode <b>Lien dur</b> affecte la gestion des quotas pour les utilisateurs
           concern&#xE9;s.</p>
-      </td>
+      </th>
     </tr>
-  </tbody>
+  </thead>
+  <tbody></tbody>
 </table>{% hint style="warning" %}
-En activant le recyclage **lien dur**, la gestion des quotas sera affectée pour les utilisateurs concernés !
-Le **premier** utilisateur ayant téléchargé un contenu verra forcément son quota affecté par l'espace utilisé par ce contenu.
-Le **second** utilisateur téléchargeant le même contenu verra son quota affecté par l'espace utilisé par ce contenu, mais **libérera** celui du premier utilisateur.
+En activant le recyclage **lien dur**, la gestion des quotas sera affectée pour les utilisateurs concernés ! Le **premier** utilisateur ayant téléchargé un contenu verra forcément son quota affecté par l'espace utilisé par ce contenu. Le **second** utilisateur téléchargeant le même contenu verra son quota affecté par l'espace utilisé par ce contenu, mais **libérera** celui du premier utilisateur.
 {% endhint %}
 
 ## Trackers autorisés
 
-Cette option permet d'effectuer un filtre sur les torrents qui seront uploadés par tous les utilisateurs.
-Avec cette option, il n'est plus utile d'ajouter manuellement un tracker dans le portail pour pouvoir le bloquer. C'est maintenant automatique dès l'ajout de n'importe quel torrent.
+Cette option permet d'effectuer un filtre sur les torrents qui seront uploadés par tous les utilisateurs. Avec cette option, il n'est plus utile d'ajouter manuellement un tracker dans le portail pour pouvoir le bloquer. C'est maintenant automatique dès l'ajout de n'importe quel torrent.
 
-Les actions effectuées permettent de lister tous les annonceurs contenus dans un torrent et de les filtrer/désactiver à la volée avant le début du téléchargement.
-Par défaut, tous les annonceurs en IPv6 sont désactivés.
+Les actions effectuées permettent de lister tous les annonceurs contenus dans un torrent et de les filtrer/désactiver à la volée avant le début du téléchargement. Par défaut, tous les annonceurs en IPv6 sont désactivés.
 
 ### Type
 
@@ -101,8 +91,7 @@ _En cas d'activation de **Privés seulement**, tous les .torrents publiques qui 
 
 Ce paramètre ajoute une surcouche au processus de filtrage des annonceurs en utilisant les listes de blocage actives sur le système.
 
-Je prends l'exemple de YGG. Certains torrents provenant de ce tracker dispose d'un seul annonceur ayant une adresse appartenant à YGG.
-Tandis que d'autres torrents sont constitués d'une multitudes d'annonceurs provenant de n'importe où dans le monde. Je trouve cela gênant, surtout si l'un de ces annonceurs devrait être bloqué par PeerGuardian.
+Je prends l'exemple de YGG. Certains torrents provenant de ce tracker dispose d'un seul annonceur ayant une adresse appartenant à YGG. Tandis que d'autres torrents sont constitués d'une multitudes d'annonceurs provenant de n'importe où dans le monde. Je trouve cela gênant, surtout si l'un de ces annonceurs devrait être bloqué par PeerGuardian.
 
 Ce paramètre permet donc de désactiver automatiquement tous les annonceurs officieux dont l'adresse IP ferait partie d'une liste de blocage.
 
@@ -119,8 +108,7 @@ Le filtrage consiste à vérifier chaque annonceur en effectuant divers vérific
 * une tentative de récupération d'un éventuel certificat SSL
 
 {% hint style="info" %}
-_Il est conseillé de laisser cette fonction activée.
-La mécanique a été pensée pour tourner en tâche de fond, ne bloquant pas l'ajout de nouveaux .torrent._
+_Il est conseillé de laisser cette fonction activée. La mécanique a été pensée pour tourner en tâche de fond, ne bloquant pas l'ajout de nouveaux .torrent._
 {% endhint %}
 
 {% hint style="warning" %}
@@ -171,3 +159,4 @@ Active ou non l'utilisation de DNScrypt-proxy. Si l'option est désactivée, des
 ## LogWatch
 
 Active ou nom la réception des rapports e-mails provenant de LogWatch.
+
