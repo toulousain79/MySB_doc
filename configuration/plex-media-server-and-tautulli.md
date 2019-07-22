@@ -37,15 +37,17 @@ A ce stade, vous devez vous connecter à vôtre compte Plex.
 Pour créer un tunnel SSH en ligne de commande, tapez ceci:
 
 ```text
-ssh -p 8192 root@demo-mysb.dyndns.org -L 8888:localhost:32400
+ssh -p 8192 demo@demo-mysb.dyndns.org -L 8888:localhost:32400
 ```
 
-Vous devez maintenant vous identifier normalement, ici avec le compte **root**.
+Vous devez maintenant vous identifier normalement, ici avec le compte **demo**.
 
 {% hint style="info" %}
 Où **8192** correspond au port SSH de vôtre serveur. Remplacez-le si vous en avez mis un autre.
 
 Où **demo-mysb.dyndns.org** correspond à l'adresse IP ou le nom d'hôte de vôtre serveur, donc à remplacer en conséquence.
+
+Où **demo** correspond à vôtre utilisateur principal.
 {% endhint %}
 
 Maintenant que le tunnel SSH est créé, ouvrez un navigateur et saisissez l'URL suivante:
@@ -71,13 +73,13 @@ Lancez Putty ou Kitty et suivez ceci:
 2. Dans **Destination**, saisissez l'**adresse** de vôtre SeedBox et le **port** utilisé par Plex en respectant cette syntaxe: _demo-mysb.dyndns.org:**32400**_
 3. Cliquez sur **Add**;
 4. Cliquez sur **Open** pour démarrer le tunnel SSH;
-5. Authentifiez-vous sur vôtre SeedBox avec le compte ROOT, et laissez la fenêtre SSH ouverte.
+5. Authentifiez-vous sur vôtre SeedBox avec vôtre compte principal, ici **demo**, et laissez la fenêtre SSH ouverte.
 
 | ![](../.gitbook/assets/tunnel_kitty_tunnels.jpg) | ![](../.gitbook/assets/tunnel_kitty_start.jpg) |
 | :--- | :--- |
 
 
-Vous devez maintenant vous identifier normalement, ici avec le compte **root**.
+Vous devez maintenant vous identifier normalement en SSH, ici avec le compte **demo**.
 
 Maintenant que le tunnel SSH est créé, ouvrez un navigateur et saisissez l'URL suivante:
 
