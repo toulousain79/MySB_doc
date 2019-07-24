@@ -40,7 +40,7 @@ Address:        127.0.0.1#53
 Vous ne pouvez plus exécuter les commandes MySB\_\*\*\* ?  
 Ou vous avez des problèmes d'accès à certains services ?
 
-Lancez ces commandes suivantes, cela restaurera tous les droits où il faut.
+Lancez les commandes suivantes, cela restaurera tous les droits où il faut.
 
 `. /opt/MySB/inc/vars  
 gfnManageDirAndFiles 'global'`
