@@ -101,23 +101,23 @@ Ici, on parle bien de l'adresse IP **publique**. C'est à dire l'adresse IP qui 
 
 Toujours en théorie, le script d'installation est capable de détecter correctement l'adresse IP publique, qui pourrait également être l'IP locale du serveur.
 
-#### Quel est le nom d'hôte \(FQDN\) de votre serveur \(ex: monserveur.mondomaine.ext\) ?
+#### Quel est le nom d'hôte _\(FQDN\)_ de votre serveur _\(ex: monserveur.mondomaine.ext\)_ ?
 
 C'est le nom d'hôte que vous donnerai à vôtre serveur pour qu'il soit reconnaissable sur Internet. **F**ully **Q**ualified **D**omain **N**ame ou Nom d'hôte pleinement nommé, point important pour un fonctionnement optimal de vôtre SeedBox.
 
 Dans le cas d'un serveur local, cela importe peu. Mais dans notre cas, c'est important. En gros, il est nécessaire que ce FQDN soit enregistré sur Internet pour qu'il pointe vers vers l'adresse IP _\(publique\)_ de vôtre serveur.
 
-Par défaut, chez tous les hébergeurs, un FQDN est assigné par défaut de manière générique. Par exemple, on peut retrouver des FQDN de ce type: **sd-**~~**xxxxx**~~**.dedibox.fr**, pour les hébergeurs Online ou Dedimax.
+Par défaut, chez tous les hébergeurs, un FQDN est assigné par défaut de manière générique. Par exemple, on peut retrouver des FQDN de ce type: **sd-xxxxx.dedibox.fr**, pour les hébergeurs Online ou Dedimax.
 
-Laisser le FQDN par défaut fonctionnera. Vous pourrez cependant rencontrer des difficultés avec [Let's Encrypt](https://letsencrypt.org/) pour obtenir un certificat SSL valide. Il a été constaté que beaucoup de demande de certificats ont été refusées pour ces FQDN génériques, portant le nom de domaine de l'hébergeur \(ovh.net, dedibox.fr, ...\)
+Laisser le FQDN par défaut fonctionnera. Vous pourrez cependant rencontrer des difficultés avec [Let's Encrypt](https://letsencrypt.org/) pour obtenir un certificat SSL valide. Il a été constaté que beaucoup de demande de certificats ont été refusées pour ces FQDN génériques, portant le nom de domaine de l'hébergeur _\(ovh.net, dedibox.fr, ...\)_
 
-Pour un confort d'utilisation, une sérénité dans le temps, je vous conseille un FQDN différent. Si vous avez un domaine à vous, alors ajoutez une entrée A dans votre zone. Mieux encore, je vous conseille l'utilisation de quelque chose de plus générique en passant par des services comme DynDNS. Question sécurité, je reste encore septique quant à l'utilisation d'un domaine personnel. Car il peut être plus facile d'obtenir les informations concernant le propriétaire du domaine, et donc de vôtre SeedBox.
+Pour un confort d'utilisation, une sérénité dans le temps, je vous conseille un FQDN différent. Si vous avez un domaine à vous, alors ajoutez une entrée A dans votre zone. Mieux encore, je vous conseille l'utilisation de quelque chose de plus générique en passant par des services comme DynDNS ou No-IP. Question sécurité, je reste encore septique quant à l'utilisation d'un domaine personnel. Car il peut être plus facile d'obtenir les informations concernant le propriétaire du domaine, et donc de vôtre SeedBox.
 
 Personnellement, et comme illustré dans la copie d'écran, j'utilise DynDNS. Dans l'exemple, je remplace le nom d'hôte par défaut **server.domain.com** par un hôte DynDNS que j'ai créé pour l'exemple, **demo-mysb.dyndns.org**.
 
-Dans tous les cas, vôtre FQDN doit exister et pointer l'adresse IP publique de vôtre serveur.
+Dans tous les cas, vôtre FQDN doit exister et pointer vers l'adresse IP publique de vôtre serveur.
 
-#### Port HTTPs pour NginX \(habituellement 443\)
+#### Port HTTPs pour NginX _\(habituellement 443\)_
 
 Le port désigné par défaut avec MySB sera **8189**. Le port par défaut et couramment utilisé sera **443**, celui dédié au HTTPs.
 
@@ -129,7 +129,7 @@ Cependant, il est possible de rencontrer quelques difficultés si vous souhaitez
 
 Là, c'est à vous de voir. Nous ne sommes pas censés utiliser une SeedBox au bureau vous me direz...
 
-#### Port SSH \(habituellement 22\)
+#### Port SSH _\(habituellement 22\)_
 
 Le port désigné par défaut avec MySB sera **8192**. Le port par défaut et couramment utilisé est **22**.
 
@@ -137,11 +137,11 @@ Le port SSH **22** étant sûrement le plus attaqué et le plus surveillé au mo
 
 C'est à vous de choisir.
 
-#### Port FTPs \(habituellement 990\)
+#### Port FTPs _\(habituellement 990\)_
 
 Le port par défaut pour le FTPs étant le **990**. Nan... Un port différent c'est mieux, enfin je pense. Pourquoi pas le **8191** ?
 
-#### Utilisateur principal \(admin\)
+#### Utilisateur principal _\(admin\)_
 
 Le tout premier compte qui sera créé sur vôtre SeedBox, c'est celui-ci.
 
@@ -151,7 +151,7 @@ Le tout premier compte qui sera créé sur vôtre SeedBox, c'est celui-ci.
 
 Je pense qu'il n'y a pas grand chose à dire ici...
 
-#### Mot de passe pour l'utilisateur principal \(SANS espaces\)
+#### Mot de passe pour l'utilisateur principal _\(SANS espaces\)_
 
 Ici non plus d'ailleurs...
 
@@ -217,7 +217,7 @@ SI vous souhaitez autoriser les systèmes de votre hébergeur à vérifier l'act
 _**NOTE**: Si vous ne respectez pas cette ordre, votre serveur pourrez être redémarré automatiquement par votre hébergeur, alors même que l'installation de MySB ne soit pas terminée !_
 {% endhint %}
 
-#### Voulez-vous installer Seedbox-Manager ? \(OUI/NON\)
+#### Voulez-vous installer Seedbox-Manager ? _\(OUI/NON\)_
 
 Seedbox-Manager consomme peu de ressources système, et peut être utile pour télécharger le fichier de configuration de FileZilla _\(FTPs et sFTP\)_, ainsi que celui de l'application Transdroid. Seedbox-Manager sera disponible pour tous les utilisateurs "normaux", à savoir disposant d'une session rTorrent.
 
@@ -225,7 +225,7 @@ Lien GitHub: [https://github.com/Magicalex/seedbox-manager](https://github.com/M
 
 Le choix par défaut étant **oui**, tapez seulement sur **Entrée** pour l'installer. Sinon, saisissez **non**.
 
-#### Voulez-vous installer CakeBox Light ? \(OUI/NON\)
+#### Voulez-vous installer CakeBox Light ? _\(OUI/NON\)_
 
 Même chose, Cakebox consomme peu de ressources système. Cakebox sera disponible pour tous les utilisateurs "normaux", à savoir disposant d'une session rTorrent. C'est un outil pratique et simple pour la lecteur de fichiers multimédia. Ne représente que peu d’intérêt si vous installez Plex Media Server, mais peut parfois dépanner.
 
@@ -233,7 +233,7 @@ Lien GitHub: [https://github.com/Cakebox/Cakebox](https://github.com/Cakebox/Cak
 
 Le choix par défaut étant **oui**, tapez seulement sur **Entrée** pour l'installer. Sinon, saisissez **non**.
 
-#### Voulez-vous installer Plex Media Server ? \(OUI/NON\)
+#### Voulez-vous installer Plex Media Server ? _\(OUI/NON\)_
 
 L'installation de Plex est judicieuse selon moi. Plex peut être un peu chiant à configurer, mais une fois en place, il fonctionne parfaitement bien. Pour l'instant, une seule session Plex est disponible pour tous les utilisateurs "normaux" avec une session rTorrent. Donc, si un autre autre utilisateur "normal" _\(rTorrent\)_ souhaite partager lui-aussi ses bibliothèques avec ses propres amis et/ou famille, vous devrez lui ajouter ses bibliothèques. Il ne sera pas autonome.
 
@@ -243,7 +243,7 @@ En installant Plex, l'outil Tautulli sera également installé. Lien GitHub: [ht
 
 Le choix par défaut étant **oui**, tapez seulement sur **Entrée** pour l'installer. Sinon, saisissez **non**.
 
-#### Voulez-vous installer NextCloud ? \(OUI/NON\)
+#### Voulez-vous installer NextCloud ? _\(OUI/NON\)_
 
 L'installation de NextCloud est judicieuse et peut s'avérer utile. NextCloud peut consommer un peu de ressource, notamment au niveau de NginX et PHP.
 
@@ -254,23 +254,23 @@ NextCloud peut être utile 2 niveaux.
 
 Le choix par défaut étant **oui**, tapez seulement sur **Entrée** pour l'installer. Sinon, saisissez **non**.
 
-#### Voulez-vous installer Webmin ? \(OUI/NON\)
+#### Voulez-vous installer Webmin ? _\(OUI/NON\)_
 
 Bon, je pense que tout le monde connaît Webmin. Vous ne devriez pas vous en servir, normalement, vous pourriez même "casser" MySB, tant dans son fonctionnement que pour les mises à jour de MySB. **Vous devez donc absolument savoir ce que vous faites !**
 
-#### Port pour Webmin \(habituellement 10000\)
+#### Port pour Webmin _\(habituellement 10000\)_
 
 Le port par défaut de Webmin est **10000**. **\*\*Le port sélectionné pour MySB est** 8190\*\*.
 
 Le choix par défaut étant **8190**, tapez seulement sur **Entrée** pour valider. Sinon, saisissez le port désiré en faisant attention de ne pas le mettre en doublon avec un autre.
 
-#### Voulez-vous installer OpenVPN ? \(OUI/NON\)
+#### Voulez-vous installer OpenVPN ? _\(OUI/NON\)_
 
 OpenVPN peut être utilisé de différentes manières en fonction de la méthode de connexion. Si vous installez OpenVPN, 4 questions vous seront posées.
 
 Le choix par défaut étant **oui**, tapez seulement sur **Entrée** pour l'installer. Sinon, saisissez **non**.
 
-#### Port OpenVPN avec redirection du trafic \(TUN\)
+#### Port OpenVPN avec redirection du trafic _\(TUN\)_
 
 Le port sélectionné pour MySB est **8193**.
 
@@ -285,7 +285,7 @@ Le port sélectionné pour MySB est **8193**.
 * trafic Internet via l'adresse IP de votre serveur et non l'IP de votre FAI _\(**non recommandé** pour récupérer des fichiers torrent\)_
 * connexion routée
 
-#### Port OpenVPN sans redirection du trafic \(TUN\)
+#### Port OpenVPN sans redirection du trafic _\(TUN\)_
 
 Le port sélectionné pour MySB est **8194**.
 
@@ -299,7 +299,7 @@ Le port sélectionné pour MySB est **8194**.
   * accès FTPs et sFTP
 * connexion routée
 
-#### Port OpenVPN sans redirection du trafic \(TAP\)
+#### Port OpenVPN sans redirection du trafic _\(TAP\)_
 
 Le port sélectionné pour MySB est **8195**.
 
@@ -317,7 +317,7 @@ Le port sélectionné pour MySB est **8195**.
 _**NOTE**: Ce mode n'est pas maintenu et non terminé._
 {% endhint %}
 
-#### Quel est le protocole à utiliser \(UDP si vous avez une connexion de bonne qualité, TCP autrement\), 'UDP' ou 'TCP' ?
+#### Quel est le protocole à utiliser _\(UDP si vous avez une connexion de bonne qualité, TCP autrement\)_, 'UDP' ou 'TCP' ?
 
 Le protocole par défaut pour MySB est **UDP**.
 
@@ -327,7 +327,7 @@ Comme précisé, si vous disposez d'une connexion Internet stable, il est recomm
 
 ![](../.gitbook/assets/install_questions_security.jpg)
 
-#### Confirmez-vous que le port 80 \(http\) est bel et bien redirigé vers vôtre serveur ?
+#### Confirmez-vous que le port 80 _\(http\)_ est bel et bien redirigé vers vôtre serveur ?
 
 Cette question s'affichera **uniquement** si l'adresse IP locale de votre serveur est différente de celle votre connexion Internet. Ce sera le cas si votre serveur derrière se trouve derrière un routeur. Dans ce cas il sera nécessaire et à votre charge de rediriger tous les ports réseaux nécessaires pour le bon fonctionnement de votre SeedBox.
 
@@ -360,7 +360,7 @@ Jetez un œil au chapitre [Fournisseurs DynDNS](https://mysb.gitbook.io/doc/four
 
 Le choix par défaut étant **oui**, tapez seulement sur **Entrée** pour l'installer. Sinon, saisissez **non**.
 
-#### Quelles sont les adresses IP publiques que vous souhaitez ajouter dès maintenant ? \(ex: x.x.x.x,y.y.y.y\)
+#### Quelles sont les adresses IP publiques que vous souhaitez ajouter dès maintenant ? _\(ex: x.x.x.x,y.y.y.y\)_
 
 Par défaut, l'adresse IP à partir de laquelle vous être connecté à votre serveur pour l'installation est détectée. Vous pouvez en ajoutant plus, mais ce n'est généralement pas utile. A ce stade, vous ne pouvez ajouter que des adresses IP séparées par une virgule et sans espace. Les nom d'hôte ne sont pas acceptés.
 
@@ -368,13 +368,13 @@ Par la suite, vous pourrez ajouter des noms d'hôte et des IP via le portail MyS
 
 Le choix par défaut est votre adresse IP source _\(celle à partir de laquelle vous être connecté\)_, tapez seulement sur **Entrée** pour l'ajouter.
 
-#### Voulez-vous installer Logwatch ? \(OUI/NON\)
+#### Voulez-vous installer Logwatch ? _\(OUI/NON\)_
 
 Logwatch est un utilitaire permettant de surveiller les journaux système et de créer des rapports. Ces rapports comprennent les tentatives de connexion infructueuses, les tentatives de connexion réussie, l'espace de stockage utilisé/disponible, les erreurs de kernel, etc.
 
 Le choix par défaut étant **oui**, tapez seulement sur **Entrée** pour l'installer. Sinon, saisissez **non**.
 
-#### Voulez-vous installer Fail2ban \(recommandé\) ? \(OUI/NON\)
+#### Voulez-vous installer Fail2ban _\(recommandé\)_ ? _\(OUI/NON\)_
 
 [Fail2Ban ](https://www.fail2ban.org/wiki/index.php/Main_Page)est une application qui analyse les logs de divers services _\(SSH, Apache, FTP…\)_ en cherchant des correspondances entre des motifs définis dans ses filtres et les entrées des logs. Lorsqu'une correspondance est trouvée une ou plusieurs actions sont exécutées. Typiquement, Fail2Ban cherche des tentatives répétées de connexions infructueuses dans les logs et procède à un bannissement en ajoutant une règle au pare-feu [IPtables ](https://doc.ubuntu-fr.org/iptables)pour bannir l'adresse IP de la source.
 
@@ -382,7 +382,7 @@ Il est **recommandé** d'installer Fail2Ban.
 
 Le choix par défaut étant **oui**, tapez seulement sur **Entrée** pour l'installer. Sinon, saisissez **non**.
 
-#### Voulez-vous installer DNScrypt-proxy \(recommandé\) ? \(OUI/NON\)
+#### Voulez-vous installer DNScrypt-proxy \(recommandé\) ? _\(OUI/NON\)_
 
 [DNSCrypt-proxy](https://github.com/jedisct1/dnscrypt-proxy) est un protocole qui authentifie les communications entre un client DNS et un résolveur [DNS](https://fr.wikipedia.org/wiki/DNS). Cela empêche la falsification de DNS. Il utilise des signatures cryptographiques pour vérifier que les réponses proviennent du résolveur DNS choisi et n'ont pas été falsifiées. C'est une spécification ouverte, avec des implémentations de référence gratuites et open-source, et elle n'est affiliée à aucune entreprise ni organisation.
 

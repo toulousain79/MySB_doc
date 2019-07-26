@@ -1,10 +1,10 @@
 # Contenu
 
-* **rTorrent** _\(Rakshasa\) \(v0.9.6 avec SSL\)_
-* **libTorrrent** _\(Rakshasa\) \(v0.13.6\)_
+* **rTorrent** _\(Rakshasa\) \(v0.9.7 avec SSL\)_
+* **libTorrrent** _\(Rakshasa\) \(v0.13.7\)_
 * **ruTorrent + plugins officiels**
 * **NginX** _\(SSL, port spécifique et certaines personnalisations\)_
-* **PHP7-FPM**
+* **PHP7.1-FPM**
 * **sFTP** _avec Chroot_
 * **FTPs** _\(FTP via TLS\)_
 * **Postfix** avec _\(ou sans\)_ authentication SMTP _\(Gmail, Free, Ovh, Yahoo and Zoho\)_
@@ -39,4 +39,16 @@
   * Accès aux dossiers 'Watch' via FTPs, sFTP, Samba _\(via OpenVPN\)_ ou NextCloud _\(interface web ou application cliente\)_
   * Chiffrement des requêtes DNS sortantes grâce à DNScrypt-proxy
   * Système de mise à jour de votre Seedbox
+  * Gestion des connexions UDP
+  * [Recyclage des téléchargements](../configuration/options-systemes.md#recyclage-des-telechargements)
+    * Copie simple
+    * Lien dur
+  * [Gestion du type des trackers](../configuration/options-systemes.md#trackers-autorises)
+    * Autorisation de tous les trackers _\(privés & publiques\)_
+    * Autorisation des trackers privés uniquement
+  * Filtrage des annonceurs dans un .torrent
+    * Ajout automatique du tracker et de ces annonceurs dans le portail
+    * Désactivation automatique des annonceurs en IPv6
+    * Blocage manuel d'un tracker via le portail
+    * [Blocage automatique des annonceurs présents dans une liste de blocage](../configuration/options-systemes.md#auto-blocks-annonceurs)
 

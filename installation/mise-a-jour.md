@@ -30,11 +30,11 @@ A la suite de ça, quelques questions vous seront posées.
 
 ### Questions
 
-#### Mot de passe pour l'utilisateur principal \(SANS espaces\)
+#### Mot de passe pour l'utilisateur principal _\(SANS espaces\)_
 
 Vous devez confirmer ou modifier le mot de passe du compte principal.
 
-#### Confirmez-vous que le port 80 \(http\) est bel et bien redirigé vers vôtre serveur ?
+#### Confirmez-vous que le port 80 _\(http\)_ est bel et bien redirigé vers vôtre serveur ?
 
 [Référez-vous au même chapitre dans la partie installation.](https://mysb.gitbook.io/doc/installation/lets-go#confirmez-vous-que-le-port-80-http-est-bel-et-bien-redirige-vers-votre-serveur)
 
@@ -46,7 +46,7 @@ Le choix par défaut étant **oui**, tapez seulement sur **Entrée** ou **non**.
 
 Le choix par défaut étant **oui**, tapez seulement sur **Entrée** ou **non**.
 
-#### Quelles sont les adresses IP publiques que vous souhaitez ajouter dès maintenant ? \(ex: x.x.x.x,y.y.y.y\)
+#### Quelles sont les adresses IP publiques que vous souhaitez ajouter dès maintenant ? _\(ex: x.x.x.x,y.y.y.y\)_
 
 [Référez-vous au même chapitre dans la partie installation.](https://mysb.gitbook.io/doc/installation/lets-go#quelles-sont-les-adresses-ip-publiques-que-vous-souhaitez-ajouter-des-maintenant-ex-x-x-x-x-y-y-y-y)
 
