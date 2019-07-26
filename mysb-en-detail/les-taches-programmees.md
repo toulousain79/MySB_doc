@@ -42,15 +42,9 @@ Cette tâche est exécutée **toutes les 5 minutes**.
 
 Toutes les 5 minutes, les services Plex Media Server et Tautulli sont vérifiés pour qu'ils soient bien démarrés.
 
-## LoadAvg
-
-[`*/5 * * * *`](https://crontab.guru/#*/5_*_*_*_*)`/usr/bin/php -q /opt/MySB/web/apps/la/logger.php > /dev/null 2>&1`
-
-Cette tâche, exécutée **toutes les 5 minutes**, permet l'actualisation des données et performances système visualisables via [LoadAvg](http://www.loadavg.com/).
-
 ## Sessions rTorrent
 
-[_`*/5 * * * *`_](https://crontab.guru/#*/5_*_*_*_*)`systemctl status rtorrent-demo >/dev/null || systemctl restart rtorrent-demo`
+[_`*/5 * * * *`_](https://crontab.guru/#*/5_*_*_*_*)`/bin/bash /home/demo/.rTorrent_tasks.sh status`
 
 **Toutes les 5 minutes**, toutes les sessions rTorrent de tous les utilisateurs sont vérifiées pour qu'elles soient bien démarrées.
 

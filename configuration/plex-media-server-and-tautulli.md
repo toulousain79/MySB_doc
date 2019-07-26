@@ -36,7 +36,7 @@ A ce stade, vous devez vous connecter à vôtre compte Plex.
 
 Pour créer un tunnel SSH en ligne de commande, tapez ceci:
 
-```text
+```bash
 ssh -p 8192 demo@demo-mysb.dyndns.org -L 8888:localhost:32400
 ```
 

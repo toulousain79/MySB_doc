@@ -163,11 +163,15 @@ NFS sera plus orienté Linux, Mac ou même Kodi.
 
 #### NFS v3
 
-`mount -t nfs 10.0.x.1:/home/demo /destination -o nolock`
+```bash
+mount -t nfs 10.0.x.1:/home/demo /destination -o nolock
+```
 
 #### NFS v4
 
-mount -t nfs4 10.0.x.1:/export/demo /destination -o nolock 
+```bash
+mount -t nfs4 10.0.x.1:/export/demo /destination -o nolock
+```
 
 ![](../.gitbook/assets/openvpn_nfs_mount.jpg)
 

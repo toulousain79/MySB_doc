@@ -20,7 +20,7 @@ Sinon, il s'agit d'un problème de sécurité car votre serveur n'a pas les droi
 
 Si à la fin de l'installation vous n'avez reçu de mail de confirmation, c'est qu'il est toujours bloqué en file d'attente sur votre serveur. Pour vérifier cela, connectez-vous à votre serveur en ROOT et exécutez la commande suivante:
 
-```text
+```bash
 mailq
 ```
 

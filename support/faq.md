@@ -8,7 +8,7 @@ Si la question demandant vôtre FQDN se répète, c'est probablement que le nom 
 
 Pour vérifier cela, utilisez la commande **nslookup fqdn\_de\_mon\_serveur**:
 
-```text
+```bash
 root@mysb~ # nslookup www.google.fr
 Server:         127.0.0.1
 Address:        127.0.0.1#53
@@ -23,7 +23,7 @@ Où www.google.fr serait le nom de vôtre serveur, et 216.58.210.35, son adresse
 
 Si jamais vous obtenez un résultat comme celui ci-dessous, ou que l'adresse IP affichée n'est pas celle de vôtre serveur, alors vous avez loupez quelque chose...
 
-```text
+```bash
 root@mysb~ # nslookup monserveur.mondomaine.com
 Server:         127.0.0.1
 Address:        127.0.0.1#53
@@ -42,15 +42,99 @@ Ou vous avez des problèmes d'accès à certains services ?
 
 Lancez les commandes suivantes, cela restaurera tous les droits où il faut.
 
-`. /opt/MySB/inc/vars  
-gfnManageDirAndFiles 'global'`
+```bash
+. /opt/MySB/inc/vars
+gfnManageDirAndFiles 'global'
+```
 
 #### Changer le nom de vôtre serveur
 
-```text
+```bash
 . /opt/MySB/inc/vars
 . /opt/MySB/inc/funcs_by_script/funcs_Upgrade
 gfnChangeFQDN
+```
+
+### Migrer son serveur
+
+Vous souhaitez migrer vers un nouveau serveur et importer toutes vos données ?
+
+La procédure se déroule en 2 étapes minimum.  
+Si le volume est important, cela permettra de gagner du temps lors de la dernière synchronisation et de limiter ainsi le temps de la coupure _\(pouvant se compter en heures...\)_. Il est nécessaire de lancer une première synchronisation _\(before\)_.  
+Puis une seconde synchronisation quand vous aurez déterminé le bon moment pour basculer vers le nouveau serveur.
+
+Suivez les étapes suivantes:
+
+#### Installer MySB sur le nouveau serveur
+
+1. laissez le FQDN par défaut, ou saisissez-en un temporaire _\(FQDN valide bien entendu...\)_
+2. l'utilisateur principal doit être le même que sur l'ancien serveur _\(le mot de passe importe peu\)_
+
+#### Vérifier la connexion vers le nouveau serveur
+
+```bash
+bash /opt/MySB/upgrade/Migrate.bsh check
+```
+
+Pour que le résultat soit positif, vous devrez ajouter les adresses IP des 2 serveurs, respectivement, dans les adresses autorisées via le portail.
+
+Idem, le script vous indiquera quoi faire pour effectuer l'échange de la clé SSH pour que l'ancien serveur accède sans mot de passe au nouveau serveur.
+
+#### Lancer une première synchronisation
+
+Sur l'ancien serveur, connectez-vous en ROOT et exécutez la commande suivante pour lancer une première synchronisation: 
+
+```bash
+bash /opt/MySB/upgrade/Migrate.bsh before
+```
+
+{% hint style="info" %}
+Vous pouvez relancer cette commande autant que nécessaire. Surtout s'il se passe plusieurs jours entre la première synchronisation et la suivante.
+{% endhint %}
+
+{% hint style="info" %}
+Vous pouvez lancer cette première synchronisation en tâche de fond à l'aide de screen.
+
+```bash
+screen -dmS MySB_Migrate /bin/bash /opt/MySB/upgrade/Migrate.bsh before ip_nouveau_serveur port_ssh CRON
+```
+
+Le paramètre **CRON** permettant d'écrire le déroulement dans le fichier **logs/Migrate.bsh.log**.
+{% endhint %}
+
+#### Lancer la dernière synchronisation
+
+Sur l'ancien serveur, connectez-vous en ROOT et exécutez la commande suivante pour lancer une première synchronisation: 
+
+```bash
+bash /opt/MySB/upgrade/Migrate.bsh after
+```
+
+{% hint style="info" %}
+Cette étape laissera l'ancien serveur en mode maintenance. Les services seront donc non disponibles.
+{% endhint %}
+
+### Renommer le nouveau serveur _\(optionnel\)_
+
+Dans le cas où le FQDN de l'ancien serveur pointe sur un domaine dont vous avez la main, vous pouvez attribuer l'ancien FQDN à vôtre nouveau serveur.
+
+Ceci est intéressant si vous _\(et vos utilisateurs\)_ avez des favoris enregistrés, ou utilisez NextCloud par exemple.  
+Déplacer le FQDN de l'ancien vers le nouveau serveur vous évitera de modifier ce FQDN partout...
+
+{% hint style="warning" %}
+Ceci est à faire uniquement lorsque le transfert sera effectif et quand vous aurez choisit le moment pour basculer définitivement de serveur.
+{% endhint %}
+
+{% hint style="danger" %}
+**Il est impératif que l'ancien FQDN pointe sur la nouvelle adresse IP !**
+{% endhint %}
+
+Connectez-vous en **ROOT** sur le nouveau serveur, et exécutez les commandes suivantes:
+
+```bash
+. /opt/MySB/inc/vars
+. /opt/MySB/inc/funcs_by_script/funcs_Upgrade
+gfnChangeFQDN "fqdn_de_l_ancien_serveur"
 ```
 
 ### Les 5% de blocs réservés
@@ -61,7 +145,7 @@ Mettre à 0% c'est pas l'idéal, mais on peut mettre cette valeur à 1% par exem
 
 #### Obtention des infos actuelles
 
-```text
+```bash
 dumpe2fs -h /dev/sda1 | grep -i 'block count'
 
 dumpe2fs 1.43.4 (31-Jan-2017)
@@ -77,13 +161,13 @@ _Nombre de blocs réservés / Nombre de blocs \* 100 = Pourcentage réservé_
 
 #### Changer le pourcentage de bloc réservé à 1%
 
-```text
+```bash
 tune2fs -m 1 /dev/sda1
 ```
 
 #### Vérification
 
-```text
+```bash
 dumpe2fs -h /dev/sda1 | grep -i 'block count'
 
 dumpe2fs 1.43.4 (31-Jan-2017)
@@ -107,7 +191,9 @@ Pour résumer, il suffit d'utiliser la commande _tune2fs -m **X** /dev/**partiti
 
 Il est nécessaire de restaurer les règles de sécurité par défaut. De cette manière, les bannissements seront purgés.
 
-`MySB_SecurityRules create`
+```bash
+MySB_SecurityRules create
+```
 
 ### Web
 

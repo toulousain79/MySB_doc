@@ -12,7 +12,9 @@ _**NOTE**: Prévoyez le bon moment pour appliquer une mise à jour. Selon les mo
 
 Si une nouvelle version est disponible, vous pouvez procéder à son application. Connectez-vous en SSH en **ROOT** à votre serveur, et lancez la commande suivante:
 
-`MySB_UpgradeMe`
+```bash
+MySB_UpgradeMe
+```
 
 Vous obtiendrez quelque chose comme ça:
 

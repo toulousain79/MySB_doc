@@ -4,19 +4,27 @@
 
 Connectez-vous en SSH à vôtre serveur avec le compte **ROOT**. Puis lancez la commande suivante pour récupérer le script d'installation.
 
-`wget --no-check-certificate -N https://raw.githubusercontent.com/toulousain79/MySB/v6.0/install/MySB_Install.bsh`
+```bash
+wget --no-check-certificate -N https://raw.githubusercontent.com/toulousain79/MySB/v6.0/install/MySB_Install.bsh
+```
 
 Ensuite, exécutez-le.
 
-`bash MySB_Install.bsh <fr|en>`
+```bash
+bash MySB_Install.bsh <fr|en>
+```
 
 **Pour l'anglais:**
 
-`bash MySB_Install.bsh en`
+```bash
+bash MySB_Install.bsh en
+```
 
 **Pour le français:**
 
-`bash MySB_Install.bsh fr`
+```bash
+bash MySB_Install.bsh fr
+```
 
 ![](../.gitbook/assets/install_download_script.jpg)
 
