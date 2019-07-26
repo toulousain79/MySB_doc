@@ -1,6 +1,6 @@
 # Histoire
 
-MySB est né en Juin 2014.
+MySB est né le 17 juin 2014.
 
 J'ai commencé par faire des recherches de "scripts from scratch" pour installer une SeedBox. Effectivement, déjà à l'époque, il y avait du choix. De beaux projets, qui en mettent pleins les yeux, gavés de fonctionnalités, plus ou moins facile à installer.
 
