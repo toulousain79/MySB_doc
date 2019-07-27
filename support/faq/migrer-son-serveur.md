@@ -16,7 +16,7 @@ Suivez les étapes suivantes:
 ## 2/5 - Vérifier la connexion vers le nouveau serveur
 
 ```bash
-bash /opt/MySB/upgrade/Migrate.bsh check
+bash /opt/MySB/upgrade/Migration.bsh check
 ```
 
 Pour que le résultat soit positif, vous devrez ajouter les adresses IP des 2 serveurs, respectivement, dans les adresses autorisées via le portail.
@@ -28,7 +28,7 @@ Idem, le script vous indiquera quoi faire pour effectuer l'échange de la clé S
 Sur l'ancien serveur, connectez-vous en ROOT et exécutez la commande suivante pour lancer une première synchronisation: 
 
 ```bash
-bash /opt/MySB/upgrade/Migrate.bsh before
+bash /opt/MySB/upgrade/Migration.bsh before
 ```
 
 {% hint style="info" %}
@@ -39,7 +39,7 @@ Vous pouvez relancer cette commande autant que nécessaire. Surtout s'il se pass
 Vous pouvez lancer cette première synchronisation en tâche de fond à l'aide de screen.
 
 ```bash
-screen -dmS MySB_Migrate /bin/bash /opt/MySB/upgrade/Migrate.bsh before ip_nouveau_serveur port_ssh CRON
+screen -dmS MySB_Migration /bin/bash /opt/MySB/upgrade/Migration.bsh before ip_nouveau_serveur port_ssh CRON
 ```
 
 Le paramètre **CRON** permettant d'écrire le déroulement dans le fichier **logs/Migrate.bsh.log**.
@@ -50,7 +50,7 @@ Le paramètre **CRON** permettant d'écrire le déroulement dans le fichier **lo
 Afin de bloquer l'accès à l'ancien serveur pour tous les utilisateurs, il faut passer l'ancien serveur en mode maintenance. Ainsi, plus aucune modification ne sera faite sur le système de fichiers.
 
 ```bash
-bash /opt/MySB/upgrade/Migrate.bsh lock_old
+bash /opt/MySB/upgrade/Migration.bsh lock_old
 ```
 
 ## 5/5 - Lancer la dernière synchronisation
@@ -58,7 +58,7 @@ bash /opt/MySB/upgrade/Migrate.bsh lock_old
 Sur l'ancien serveur, connectez-vous en ROOT et exécutez la commande suivante pour lancer la dernière synchronisation: 
 
 ```bash
-bash /opt/MySB/upgrade/Migrate.bsh after
+bash /opt/MySB/upgrade/Migration.bsh after
 ```
 
 {% hint style="info" %}
