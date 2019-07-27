@@ -11,7 +11,8 @@ Suivez les étapes suivantes:
 ## 1/5 - Installer MySB sur le nouveau serveur
 
 1. laissez le FQDN par défaut, ou saisissez-en un temporaire _\(FQDN valide bien entendu...\)_
-2. l'utilisateur principal doit être le même que sur l'ancien serveur _\(le mot de passe importe peu\)_
+2. l'utilisateur principal doit être le même que sur l'ancien serveur
+3. Les version de MySB **doivent correspondre** entre les serveurs !
 
 ## 2/5 - Vérifier la connexion vers le nouveau serveur
 
