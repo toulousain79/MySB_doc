@@ -66,5 +66,7 @@
 ## Support
 
 * [Discord](support/discord.md)
-* [FAQ](support/faq.md)
+* [FAQ](support/faq/README.md)
+  * [Ajouter un site perso](support/faq/ajouter-un-site-perso.md)
+  * [Migrer son serveur](support/faq/migrer-son-serveur.md)
 
