@@ -8,13 +8,13 @@ Puis une seconde synchronisation quand vous aurez déterminé le bon moment pour
 
 Suivez les étapes suivantes:
 
-## 1/5 - Installer MySB sur le nouveau serveur
+## 1/6 - Installer MySB sur le nouveau serveur
 
 1. laissez le FQDN par défaut, ou saisissez-en un temporaire _\(FQDN valide bien entendu...\)_
 2. l'utilisateur principal doit être le même que sur l'ancien serveur
 3. Les version de MySB **doivent correspondre** entre les serveurs !
 
-## 2/5 - Vérifier la connexion vers le nouveau serveur
+## 2/6 - Vérifier la connexion vers le nouveau serveur
 
 ```bash
 bash /opt/MySB/upgrade/Migration.bsh check
@@ -24,7 +24,11 @@ Pour que le résultat soit positif, vous devrez ajouter les adresses IP des 2 se
 
 Idem, le script vous indiquera quoi faire pour effectuer l'échange de la clé SSH pour que l'ancien serveur accède sans mot de passe au nouveau serveur.
 
-## 3/5 - Lancer une première synchronisation
+{% hint style="success" %}
+_Commande à exécuter sur **l'ancien** serveur !_
+{% endhint %}
+
+## 3/6 - Lancer une première synchronisation
 
 Sur l'ancien serveur, connectez-vous en ROOT et exécutez la commande suivante pour lancer une première synchronisation: 
 
@@ -46,7 +50,11 @@ screen -dmS MySB_Migration /bin/bash /opt/MySB/upgrade/Migration.bsh before ip_n
 Le paramètre **CRON** permettant d'écrire le déroulement dans le fichier **logs/Migrate.bsh.log**.
 {% endhint %}
 
-## 4/5 - Mise en maintenance de l'ancien serveur
+{% hint style="success" %}
+_Commande à exécuter sur **l'ancien** serveur !_
+{% endhint %}
+
+## 4/6 - Mise en maintenance de l'ancien serveur
 
 Afin de bloquer l'accès à l'ancien serveur pour tous les utilisateurs, il faut passer l'ancien serveur en mode maintenance. Ainsi, plus aucune modification ne sera faite sur le système de fichiers.
 
@@ -54,7 +62,11 @@ Afin de bloquer l'accès à l'ancien serveur pour tous les utilisateurs, il faut
 bash /opt/MySB/upgrade/Migration.bsh lock_old
 ```
 
-## 5/5 - Lancer la dernière synchronisation
+{% hint style="success" %}
+_Commande à exécuter sur **l'ancien** serveur !_
+{% endhint %}
+
+## 5/6 - Lancer la dernière synchronisation
 
 Sur l'ancien serveur, connectez-vous en ROOT et exécutez la commande suivante pour lancer la dernière synchronisation: 
 
@@ -64,6 +76,22 @@ bash /opt/MySB/upgrade/Migration.bsh after
 
 {% hint style="info" %}
 Cette étape forcera l'ancien serveur en mode maintenance. Les services seront donc non disponibles.
+{% endhint %}
+
+{% hint style="success" %}
+_Commande à exécuter sur le **nouveau** serveur !_
+{% endhint %}
+
+## 6/6 - Forcer le nommage actuel
+
+Cela appliquera le nom actuel du nouveau serveur dans certaines configurations ET désactivera le mode maintenance.
+
+```bash
+bash /opt/MySB/upgrade/Migration.bsh force_rename
+```
+
+{% hint style="success" %}
+_Commande à exécuter sur le **nouveau** serveur !_
 {% endhint %}
 
 ## Réutiliser l'ancien nom d'hôte _\(optionnel\)_
@@ -86,7 +114,7 @@ Connectez-vous en **ROOT** sur le nouveau serveur, et exécutez les commandes su
 Vérifiez que le'ancien FQDN point bien sur la nouvelle adresse IP:
 
 ```bash
-grep 'Address: ' <<<"$(demo-mysb.dyndns.org)"
+grep 'Address: ' <<<"$(nslookup demo-mysb.dyndns.org)"
 Address: ma_nouvelle_IP
 ```
 
@@ -95,6 +123,10 @@ Quand c'est validé, alors on peut renommer le nouveau serveur:
 ```bash
 . /opt/MySB/inc/vars
 . /opt/MySB/inc/funcs_by_script/funcs_Upgrade
-gfnChangeFQDN "fqdn_de_l_ancien_serveur"
+gfnChangeFQDN
 ```
+
+{% hint style="success" %}
+_Commande à exécuter sur le **nouveau** serveur !_
+{% endhint %}
 
