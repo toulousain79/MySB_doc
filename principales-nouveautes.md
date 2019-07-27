@@ -2,7 +2,7 @@
 
 ## rTorrent
 
-* rTorrent v9.7
+* rTorrent v0.9.8 / libTorrent v0.13.8
 * Activation des connexions UDP
 * [Recyclage des téléchargements](configuration/options-systemes.md#recyclage-des-telechargements)
   * Copie simple
