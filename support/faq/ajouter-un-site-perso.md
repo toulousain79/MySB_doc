@@ -57,7 +57,7 @@ Les fichiers de votre site internet devront se trouver dans le dossier _**/var/w
 
 ```bash
 [[ ! -L /etc/nginx/sites-enabled/mon_site ]] && ln -s /etc/nginx/sites-available/mon_site /etc/nginx/sites-enabled/mon_site
-service nginx restart
+service nginx reload
 ```
 
 ## Ajouter un FQDN pour Let's Encrypt
