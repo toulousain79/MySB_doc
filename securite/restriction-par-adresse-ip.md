@@ -12,7 +12,7 @@ Il est possible de restreindre l'accès à votre serveur en fonction de certaine
   * ruTorrent
   * Cakebox
   * Seedbox-Manager
-  * LoadAvg
+  * NetData
   * Shell In a Box
 
 **Non soumis à la restriction par adresse IP** _**\(mais filtré par Fail2Ban\)**_

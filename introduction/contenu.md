@@ -9,18 +9,18 @@
 * **FTPs** _\(FTP via TLS\)_
 * **Postfix** avec _\(ou sans\)_ authentication SMTP _\(Gmail, Free, Ovh, Yahoo and Zoho\)_
 * **Seedbox-Manager** _\(optionnel\)_
-* **LoadAvg** _\(analyse et surveillance du serveur\)_
-* **NextCloud** _\(optionnel mais **recommandé**\)_
+* \*\*\*\*[**NetData**](https://github.com/netdata/netdata) _\(analyse et surveillance du serveur\)_
+* \*\*\*\*[**NextCloud**](https://nextcloud.com/) _\(optionnel mais **recommandé**\)_
 * **OpenVPN** _\(optionnel\); multi configuration TUN/TAP, avec ou sans redirection du traffic. Support de AES-NI._
 * **CakeBox-Light** _\(optionnel\)_
 * **PlexMedia Server** _\(optionnel, nécessite une configuration manuelle supplémentaire\)_
-* **Tautulli** _\(si Plexmedia est installé\)_
-* **Shell In A Box**
+* \*\*\*\*[**Tautulli**](https://github.com/Tautulli/Tautulli) ****_\(si Plexmedia est installé\)_
+* \*\*\*\*[**Shell In A Box**](https://github.com/shellinabox/shellinabox)\*\*\*\*
 * **Webmin** _\(optionnel\)_
 * **Partage Samba** pour chaque utilisateur _\(via l'accès VPN\)_
 * **Partage NFS** pour chaque utilisateur _\(via l'accès VPN\)_
 * **PeerGuardian** pour la gestion des listes de blocage _\(optionnel mais **recommandé**\)_
-* **DNScrypt-proxy** avec Bind9 en tant que cache DNS _\(optionnel mais **recommandé**\)_
+* \*\*\*\*[**DNScrypt-proxy**](https://dnscrypt.info/) avec Bind9 en tant que cache DNS _\(optionnel mais **recommandé**\)_
 * **Let's Encrypt** _\(obtention d'un certificat signé gratuit pour l'accès au portail MySB et de tous les services Web\)_
 * **Fail2ban** _\(optionnel mais **recommandé**\)_
 * **RKHunter**

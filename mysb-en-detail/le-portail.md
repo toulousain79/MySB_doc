@@ -21,7 +21,7 @@ Les utilisateurs Plex disposent d'un accès très limité au portail.
 
 ### Menu Services
 
-* LoadAvg
+* NetData
 
 ### Menu Utilisateur
 
@@ -43,7 +43,7 @@ Les utilisateurs standards disposent d'un accès plus complet au portail.
 
 * ruTorrent
 * NextCloud
-* LoadAvg
+* NetData
 * Seedbox-Manager
 * Cakebox-Light
 
@@ -81,7 +81,7 @@ L'utilisateurs _standards_ disposent d'un accès plus complet au portail.
 * ruTorrent
 * Tautulli
 * NextCloud
-* LoadAvg
+* NetData
 * Seedbox-Manager
 * Cakebox-Light
 * Shell In a Box
