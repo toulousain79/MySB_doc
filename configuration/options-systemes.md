@@ -46,7 +46,7 @@ L'idée de cette option est d'éviter de télécharger à nouveau le contenu d'u
 | :--- | :--- |
 
 
-| **Copie simple** | Si le contenu du torrent existe déjà quelque part, il sera copié au-lieu d'être téléchargé à nouveau. _\(cp -a\)_ |
+| **Copie simple** | Si le contenu du torrent existe déjà quelque part, il sera copié au-lieu d'être téléchargé à nouveau. _\(`cp -a`\)_ |
 | :--- | :--- |
 
 
@@ -58,7 +58,7 @@ L'idée de cette option est d'éviter de télécharger à nouveau le contenu d'u
       <th style="text-align:left">
         <p>Identique &#xE0; la copie simple, &#xE0; la diff&#xE9;rence qu&apos;un
           lien dur est effectu&#xE9; &#xE0; la place. Les utilisateurs ayant le m&#xEA;me
-          torrent partageront les m&#xEA;mes inodes sur le disque. <em>(cp -al)</em>
+          torrent partageront les m&#xEA;mes inodes sur le disque. <em>(<code>cp -al</code>)</em>
         </p>
         <p>La m&#xE9;thode <b>Lien dur</b> affecte la gestion des quotas pour les utilisateurs
           concern&#xE9;s.</p>
@@ -103,8 +103,8 @@ Active ou non le filtrage de tous les annonceurs présents dans un .torrent ajou
 
 Le filtrage consiste à vérifier chaque annonceur en effectuant divers vérifications telles que:
 
-* un nslookup pour récupérer toutes les adresses IP liées à l'annonceur
-* vérification de toutes les adresses IP trouvées en faisant un ping et une vérification d'une éventuelle présence dans une liste de blocage. Les IP appartenant à une liste peuvent être bloquées automatiquement \(cf. chapitre [Auto blocks annonceurs](options-systemes.md#auto-blocks-annonceurs)\).
+* un `nslookup` pour récupérer toutes les adresses IP liées à l'annonceur
+* vérification de toutes les adresses IP trouvées en faisant un ping et une vérification d'une éventuelle présence dans une liste de blocage. Les IP appartenant à une liste peuvent être bloquées automatiquement _\(cf. chapitre_ [_Auto blocks annonceurs_](options-systemes.md#auto-blocks-annonceurs)_\)_.
 * une tentative de récupération d'un éventuel certificat SSL
 
 {% hint style="info" %}
