@@ -14,6 +14,7 @@ Je ne me souviens pas de tout le monde en 4 ans, mais les principaux sont là.
 * shaine
 * crzay42
 * Mamimi
+* Poseidon
 
 Merci ;-\)
 
