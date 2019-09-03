@@ -3,12 +3,13 @@
 ## Aperçu rapide
 
 {% hint style="success" %}
+* [x] Faire l'installation en **ROOT**
 * [x] Noyau par défaut Debian
-* [x] Système de fichier EXT4 _\(PAS DE LVM !!!\)_
+* [x] Système de fichier EXT4 _\(**PAS DE LVM !!!**\)_
 * [x] 8 Go de RAM minimum
 * [x] Processeur 4 cœurs  conseillé _\(éviter les processeurs ATOM\)_
 * [x] Compte mail externe très conseillé _\(GMAIL, YAHOO, FREE, ZOHO et OVH\)_
-* [x] Nom d'hôte valide \(FQDN\) _\(éviter le noms donnés par défaut par l'hébergeur\)_
+* [x] Nom d'hôte **valide** _\(FQDN\)_ _\(éviter le noms donnés par défaut par l'hébergeur\)_
 {% endhint %}
 
 ## Nom d'hôte / Hostname / FQDN
