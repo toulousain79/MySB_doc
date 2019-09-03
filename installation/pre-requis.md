@@ -4,7 +4,7 @@
 
 {% hint style="success" %}
 * [x] Noyau par défaut Debian
-* [x] Système de fichier EXT4 _\(éviter le LVM\)_
+* [x] Système de fichier EXT4 _\(PAS DE LVM !!!\)_
 * [x] 8 Go de RAM minimum
 * [x] Processeur 4 cœurs  conseillé _\(éviter les processeurs ATOM\)_
 * [x] Compte mail externe très conseillé _\(GMAIL, YAHOO, FREE, ZOHO et OVH\)_
