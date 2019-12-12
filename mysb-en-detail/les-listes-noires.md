@@ -54,6 +54,12 @@ Cliquez sur **Sauvegarder les modifications**, puis **Appliquer les modification
 Si vous avez un doute quant au choix des listes à activer, alors laissez celles par défaut.
 {% endhint %}
 
+{% hint style="success" %}
+Envisagez à la souscription pour des listes payantes sur [i-Blocklists](https://www.iblocklist.com/) ou à une liste [ipfilterX sur Nexus23](https://ipfilterx.com/subscribe/) !
+{% endhint %}
+
+
+
 ### Listes noires par pays
 
 Pour activer/désactiver une liste, sélectionnez **Oui** ou **Non** dans la colonne **Actif ?**.  
@@ -63,6 +69,10 @@ Cliquez sur **Sauvegarder les modifications**, puis **Appliquer les modification
 
 {% hint style="info" %}
 Si vous avez un doute quant au choix des listes à activer, alors laissez celles par défaut.
+{% endhint %}
+
+{% hint style="success" %}
+Législation du P2P par pays: [https://www.vpnmentor.com/blog/torrents-illegal-update-country/](https://www.vpnmentor.com/blog/torrents-illegal-update-country/)
 {% endhint %}
 
 ## Avertissements
