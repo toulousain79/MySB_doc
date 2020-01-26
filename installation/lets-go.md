@@ -5,7 +5,7 @@
 Connectez-vous en SSH à vôtre serveur avec le compte **ROOT**. Puis lancez la commande suivante pour récupérer le script d'installation.
 
 ```bash
-cd /tmp/; wget --no-check-certificate -N https://raw.githubusercontent.com/toulousain79/MySB/v7.1/install/MySB_Install.bsh
+cd /tmp/; wget --no-check-certificate -N https://raw.githubusercontent.com/toulousain79/MySB/v7.2/install/MySB_Install.bsh
 ```
 
 Ensuite, exécutez-le.
@@ -488,4 +488,3 @@ _Je vous conseille de générer une clé SSH avec une "passphrase" !_
 {% endhint %}
 
 L'utilisateur principal, celui créé lors de l'installation de MySB, aura le droit de se connecter en SSH.
-
