@@ -2,10 +2,10 @@
 
 ## Pour commencer
 
-Les listes noires _\(ou listes de blocage\)_ sont des listes d'adresses IP classées par catégories.   
+Les listes noires _\(ou listes de blocage\)_ sont des listes d'adresses IP classées par catégories.  
 Ces listes sont exploitées par l'outil PeerGuardian et/ou rTorrent dans le but de bloquer l'accès à votre serveur aux catégories d'adresses IP sélectionnées _\(organismes gouvernementaux, organisations malveillantes, organisations anti P2P, ...\)_.
 
-Certaines catégories ont été sélectionnées par défaut pour obtenir un compromis entre sécurité et partage des données.   
+Certaines catégories ont été sélectionnées par défaut pour obtenir un compromis entre sécurité et partage des données.  
 Les listes de blocage de PeerGuardian et rTorrent sont exploitées distinctement.
 
 Si vous avez choisi d'installer PeerGuardian, alors votre serveur sera complètement protégé.  
@@ -39,9 +39,9 @@ _Vous pouvez également ajouter vos propres listes comme celles provenant de Nex
 ![](../.gitbook/assets/blocklist_personal.jpg)
 
 La **Source** est un champs permettant d'identifier personnellement vos listes. Mettez ce que vous voulez. _\(ex: Nexus23\)_.  
-Le **Nom** de vôtre liste. _\(ex:  ipfilterX2\)_  
+Le **Nom** de vôtre liste. _\(ex: ipfilterX2\)_  
 L'**URL** par contre doit être valide et contenir directement les éventuels identifiants d'accès à la liste.  
-_\(ex: https://www.nexus23.net/walrus/download.php?t=x2&k=xxxxxxxxxxxxxxxxxxxxxxxxxxxxx\)_
+_\(ex:_ [https://www.nexus23.net/walrus/download.php?t=x2&k=xxxxxxxxxxxxxxxxxxxxxxxxxxxxx\](https://www.nexus23.net/walrus/download.php?t=x2&k=xxxxxxxxxxxxxxxxxxxxxxxxxxxxx\)_\)_
 
 #### Activation / Désactivation
 
@@ -79,6 +79,6 @@ Toutes les modifications appliquées manuellement seront **effacées** par le fo
 
 {% hint style="info" %}
 Les règles IPtables sont générées dynamiquement, incluant celles de PeerGuardian, Fail2Ban, ainsi que des règles spécifiques à MySB.  
-Toutes les modifications appliquées manuellement seront effacées par le fonctionnement du  système.
+Toutes les modifications appliquées manuellement seront effacées par le fonctionnement du système.
 {% endhint %}
 

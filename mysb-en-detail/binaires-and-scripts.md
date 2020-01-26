@@ -57,7 +57,7 @@ Bien qu'il soit possible de gérer les utilisateurs via le portail, les mêmes c
       <td style="text-align:left">
         <p>Permet de mettre &#xE0; jour le syst&#xE8;me, les certificats et les modules
           Python,</p>
-        <p>en <b>for&#xE7;ant </b>la <b>conservation </b>des fichiers de configuration.</p>
+        <p>en <b>for&#xE7;ant</b> la <b>conservation</b> des fichiers de configuration.</p>
         <p>Cette commande est ex&#xE9;cut&#xE9;e 1 fois <b>toutes les semaines</b> via
           une t&#xE2;che</p>
         <p>programm&#xE9;e.</p>
@@ -77,9 +77,9 @@ Bien qu'il soit possible de gérer les utilisateurs via le portail, les mêmes c
       <td style="text-align:left">
         <p>Permet d&apos;appliquer ou supprimer les r&#xE8;gles de s&#xE9;curit&#xE9;
           du syst&#xE8;me.
-          <br /><b>Supprime </b>les r&#xE8;gles: <code>MySB_SecurityRules </code><b><code>clean</code></b>
+          <br /><b>Supprime</b> les r&#xE8;gles: <code>MySB_SecurityRules</code>  <b><code>clean</code></b>
         </p>
-        <p><b>Recr&#xE9;e</b> toutes les r&#xE8;gles: <code>MySB_SecurityRules </code><b><code>create</code></b>
+        <p><b>Recr&#xE9;e</b> toutes les r&#xE8;gles: <code>MySB_SecurityRules</code>  <b><code>create</code></b>
         </p>
       </td>
     </tr>
@@ -114,7 +114,7 @@ Bien qu'il soit possible de gérer les utilisateurs via le portail, les mêmes c
       </td>
     </tr>
   </tbody>
-</table>## Les scripts usuels
+</table>\#\# Les scripts usuels
 
 <table>
   <thead>
@@ -154,7 +154,7 @@ Bien qu'il soit possible de gérer les utilisateurs via le portail, les mêmes c
       <td style="text-align:left">GetTrackersCert.bsh</td>
       <td style="text-align:left">
         <p>Permet de <b>rafra&#xEE;chir</b> les adresses IP et les <b>certificats SSL</b> de
-          tous les trackers activ&#xE9;s dans le portail <em>(<b>Trackers </b>&gt; <b>Liste des trackers</b>)</em>,
+          tous les trackers activ&#xE9;s dans le portail <em>(<b>Trackers</b> &gt; <b>Liste des trackers</b>)</em>,
           de <b>d&#xE9;tecter</b> et <b>d&apos;ajouter</b> les trackers contenu dans
           les .torrent des utilisateurs.</p>
         <p>Il est appel&#xE9; &#xE0; chaque fois que cette liste est modifi&#xE9;e.</p>

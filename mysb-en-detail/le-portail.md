@@ -5,7 +5,7 @@ Le portail est basé sur [Wolf](https://github.com/wolfcms/wolfcms), un [CMS](ht
 L'URL d'accès au portail est formatée comme suit:
 
 {% hint style="info" %}
-https://monserver.domain.com:**8189**/
+[https://monserver.domain.com:\*\*8189\*\*/](https://monserver.domain.com:**8189**/)
 {% endhint %}
 
 Tous les utilisateurs n'auront pas accès aux même menus.  

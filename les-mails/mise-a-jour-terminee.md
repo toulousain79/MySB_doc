@@ -1,6 +1,6 @@
 # Mise à jour terminée
 
-## Mail envoyé par MySB 
+## Mail envoyé par MySB
 
 ![](../.gitbook/assets/upgrade_completed.jpg)
 

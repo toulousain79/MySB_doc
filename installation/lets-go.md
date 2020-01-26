@@ -488,3 +488,4 @@ _Je vous conseille de générer une clé SSH avec une "passphrase" !_
 {% endhint %}
 
 L'utilisateur principal, celui créé lors de l'installation de MySB, aura le droit de se connecter en SSH.
+

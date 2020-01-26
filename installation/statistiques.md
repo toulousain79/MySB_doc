@@ -10,5 +10,5 @@ Les seules informations collectées pour éviter les doublons sont:
 * La version installée
 * Le hash256 du machine-id du serveur _\(`cat /etc/machine-id | sha256sum`\)_
 
-Donc, si vous voulez que ce projet continue, merci de jouer le jeu 😋 
+Donc, si vous voulez que ce projet continue, merci de jouer le jeu 😋
 

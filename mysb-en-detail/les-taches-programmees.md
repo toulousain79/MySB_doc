@@ -16,7 +16,7 @@ L'horodatage d'exécution de cette tâche est calculée dynamiquement lors de l'
 
 ## Rootkit Hunter \(RKHunter\)
 
- [**RKHunter**](https://fr.wikipedia.org/wiki/Rkhunter) ****est un programme Unix qui permet de détecter les rootkits, portes dérobées et exploits.
+[**RKHunter**](https://fr.wikipedia.org/wiki/Rkhunter) _\*\*_est un programme Unix qui permet de détecter les rootkits, portes dérobées et exploits.
 
 [`0 4 * * *`](https://crontab.guru/#0_4_*_*_*)`/usr/local/bin/rkhunter --cronjob --update --quiet > /dev/null 2>&1`
 

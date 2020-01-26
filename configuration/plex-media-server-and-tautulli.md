@@ -166,9 +166,7 @@ Naviguez jusque dans le dossier /home/user/**rtorrent/complete**/. D'abord en cl
     </tr>
   </thead>
   <tbody></tbody>
-</table>Par exemple, nous aurions pu ajouter les catégories **Films\_HD** et **Films\_mHD** dans une seule bibliothèque nommée **Films**, tout simplement.
-
-Maintenant, chaque fois que vous ajouterez un fichier dans Films\_HD, il apparaîtra automatiquement dans Plex.
+</table>Maintenant, chaque fois que vous ajouterez un fichier dans Films\_HD, il apparaîtra automatiquement dans Plex.
 
 ## Configurer Tautulli
 

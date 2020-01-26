@@ -1,13 +1,11 @@
 # Table of contents
 
 * [Accueil](README.md)
-* [Principales nouveautés](principales-nouveautes.md)
 * [Changelog](https://github.com/toulousain79/MySB/blob/v7.2/Changelog.md)
 
 ## Introduction
 
 * [Avertissements](introduction/avertissements.md)
-* [Histoire](introduction/histoire.md)
 * [Contenu](introduction/contenu.md)
 * [Remerciements](introduction/remerciements.md)
 
@@ -69,3 +67,4 @@
 * [FAQ](support/faq/README.md)
   * [Ajouter un site perso](support/faq/ajouter-un-site-perso.md)
   * [Migrer son serveur](support/faq/migrer-son-serveur.md)
+

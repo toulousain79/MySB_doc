@@ -49,7 +49,7 @@ Connexion **1 Gbps**.
 
 ### OneProvider
 
-Serveurs Dedibox, prix correct mais beaucoup trop de processeurs **Atom** _\(oubliez-moi dans ce cas...\)_.   
+Serveurs Dedibox, prix correct mais beaucoup trop de processeurs **Atom** _\(oubliez-moi dans ce cas...\)_.  
 Interface de gestion un peu top simpliste à mon goût.  
 Possibilité de choisir le pays de location de votre serveur.  
 Complications avérés avec Debian après une installation de MySB.
@@ -84,6 +84,4 @@ Préférence pour cette sélection: [https://www.hetzner.de/sb](https://www.hetz
 ### PulseHeberg
 
 ???
-
-
 

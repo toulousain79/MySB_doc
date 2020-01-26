@@ -1,10 +1,10 @@
 # Contenu
 
-* **rTorrent** _\(Rakshasa\) \(v0.9.7 avec SSL\)_
-* **libTorrrent** _\(Rakshasa\) \(v0.13.7\)_
+* **rTorrent** _\(Rakshasa\) \(v0.9.8 avec SSL\)_
+* **libTorrrent** _\(Rakshasa\) \(v0.13.8\)_
 * **ruTorrent + plugins officiels**
 * **NginX** _\(SSL, port spécifique et certaines personnalisations\)_
-* **PHP7.1-FPM**
+* **PHP7.3-FPM**
 * **sFTP** _avec Chroot_
 * **FTPs** _\(FTP via TLS\)_
 * **Postfix** avec _\(ou sans\)_ authentication SMTP _\(Gmail, Free, Ovh, Yahoo and Zoho\)_
@@ -14,7 +14,7 @@
 * **OpenVPN** _\(optionnel\); multi configuration TUN/TAP, avec ou sans redirection du traffic. Support de AES-NI._
 * **CakeBox-Light** _\(optionnel\)_
 * **PlexMedia Server** _\(optionnel, nécessite une configuration manuelle supplémentaire\)_
-* \*\*\*\*[**Tautulli**](https://github.com/Tautulli/Tautulli) ****_\(si Plexmedia est installé\)_
+* \*\*\*\*[**Tautulli**](https://github.com/Tautulli/Tautulli) _\*\*\(si Plexmedia est installé\)_
 * \*\*\*\*[**Shell In A Box**](https://github.com/shellinabox/shellinabox)\*\*\*\*
 * **Webmin** _\(optionnel\)_
 * **Partage Samba** pour chaque utilisateur _\(via l'accès VPN\)_

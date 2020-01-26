@@ -28,31 +28,13 @@ Les fichiers de configuration sont téléchargeables via un **fichier ZIP** pour
 Chaque fois que vous souhaiterez télécharger vos fichiers de configuration, vous devrez les régénérer à chaque fois, prévu dans le cas où vous décidez de modifier le protocole de connexion _\(TCP ou UDP\)_.  
 Une fois la demande de génération demandée, il vous sera proposé de **télécharger** un fichier ZIP.
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">
-        <p></p>
-        <p>
-          <img src="../.gitbook/assets/openvpn_generate.jpg" alt/>
-        </p>
-      </td>
-      <td style="text-align:left">
-        <p></p>
-        <p>
-          <img src="../.gitbook/assets/openvpn_download.jpg" alt/>
-        </p>
-      </td>
-    </tr>
-  </tbody>
-</table>Le fichier ZIP est protégé par un mot de passe, celui de l'utilisateur.  
-Ce ZIP contient certains fichiers, les différents fichiers de configuration et les clés pour OpenVPN.
+|  |  |
+| :--- | :--- |
+
+
+| ![](../.gitbook/assets/openvpn_generate.jpg) | ![](../.gitbook/assets/openvpn_download.jpg) |
+| :--- | :--- |
+
 
 J'ai pris soins de fournir des fichiers de configuration "fichier unique" _\(**Single**\)_, contenant la configuration ainsi que les clés de chiffrement.  
 Et d'autres fichiers ne contenant que la configuration OpenVPN, et de fournir les clés séparément.  
@@ -66,59 +48,25 @@ Selon les cas, cela peut être utile.
 
 [Télécharger le client OpenVPN](https://openvpn.net/community-downloads/)
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">
-        <p></p>
-        <p>
-          <img src="../.gitbook/assets/openvpn_config_folder.jpg" alt/>
-        </p>
-      </td>
-      <td style="text-align:left">
-        <p></p>
-        <p>
-          <img src="../.gitbook/assets/openvpn_gui.jpg" alt/>
-        </p>
-      </td>
-    </tr>
-  </tbody>
-</table>#### Routeur avec firmware Tomato
+|  |  |
+| :--- | :--- |
+
+
+| ![](../.gitbook/assets/openvpn_config_folder.jpg) | ![](../.gitbook/assets/openvpn_gui.jpg) |
+| :--- | :--- |
+
 
 * [Tomato USB](http://tomatousb.org/)
 * [Tomato by Shibby](http://tomato.groov.pl/), basé sur Tomato USB
 * [Advenced Tomato](https://advancedtomato.com/), basé sur Tomato by Shibby. La même chose que l'original, mais relooké.
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">
-        <p></p>
-        <p>
-          <img src="../.gitbook/assets/openvpn_tomato_basic.jpg" alt/>
-        </p>
-      </td>
-      <td style="text-align:left">
-        <p></p>
-        <p>
-          <img src="../.gitbook/assets/openvpn_tomato_advanced.jpg" alt/>
-        </p>
-      </td>
-    </tr>
-  </tbody>
-</table>## NFS & Samba
+|  |  |
+| :--- | :--- |
+
+
+| ![](../.gitbook/assets/openvpn_tomato_basic.jpg) | ![](../.gitbook/assets/openvpn_tomato_advanced.jpg) |
+| :--- | :--- |
+
 
 Selon la connexion OpenVPN utilisée, l'adresse IP sera différente pour accéder à NFS ou Samba.
 
@@ -130,36 +78,28 @@ Selon la connexion OpenVPN utilisée, l'adresse IP sera différente pour accéde
 
 Une fois connecté avec OpenVPN, vous aurez accès à vôtre partage Samba, et ainsi monter un lecteur réseau.
 
+|  |  |
+| :--- | :--- |
+
+
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">
-        <p></p>
-        <p>
-          <img src="../.gitbook/assets/openvpn_samba_connect.jpg" alt/>
-        </p>
-      </td>
-      <td style="text-align:left">
-        <p></p>
+      <th style="text-align:left">
+        <img src="../.gitbook/assets/openvpn_samba_connect.jpg" alt/>
+      </th>
+      <th style="text-align:left">
         <p>
           <img src="../.gitbook/assets/openvpn_samba_content.jpg" alt/>
         </p>
-        <p></p>
         <p>
           <img src="../.gitbook/assets/openvpn_samba_drive.jpg" alt/>
         </p>
-      </td>
+      </th>
     </tr>
-  </tbody>
-</table>### Partage NFS
-
-NFS sera plus orienté Linux, Mac ou même Kodi.
+  </thead>
+  <tbody></tbody>
+</table>NFS sera plus orienté Linux, Mac ou même Kodi.
 
 #### NFS v3
 

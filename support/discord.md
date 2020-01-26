@@ -2,7 +2,7 @@
 
 ## Support - FR
 
-Un support individuel est possible à ceux qui en font la demande via l'application [Discord](https://discordapp.com/) **uniquement** si vous _**signalez**_ ****votre installation.
+Un support individuel est possible à ceux qui en font la demande via l'application [Discord](https://discordapp.com/) **uniquement** si vous _**signalez**_ _\*\*_votre installation.
 
 Vous devrez me fournir identifiant de votre serveur _`(cat /etc/machine-id | sha256sum)`_.
 

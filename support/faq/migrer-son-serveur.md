@@ -30,7 +30,7 @@ _Commande à exécuter sur **l'ancien** serveur !_
 
 ## 3/6 - Lancer une première synchronisation
 
-Sur l'ancien serveur, connectez-vous en ROOT et exécutez la commande suivante pour lancer une première synchronisation: 
+Sur l'ancien serveur, connectez-vous en ROOT et exécutez la commande suivante pour lancer une première synchronisation:
 
 ```bash
 bash /opt/MySB/upgrade/Migration.bsh before
@@ -68,7 +68,7 @@ _Commande à exécuter sur **l'ancien** serveur !_
 
 ## 5/6 - Lancer la dernière synchronisation
 
-Sur l'ancien serveur, connectez-vous en ROOT et exécutez la commande suivante pour lancer la dernière synchronisation: 
+Sur l'ancien serveur, connectez-vous en ROOT et exécutez la commande suivante pour lancer la dernière synchronisation:
 
 ```bash
 bash /opt/MySB/upgrade/Migration.bsh after
