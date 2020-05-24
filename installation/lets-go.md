@@ -450,8 +450,6 @@ _**NOTE**: Le port SSH peut changer durant l'installation. Si le port SSH 22 ne 
 
 ![](../.gitbook/assets/install_step_services.jpg)
 
-### Étape 3 - Installation des services liés à la sécurité
-
 ## Redémarrage du serveur
 
 ![](../.gitbook/assets/install_reboot.jpg)
@@ -470,8 +468,6 @@ Si vous avez correctement configurer votre compte de messagerie, vous devriez av
 [Voici un exemple du mail que vous devez recevoir.](https://mysb.gitbook.io/doc/les-mails/fin-dinstallation)
 
 Vous pouvez dès maintenant vous connecter au portail MySB en cliquant sur le lien **Aller vers votre portail MySB**, en haut à gauche du mail.
-
-{% hint style="warning" %}
 
 Si vous n'avez pas reçu de mail après le reboot du serveur, plusieurs raisons sont possibles.
 
