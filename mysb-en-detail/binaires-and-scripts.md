@@ -114,7 +114,9 @@ Bien qu'il soit possible de gérer les utilisateurs via le portail, les mêmes c
       </td>
     </tr>
   </tbody>
-</table>\#\# Les scripts usuels
+</table>
+
+\#\# Les scripts usuels
 
 <table>
   <thead>
@@ -215,3 +217,4 @@ Bien qu'il soit possible de gérer les utilisateurs via le portail, les mêmes c
     </tr>
   </tbody>
 </table>
+

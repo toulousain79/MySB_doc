@@ -99,7 +99,9 @@ Une fois connecté avec OpenVPN, vous aurez accès à vôtre partage Samba, et a
     </tr>
   </thead>
   <tbody></tbody>
-</table>NFS sera plus orienté Linux, Mac ou même Kodi.
+</table>
+
+NFS sera plus orienté Linux, Mac ou même Kodi.
 
 #### NFS v3
 
