@@ -66,7 +66,9 @@ L'idée de cette option est d'éviter de télécharger à nouveau le contenu d'u
     </tr>
   </thead>
   <tbody></tbody>
-</table>{% hint style="warning" %}
+</table>
+
+{% hint style="warning" %}
 En activant le recyclage **lien dur**, la gestion des quotas sera affectée pour les utilisateurs concernés ! Le **premier** utilisateur ayant téléchargé un contenu verra forcément son quota affecté par l'espace utilisé par ce contenu. Le **second** utilisateur téléchargeant le même contenu verra son quota affecté par l'espace utilisé par ce contenu, mais **libérera** celui du premier utilisateur.
 {% endhint %}
 

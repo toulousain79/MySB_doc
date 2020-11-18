@@ -51,7 +51,9 @@ Une fois la demande de génération demandée, il vous sera proposé de **télé
       </td>
     </tr>
   </tbody>
-</table>Le fichier ZIP est protégé par un mot de passe, celui de l'utilisateur.  
+</table>
+
+Le fichier ZIP est protégé par un mot de passe, celui de l'utilisateur.  
 Ce ZIP contient certains fichiers, les différents fichiers de configuration et les clés pour OpenVPN.
 
 J'ai pris soins de fournir des fichiers de configuration "fichier unique" _\(**Single**\)_, contenant la configuration ainsi que les clés de chiffrement.  
@@ -89,7 +91,9 @@ Selon les cas, cela peut être utile.
       </td>
     </tr>
   </tbody>
-</table>#### Routeur avec firmware Tomato
+</table>
+
+#### Routeur avec firmware Tomato
 
 * [Tomato USB](http://tomatousb.org/)
 * [Tomato by Shibby](http://tomato.groov.pl/), basé sur Tomato USB
@@ -118,7 +122,9 @@ Selon les cas, cela peut être utile.
       </td>
     </tr>
   </tbody>
-</table>## NFS & Samba
+</table>
+
+## NFS & Samba
 
 Selon la connexion OpenVPN utilisée, l'adresse IP sera différente pour accéder à NFS ou Samba.
 
@@ -157,7 +163,9 @@ Une fois connecté avec OpenVPN, vous aurez accès à vôtre partage Samba, et a
       </td>
     </tr>
   </tbody>
-</table>### Partage NFS
+</table>
+
+### Partage NFS
 
 NFS sera plus orienté Linux, Mac ou même Kodi.
 

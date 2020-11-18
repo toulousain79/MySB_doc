@@ -31,7 +31,9 @@ Ce qui veut dire, en toute logique, que si vous installez le client GUI, vous au
       </td>
     </tr>
   </tbody>
-</table>Par exemple, vous pouvez créer un un dossier **MySB** dans Téléchargements sur vôtre PC, et synchroniser à l'intérieur le contenu du dossier **watch**.
+</table>
+
+Par exemple, vous pouvez créer un un dossier **MySB** dans Téléchargements sur vôtre PC, et synchroniser à l'intérieur le contenu du dossier **watch**.
 
 ![](../.gitbook/assets/watch_nextcloud.jpg)
 
