@@ -92,7 +92,9 @@ Comme nous avons ajouté un second script, nous avons pu ajouter une première p
       </td>
     </tr>
   </tbody>
-</table>Ci-dessus, nous pouvons donc constater 2 planifications.  
+</table>
+
+Ci-dessus, nous pouvons donc constater 2 planifications.  
 Une première qui sera lancée tous les jours à **0h30** et qui utilisera le script **synchro.sh**.  
 Et une seconde qui sera lancée tous les jours à **12h30** et qui utilisera le script **mon\_script\_perso.sh**.
 

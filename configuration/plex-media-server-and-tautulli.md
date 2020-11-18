@@ -71,7 +71,9 @@ Lancez Putty ou Kitty et suivez ceci:
       </td>
     </tr>
   </tbody>
-</table>Maintenant, lancez votre navigateur avec une **session privée** et tapez l’adresse [http://127.0.0.1:8888/web](http://127.0.0.1:8888/web).
+</table>
+
+Maintenant, lancez votre navigateur avec une **session privée** et tapez l’adresse [http://127.0.0.1:8888/web](http://127.0.0.1:8888/web).
 
 ![](../.gitbook/assets/plex_with_tunnel.jpg)
 
@@ -118,7 +120,9 @@ Mais en verra cela plus loin, cliquez sur **Suivant**. Et dans la page suivante,
       </td>
     </tr>
   </tbody>
-</table>Surprise !!!  
+</table>
+
+Surprise !!!  
 Vôtre SeedBox a été ajoutée à vôtre compte Plex !!!!  
 Pouwwwaa, de la bombe ! 🤪   
 Il ne reste plus qu'à ajouter vos bibliothèques.
@@ -177,7 +181,9 @@ D'abord en cliquant sur **/** à gauche, puis sur **home** à droite.
       </td>
     </tr>
   </tbody>
-</table><table>
+</table>
+
+<table>
   <thead>
     <tr>
       <th style="text-align:left"></th>
@@ -200,7 +206,9 @@ D'abord en cliquant sur **/** à gauche, puis sur **home** à droite.
       </td>
     </tr>
   </tbody>
-</table>Puis enfin, cliquez sur **Ajouter une bibliothèque**.
+</table>
+
+Puis enfin, cliquez sur **Ajouter une bibliothèque**.
 
 Voilà, notre première bibliothèque Plex est maintenant disponible !
 

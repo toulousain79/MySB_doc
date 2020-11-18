@@ -54,7 +54,9 @@ Grâce à **Seedbox-Manager**, vous aurez la possibilité de télécharger le fi
       </td>
     </tr>
   </tbody>
-</table>Vous disposerez alors de 2 choix pour vous connecter, **FTPs** ou **sFTP**.
+</table>
+
+Vous disposerez alors de 2 choix pour vous connecter, **FTPs** ou **sFTP**.
 
 Les 2 dossiers les plus utiles sont **scripts** et **rtorrent**.
 

@@ -59,3 +59,4 @@ Chacune de ces catégories sont maintenant présentes dans différents endroit d
     </tr>
   </tbody>
 </table>
+
