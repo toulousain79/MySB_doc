@@ -158,7 +158,9 @@ Naviguez jusque dans le dossier /home/user/**rtorrent/complete**/. D'abord en cl
     </tr>
   </thead>
   <tbody></tbody>
-</table>Voilà, notre première bibliothèque Plex est maintenant disponible !
+</table>
+
+Voilà, notre première bibliothèque Plex est maintenant disponible !
 
 Ceci est une manière de faire, une catégorie pour une bibliothèque. Mais il est tout à fait possible d'ajouter plusieurs dossiers dans une même bibliothèque.
 

@@ -37,7 +37,9 @@ Grâce à **Seedbox-Manager**, vous aurez la possibilité de télécharger le fi
     </tr>
   </thead>
   <tbody></tbody>
-</table>Les 2 dossiers les plus utiles sont **scripts** et **rtorrent**.
+</table>
+
+Les 2 dossiers les plus utiles sont **scripts** et **rtorrent**.
 
 ### Dossier scripts
 
