@@ -1,12 +1,12 @@
 # Accueil
 
-MySB _\(My SeedBox\)_ est un projet permettant l'installation d'une SeedBox sécurisée multi-utilisateurs pour un serveur dédié sous Debian 10 _\(Buster\),_ et pourrait être renommé MySSB, My Secured SeedBox.
+## Français
 
-Tout l'intérêt de MySB réside dans la sécurité via la gestion de listes de blocage d'IP avec PeerGuardian _\(ou rTorrent\)_ pour les requêtes entrantes, ainsi que la sécurisation des requêtes DNS grâce à DNScrypt-proxy pour les requêtes sortantes.
-
-Les connections SSL sont priorisées par rTorrent.
-
-La gestion des torrents est également simplifiée grâce à NextCloud et au portail MySB pour la synchronisation distante des données par Rsync ou FTPs, la gestion des labels pour rTorrent, ainsi que le filtrage de tous les fichiers .torrent ajoutés.
-
-Une question simple, savez-vous qui se connecte à votre serveur ?
+* [v7.3](https://mysb.gitbook.io/doc/)
+* [v7.2](https://mysb.gitbook.io/doc/v/v7.2_fr/)
+* [v7.1](https://mysb.gitbook.io/doc/v/v7.1_fr/)
+* [v7.0](https://mysb.gitbook.io/doc/v/v7.0_fr/)
+* [v6.0](https://mysb.gitbook.io/doc/v/v6.0_fr/)
+* [v5.4](https://mysb.gitbook.io/doc/v/v5.4_fr/)
+* [v5.3](https://mysb.gitbook.io/doc/v/v5.3_fr/)
 
