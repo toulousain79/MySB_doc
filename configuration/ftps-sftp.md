@@ -37,7 +37,9 @@ Grâce à **Seedbox-Manager**, vous aurez la possibilité de télécharger le fi
     </tr>
   </thead>
   <tbody></tbody>
-</table>### Dossier scripts
+</table>
+
+### Dossier scripts
 
 Si vous décidez d'utiliser les [Labels et Synchros](https://mysb.gitbook.io/doc/configuration/labels-and-synchros), vous aimerez peut-être utiliser vos propres scripts. C'est dans ce dossier que vous les enverrez.
 
