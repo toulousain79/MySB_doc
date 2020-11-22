@@ -2,7 +2,7 @@
 
 ## Les annonceurs
 
-Chaque fichier torrent contient ce que l'on appel un annonceur, une URL précisant où trouver les peers des fichiers à télécharger. Il y en a toujours au moins 1, lié généralement au tracker lui-même _\(ex: http://tracker.domain.com/annonce\)_, cas pour les trackers **privés**.
+Chaque fichier torrent contient ce que l'on appel un annonceur, une URL précisant où trouver les peers des fichiers à télécharger. Il y en a toujours au moins 1, lié généralement au tracker lui-même _\(ex:_ [_http://tracker.domain.com/annonce_](http://tracker.domain.com/annonce%29_\)_\)_, cas pour les trackers **privés**.
 
 Pour certains trackers, généralement pour les **publiques** ou **semi-privés**, il peut y avoir de multiples annonceurs dans un même fichier torrent. Des URL pointant vers des serveurs parfois étrangers et ne garantissant pas forcément une grande sécurité.
 
@@ -16,7 +16,7 @@ Les nouveaux trackers seront automatiquement ajoutés dès le chargement d'un fi
 
 Techniquement, tous les trackers fonctionnent sans avoir besoin de les ajouter. L’intérêt d'en ajouter réside dans la possibilité de les bloquer par la suite si vous ne souhaitez pas qu'il y ait de trafic avec eux. C'est utile si vous souhaitez n'utiliser que des trackers privés, et non des publiques. Si vous voulez bloquer l'utilisation d'un tracker en particulier, il suffit de l'ajouter **ET** de le **désactiver**. Les connexions vers ce tracker seront alors bloquées.
 
-Pour permettre un certain contrôle sur l'utilisation de nouveaux trackers par les autres utilisateurs de vôtre serveur, une tâche programmée _\(_[_GetTrackersCert.bsh_](binaires-and-scripts.md#les-scripts-usuels)_\)_ lira tous les fichiers .torrent de tout le monde pour en extraire le nom du tracker. Si celui-ci n'existe pas dans la liste, alors il y sera ajouté et vous recevrez un mail pour vous avertir. A vous ensuite, de le désactiver ou non.
+Pour permettre un certain contrôle sur l'utilisation de nouveaux trackers par les autres utilisateurs de vôtre serveur, une tâche programmée _\(_[_GetTrackersCert.bsh_](https://mysb.gitbook.io/dov5.4_fr3_fr/le-portail/binaires-and-scripts)_\)_ lira tous les fichiers .torrent de tout le monde pour en extraire le nom du tracker. Si celui-ci n'existe pas dans la liste, alors il y sera ajouté et vous recevrez un mail pour vous avertir. A vous ensuite, de le désactiver ou non.
 
 La liste globale est accessible via le menu **Trackers** &gt; **Liste des trackers**.
 
@@ -24,7 +24,7 @@ La liste globale est accessible via le menu **Trackers** &gt; **Liste des tracke
 
 ## Ajout automatique/détection de nouveaux trackers
 
-Le script [GetTrackersCert.bsh](binaires-and-scripts.md#les-scripts-usuels), exécuté tous les jours à 10h00, liste tous les .torrents actifs de tous les utilisateurs pour en extraire les annonceurs HTTP. Une vérification est ainsi faite sur chaque tracker pour ensuite l'ajouter à la liste dans le portail.
+Le script [GetTrackersCert.bsh](https://mysb.gitbook.io/doc/mysb-en-detail/binaires-and-scripts#les-scripts-usuels), exécuté tous les jours à 10h00, liste tous les .torrents actifs de tous les utilisateurs pour en extraire les annonceurs HTTP. Une vérification est ainsi faite sur chaque tracker pour ensuite l'ajouter à la liste dans le portail.
 
 Chaque tracker ajouté est automatiquement activé. L'obtention du certificat SSL du tracker est également effectué.
 

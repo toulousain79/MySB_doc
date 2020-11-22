@@ -5,7 +5,7 @@
 Connectez-vous en SSH à vôtre serveur avec le compte **ROOT**. Puis lancez la commande suivante pour récupérer le script d'installation.
 
 ```bash
-cd /tmp/; wget --no-check-certificate -N https://raw.githubusercontent.com/toulousain79/MySB/v7.3/install/MySB_Install.bsh
+cd /tmp/; wget --no-check-certificate -N https://raw.githubusercontent.com/toulousain79/MySB/v7.2/install/MySB_Install.bsh
 ```
 
 Ensuite, exécutez-le.
@@ -221,8 +221,7 @@ _**NOTE**: Si vous ne respectez pas cette ordre, votre serveur pourrez être red
 
 Seedbox-Manager consomme peu de ressources système, et peut être utile pour télécharger le fichier de configuration de FileZilla _\(FTPs et sFTP\)_, ainsi que celui de l'application Transdroid. Seedbox-Manager sera disponible pour tous les utilisateurs "normaux", à savoir disposant d'une session rTorrent.
 
-Lien GitHub: [https://github.com/Magicalex/seedbox-manager](https://github.com/Magicalex/seedbox-manager)  
-Statut projet: Inactif
+Lien GitHub: [https://github.com/Magicalex/seedbox-manager](https://github.com/Magicalex/seedbox-manager) Statut projet: Inactif
 
 Le choix par défaut étant **oui**, tapez seulement sur **Entrée** pour l'installer. Sinon, saisissez **non**.
 
@@ -230,8 +229,7 @@ Le choix par défaut étant **oui**, tapez seulement sur **Entrée** pour l'inst
 
 Même chose, Cakebox consomme peu de ressources système. Cakebox sera disponible pour tous les utilisateurs "normaux", à savoir disposant d'une session rTorrent. C'est un outil pratique et simple pour la lecteur de fichiers multimédia. Ne représente que peu d’intérêt si vous installez Plex Media Server, mais peut parfois dépanner.
 
-Lien GitHub: [https://github.com/Cakebox/Cakebox](https://github.com/Cakebox/Cakebox)  
-Statut projet: Inactif
+Lien GitHub: [https://github.com/Cakebox/Cakebox](https://github.com/Cakebox/Cakebox) Statut projet: Inactif
 
 Le choix par défaut étant **oui**, tapez seulement sur **Entrée** pour l'installer. Sinon, saisissez **non**.
 
@@ -241,10 +239,7 @@ L'installation de Plex est judicieuse selon moi. Plex peut être un peu chiant �
 
 Si je décide de continuer le projet, par temps et envie, et en migrant tout ou partie des services sous Docker, il sera possible de fournir une session Plex individuelle par utilisateur "normal", mais avec un port Plex unique par utilisateur, différent de 32400.
 
-En installant Plex, l'outil Tautulli sera également installé.
-
-Lien GitHub: [https://github.com/Tautulli/Tautulli](https://github.com/Tautulli/Tautulli)  
-Statut projet: Actif
+En installant Plex, l'outil Tautulli sera également installé. Lien GitHub: [https://github.com/Tautulli/Tautulli](https://github.com/Tautulli/Tautulli) Statut projet: Actif
 
 Le choix par défaut étant **oui**, tapez seulement sur **Entrée** pour l'installer. Sinon, saisissez **non**.
 
@@ -265,7 +260,7 @@ Bon, je pense que tout le monde connaît Webmin. Vous ne devriez pas vous en ser
 
 #### Port pour Webmin _\(habituellement 10000\)_
 
-Le port par défaut de Webmin est **10000**. Le port sélectionné pour MySB est **8190**.
+Le port par défaut de Webmin est **10000**. **\*\*Le port sélectionné pour MySB est** 8190\*\*.
 
 Le choix par défaut étant **8190**, tapez seulement sur **Entrée** pour valider. Sinon, saisissez le port désiré en faisant attention de ne pas le mettre en doublon avec un autre.
 
@@ -282,9 +277,9 @@ Le port sélectionné pour MySB est **8193**.
 **Possibilités**:
 
 * communication privée avec votre SeedBox
-  * partage Samba _\(/home/utilisateur\)_
-  * partage NFS _\(/home/utilisateur/rtorrent\)_
-  * accès HTTPs _\(portail MySB, ruTorrent, NextCLoud, ...\)_
+  * partage Samba \(/home/utilisateur\)
+  * partage NFS \(/home/utilisateur/rtorrent\)
+  * accès HTTPs \(portail MySB, ruTorrent, NextCLoud, ...\)
   * accès SSH
   * accès FTPs et sFTP
 * trafic Internet via l'adresse IP de votre serveur et non l'IP de votre FAI _\(**non recommandé** pour récupérer des fichiers torrent\)_
