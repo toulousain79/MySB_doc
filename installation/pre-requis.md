@@ -12,6 +12,10 @@
 * [x] Nom d'hôte **valide** _\(FQDN\)_ _\(éviter le noms donnés par défaut par l'hébergeur\)_
 {% endhint %}
 
+{% hint style="danger" %}
+Raspberry non supportés
+{% endhint %}
+
 ## Nom d'hôte / Hostname / FQDN
 
 Il est impératif que vous disposiez d'un nom d'hôte valide pour vôtre serveur, notamment pour un serveur dédié.
